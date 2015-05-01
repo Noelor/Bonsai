@@ -1,0 +1,21 @@
+{
+    "Name" : "FirstNames",
+    "Data": {
+    	"1": [
+			{"Piet":1},
+			{"Henk":1},
+			{"Klaas":1},
+			{"Griet":6},
+			{"Paul":3}
+		],
+		"2" : [{" ":1}],
+		"3": [
+			{"Hein":1},
+			{"Boomsma":1},
+			{"Klein":2},
+			{"Boom":1},
+			{"Smit":3}
+		]
+
+	}
+}
