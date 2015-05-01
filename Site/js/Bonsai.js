@@ -2,12 +2,23 @@
 var generatorsTable = {};
 
 //Load a table type generator
-function loadTable(filePath) {
-	$.getJSON( filePath, function(table) {
+function loadTable(filePath) {		
+	$.getJSON( filePath, function(table) {		
 		if(table.Name in generatorsTable == false)
 		{
-			generatorsTable[table.Name] = table.Data;						
-		}	
+			generatorsTable[table.Name] = table.Data;
+			console.log(table.Name + " loaded")
+		}
+		
+		//Load listed dependencies, if any	
+		if("Dependencies" in table)
+		{
+			var dependencies = table.Dependencies.split(";");
+			$.each(dependencies, function(_,dependency)
+			{
+				loadTable(dependency);
+			});
+		}
 	});
 }
 
@@ -21,8 +32,28 @@ function generateFromTable(tableName)
 			var table = generatorsTable[tableName];
 			$.each(table, function(_, section)
 			{
-				var totalWeight = totalWeightTableSection(section);
+				//Grab a random entry from the section
+				var totalWeight = totalWeightTableSection(section);				
 				var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
+				
+				
+				var regex = /\$(\w)-(\w+)\$/g;
+				var match;																		
+				//Modifying the original string during regex.exec resets the progress.
+				//So copy it and regex over the copy while modifying the original
+				var regexString = randomEntry;  
+												
+				//Recurse for nested entries.
+				while ((match = regex.exec(regexString)) !== null) {
+					if(match[1] == "T")
+					{						
+						var insert = generateFromTable(match[2]);
+						randomEntry= randomEntry.replace(match[0],insert);										
+					}
+					
+				}
+				
+				//Add to content																	
 				content += randomEntry;
 			});
 						
