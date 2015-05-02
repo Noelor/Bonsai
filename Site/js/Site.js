@@ -14,6 +14,11 @@ $( document ).ready(function( $ ) {
   //Because the generators are loaded through ajax we wait until  
   //all ajax activity has stopped before starting to attempt generating
   $( document ).ajaxStop(function() {
+    var info = getContentPageInformation(rootGeneratorName);
+           
+    $("#BonsaiTitle").html(info.Title);
+    $("#BonsaiDescription").html(info.Description);
+        
     generateContent();
   });
 });
@@ -21,6 +26,5 @@ $( document ).ready(function( $ ) {
 function generateContent()
 {
     var generatedContent = generateFromContent(rootGeneratorName);
-    $("#BonsaiContent").empty();
-    $("#BonsaiContent").append(generatedContent);
+    $("#BonsaiContent").html(generatedContent);
 }

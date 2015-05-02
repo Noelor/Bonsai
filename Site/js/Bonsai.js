@@ -18,7 +18,7 @@ function loadGenerator(filePath,callBack) {
 			{
 				if(Generator.Name in generatorsContent == false)
 				{
-					generatorsContent[Generator.Name] = Generator.Data;
+					generatorsContent[Generator.Name] = Generator;
 					console.log(Generator.Name + " loaded");
 				}
 			}
@@ -44,6 +44,32 @@ function loadGenerator(filePath,callBack) {
 	});
 }
 
+//Get the title and description of a Content Generator
+function getContentPageInformation(contentName)
+{
+	var Information = {};
+	
+	if(contentName in generatorsContent)
+	{
+		var contentGenerator = generatorsContent[contentName];
+					
+		if("Title" in contentGenerator)
+		{
+			Information["Title"] = contentGenerator["Title"];									
+		}
+		
+		if("Description" in contentGenerator)
+		{
+			Information["Description"] = contentGenerator["Description"];
+		}
+				
+	}else{
+		console.error("Content Generator " + contentName + " is not loaded.");
+	}
+	
+	return Information;
+}
+
 //Generate the text entries from a Content Generator
 function generateFromContent(contentName)
 {
@@ -51,7 +77,7 @@ function generateFromContent(contentName)
 	{
 		var content = "";
 		
-		var contentGenerator = generatorsContent[contentName];
+		var contentGenerator = generatorsContent[contentName].Data;
 		$.each(contentGenerator, function(_,section){
 			
 			//set properties not specified in json to default
