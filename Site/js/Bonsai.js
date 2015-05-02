@@ -187,6 +187,13 @@ function processNestedEntries(entry)
 			insert = generateFromContent(match[2]);
 			entry = entry.replace(match[0],insert);
 		}
+		else if(match[1] == "R")
+		{
+			var numbers = match[2].split("_");
+			console.log(numbers)
+			var r = Math.floor((Math.random() * numbers[1]) + numbers[0]);
+			entry = entry.replace(match[0],r);
+		}
 		
 	}	
 	return entry;

@@ -29,6 +29,9 @@
 			"MinAmount" : 1,
 			"MaxAmount" : 3,
 			"ParagraphType" : "List"
+		},
+		"7" : {
+			"Text" : "This entry generates a random number between 1 and 1000 through a special Generator markup:$R-1_1000$."
 		}
 	}
 }
