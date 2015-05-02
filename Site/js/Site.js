@@ -1,7 +1,7 @@
 /* global $ */
 $( document ).ready(function( $ ) {
   //Load up all generators that will be used
-  loadTable("generators\\table\\Names.json");
+  loadGenerator("generators\\table\\Names.json");
   
   
   //Because the generators are loaded through ajax we wait until  

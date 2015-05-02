@@ -1,26 +1,44 @@
 /* global $ */
 var generatorsTable = {};
+var generatorsContent = {};
 
 //Load a table type generator
-function loadTable(filePath) {		
-	$.getJSON( filePath, function(table) {		
-		if(table.Name in generatorsTable == false)
+function loadGenerator(filePath) {		
+	$.getJSON( filePath, function(Generator) {		
+		if(Generator.Type)
 		{
-			generatorsTable[table.Name] = table.Data;
-			console.log(table.Name + " loaded")
+			if(Generator.Type == "Table")
+			{
+				if(Generator.Name in generatorsTable == false)
+				{
+					generatorsTable[Generator.Name] = Generator.Data;
+					console.log(Generator.Name + " loaded");
+				}
+			}else
+			{
+				if(Generator.Name in generatorsContent == false)
+				{
+					generatorsContent[Generator.Name] = Generator.Data;
+					console.log(Generator.Name + " loaded");
+				}
+			}
+		}else
+		{
+			console.error("Missing type in " + filePath + " file, can't load.");
 		}
-		
+					
 		//Load listed dependencies, if any	
-		if("Dependencies" in table)
+		if("Dependencies" in Generator)
 		{
-			var dependencies = table.Dependencies.split(";");
+			var dependencies = Generator.Dependencies.split(";");
 			$.each(dependencies, function(_,dependency)
 			{
-				loadTable(dependency);
+				loadGenerator(dependency);
 			});
 		}
 	});
 }
+
 
 //Generate the text entries from a Table
 function generateFromTable(tableName)
@@ -59,7 +77,7 @@ function generateFromTable(tableName)
 						
 			return content;
 		}else{
-			console.error("Generator " + tableName + " is not loaded.")
+			console.error("Generator " + tableName + " is not loaded.");
 		}
 		
 }

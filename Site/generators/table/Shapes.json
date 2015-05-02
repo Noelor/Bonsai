@@ -1,5 +1,6 @@
 {
     "Name" : "Shapes",
+    "Type" : "Table",
     "Data": {
     	"1": [
 			{"Triangle":1},

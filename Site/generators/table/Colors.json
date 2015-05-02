@@ -1,5 +1,6 @@
 {
     "Name" : "Colors",
+    "Type" : "Table",
     "Data": {
     	"1": [
 			{"Red":1},

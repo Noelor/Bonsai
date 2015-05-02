@@ -1,5 +1,6 @@
 {
     "Name" : "Names",
+    "Type" : "Table",
     "Dependencies" : "generators\\table\\Colors.json;generators\\table\\Shapes.json",
     "Data": {
     	"1": [
