@@ -1,0 +1,34 @@
+{
+	"Name" : "ExampleContent",
+	"Type" : "Content",
+	"Dependencies" : "generators\\table\\Colors.json;generators\\table\\Shapes.json",
+
+	"Data" : {
+		"1" : {
+			"Text" : "This is an example content file. A simple section like this always shows up."		
+		},
+		"2" : {
+			"Text" : "This section only shows up some of the time. Specifically 75% of the time.",
+			"Chance" : 75			
+		},
+		"3" : {
+			"Text" : "The section below actually repeats between 1 and 10 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as an unordered list in html."		
+		},
+		"4" : {
+			"Text" : "$T-Colors$",
+			"MinAmount" : 1,
+			"MaxAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "The shape list below shows up 75% of the time and has 1 to 3 repeats. "		
+		},
+		"6" : {
+			"Text" : "$T-Shapes$",
+			"Chance" : 75,
+			"MinAmount" : 1,
+			"MaxAmount" : 3,
+			"ParagraphType" : "List"
+		}
+	}
+}

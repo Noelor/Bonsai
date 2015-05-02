@@ -18,7 +18,7 @@ $( document ).ready(function( $ ) {
 
 function generateContent()
 {
-    var generatedContent = generateFromTable(rootGeneratorName);
-    $("#content").empty();
-    $("#content").append(generatedContent);
+    var generatedContent = generateFromContent(rootGeneratorName);
+    $("#BonsaiContent").empty();
+    $("#BonsaiContent").append(generatedContent);
 }

@@ -39,6 +39,104 @@ function loadGenerator(filePath) {
 	});
 }
 
+//Generate the text entries from a Content Generator
+function generateFromContent(contentName)
+{
+	if(contentName in generatorsContent)
+	{
+		var content = "";
+		
+		var contentGenerator = generatorsContent[contentName];
+		$.each(contentGenerator, function(_,section){
+			
+			//set properties not specified in json to default
+			if("Chance" in section == false)
+				section.Chance = 100;
+			
+			if("MinAmount" in section == false)
+				section.MinAmount = 1;
+			
+			if("MaxAmount" in section == false)
+				section.MaxAmount = 1;
+			
+			if("ParagraphType" in section == false)
+				section.ParagraphType = "Paragraph";
+			
+			//Dispatch to specific paragraph type methods
+			if(section.ParagraphType == "Paragraph")
+			{
+				content += generateContentParagraph(section);
+			}else if (section.ParagraphType == "List") {
+				content += generateContentList(section);
+			}else{
+				//Fallback to no decorations on unspecified type.
+				content += generateContentUndecorated(section);
+			}
+		});
+				
+		return content;
+	}else{
+		console.error("Content Generator " + contentName + " is not loaded.");
+	}
+}
+
+//generate a Content Generator section with Paragraph decoration
+function generateContentParagraph(section)
+{
+	var content = "";
+	var chanceR = Math.floor((Math.random() * 100) +1);	
+	
+	if( chanceR < section.Chance)
+	{		
+		content+="<p>";
+		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
+		for(var i = 0;  i<amountR; i++)
+		{			
+			content += processNestedEntries(section.Text);					
+		}
+		content+="</p>";
+	}
+	
+	return content;
+}
+
+//generate a Content Generator section with List decorations
+function generateContentList(section)
+{
+	var content = "";
+	var chanceR = Math.floor((Math.random() * 100) +1);	
+	
+	if( chanceR < section.Chance)
+	{		
+		content+="<ul>";
+		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
+		for(var i = 0;  i<amountR; i++)
+		{			
+			content += "<li>" + processNestedEntries(section.Text) + "</li>";					
+		}
+		content+="</ul>";
+	}
+	
+	return content;	
+}
+
+//generate a Content Generator section without any decorations. 
+function generateContentUndecorated(section)
+{
+var content = "";
+	var chanceR = Math.floor((Math.random() * 100) +1);	
+	
+	if( chanceR < section.Chance)
+	{				
+		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
+		for(var i = 0;  i<amountR; i++)
+		{			
+			content += processNestedEntries(section.Text);					
+		}		
+	}
+	
+	return content;		
+}
 
 //Generate the text entries from a Table
 function generateFromTable(tableName)
@@ -55,7 +153,7 @@ function generateFromTable(tableName)
 				var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
 				
 				//Find any nested references to generators and process those.
-				randomEntry = processNestedEntries(randomEntry)
+				randomEntry = processNestedEntries(randomEntry);
 								
 				//Add to content																	
 				content += randomEntry;
@@ -63,7 +161,7 @@ function generateFromTable(tableName)
 						
 			return content;
 		}else{
-			console.error("Generator " + tableName + " is not loaded.");
+			console.error("Table Generator " + tableName + " is not loaded.");
 		}
 		
 }
@@ -79,18 +177,18 @@ function processNestedEntries(entry)
 									
 	//Recurse for nested entries.
 	while ((match = regex.exec(regexString)) !== null) {
+		var insert = "";
 		if(match[1] == "T")
 		{						
-			var insert = generateFromTable(match[2]);
+			insert = generateFromTable(match[2]);
 			entry = entry.replace(match[0],insert);										
 		}else if(match[1] == "C")
 		{
-			//var insert = generateFromTable(match[2]);
-			//entry = entry.replace(match[0],insert);
+			insert = generateFromContent(match[2]);
+			entry = entry.replace(match[0],insert);
 		}
 		
-	}
-	
+	}	
 	return entry;
 }
 
