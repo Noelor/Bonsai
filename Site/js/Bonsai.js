@@ -54,23 +54,9 @@ function generateFromTable(tableName)
 				var totalWeight = totalWeightTableSection(section);				
 				var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
 				
-				
-				var regex = /\$(\w)-(\w+)\$/g;
-				var match;																		
-				//Modifying the original string during regex.exec resets the progress.
-				//So copy it and regex over the copy while modifying the original
-				var regexString = randomEntry;  
-												
-				//Recurse for nested entries.
-				while ((match = regex.exec(regexString)) !== null) {
-					if(match[1] == "T")
-					{						
-						var insert = generateFromTable(match[2]);
-						randomEntry= randomEntry.replace(match[0],insert);										
-					}
-					
-				}
-				
+				//Find any nested references to generators and process those.
+				randomEntry = processNestedEntries(randomEntry)
+								
 				//Add to content																	
 				content += randomEntry;
 			});
@@ -80,6 +66,32 @@ function generateFromTable(tableName)
 			console.error("Generator " + tableName + " is not loaded.");
 		}
 		
+}
+
+//Find references to generators in a string and replace them with the generators content
+function processNestedEntries(entry)
+{
+	var regex = /\$(\w)-(\w+)\$/g;
+	var match;																		
+	//Modifying the original string during regex.exec resets the progress.
+	//So copy it and regex over the copy while modifying the original
+	var regexString = entry;  
+									
+	//Recurse for nested entries.
+	while ((match = regex.exec(regexString)) !== null) {
+		if(match[1] == "T")
+		{						
+			var insert = generateFromTable(match[2]);
+			entry = entry.replace(match[0],insert);										
+		}else if(match[1] == "C")
+		{
+			//var insert = generateFromTable(match[2]);
+			//entry = entry.replace(match[0],insert);
+		}
+		
+	}
+	
+	return entry;
 }
 
 //Add up all the weight in a Sections
