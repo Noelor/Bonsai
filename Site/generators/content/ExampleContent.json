@@ -12,7 +12,7 @@
 			"Chance" : 75			
 		},
 		"2" : {
-			"Text" : "You can use the ParagraphType option to changes the way the text will be displayed in browser. The default is paragraph. You can also have Paragraph-Start and Paragraph-End to cross paragraphs across sections. List will display text entries in unordered lists. List-Start and List-End work exactly like with Paragraph.",
+			"Text" : "You can use the ParagraphType option to changes the way the text will be displayed in browser. The default is Paragraph. You can also have Paragraph-Start and Paragraph-End to cross paragraphs across sections. List will display text entries in unordered lists. List-Start and List-End work exactly like Paragraph-Start and -End. If a type is set that is not recognized no decorations will be added.",
 			"ParagraphType" : "Paragraph"		
 		},
 		"4" : {
