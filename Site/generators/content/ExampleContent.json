@@ -1,7 +1,7 @@
 {
 	"Name" : "ExampleContent",
 	"Type" : "Content",
-	"Dependencies" : "generators\\table\\Colors.json;generators\\table\\Names.json",
+	"Dependencies" : "generators\\table\\Colors.json;generators\\table\\Names.json;generators\\content\\ExampleNestedContent.json",
 
 	"Data" : {
 		"1" : {
@@ -16,7 +16,7 @@
 			"ParagraphType" : "Paragraph"		
 		},
 		"4" : {
-			"Text" : "The section below actually repeats between 1 and 10 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as a list with dots."		
+			"Text" : "The section below actually repeats between 1 and 5 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as a list with dots."		
 		},
 		"5" : {
 			"Text" : "$T-Colors$",
@@ -36,6 +36,10 @@
 		},
 		"8" : {
 			"Text" : "This entry generates a random number between 1 and 1000 through a special Generator markup:$R-1_1000$."
+		},
+		"9" : {
+			"Text" : "$C-ExampleNestedContent$",
+			"ParagraphType" : "None"
 		}
 	}
 }

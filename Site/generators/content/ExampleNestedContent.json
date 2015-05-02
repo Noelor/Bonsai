@@ -1,0 +1,10 @@
+{
+	"Name" : "ExampleNestedContent",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "This is an example of a nested Content Generator."
+		}
+	}
+}
