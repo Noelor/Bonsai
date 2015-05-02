@@ -11,33 +11,37 @@
 			"Text" : "This section only shows up some of the time. Specifically 75% of the time.",
 			"Chance" : 75			
 		},
-		"2" : {
+		"3" : {
 			"Text" : "You can use the ParagraphType option to changes the way the text will be displayed in browser. The default is Paragraph. You can also have Paragraph-Start and Paragraph-End to cross paragraphs across sections. List will display text entries in unordered lists. List-Start and List-End work exactly like Paragraph-Start and -End. If a type is set that is not recognized no decorations will be added.",
 			"ParagraphType" : "Paragraph"		
 		},
 		"4" : {
-			"Text" : "The section below actually repeats between 1 and 5 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as a list with dots."		
+			"Text" : "<p><h3>Example Header</h3>When ParagraphType  is set to something unssuported Bonsai will not add any markup. This leave you free to add markup of your own. Like the Header above this paragraph.</p>",
+			"ParagraphType" : "None"		
 		},
 		"5" : {
+			"Text" : "The section below actually repeats between 1 and 5 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as a list with dots."		
+		},
+		"6" : {
 			"Text" : "$T-Colors$",
 			"MinAmount" : 1,
 			"MaxAmount" : 5,
 			"ParagraphType" : "List"
 		},
-		"6" : {
+		"7" : {
 			"Text" : "The Name list below shows up 75% of the time and has 1 to 3 repeats. If you want to use Generators in other Generator files you need to add the specific files needed to load for those in the Dependencies Entry at the top."		
 		},
-		"7" : {
+		"8" : {
 			"Text" : "$T-Names$",
 			"Chance" : 75,
 			"MinAmount" : 1,
 			"MaxAmount" : 3,
 			"ParagraphType" : "List"
 		},
-		"8" : {
+		"9" : {
 			"Text" : "This entry generates a random number between 1 and 1000 through a special Generator markup:$R-1_1000$."
 		},
-		"9" : {
+		"10" : {
 			"Text" : "$C-ExampleNestedContent$",
 			"ParagraphType" : "None"
 		}
