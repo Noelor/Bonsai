@@ -132,7 +132,7 @@ function generateContentList(section)
 //generate a Content Generator section without any decorations. 
 function generateContentUndecorated(section)
 {
-var content = "";
+	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
 	
 	if( chanceR < section.Chance)
