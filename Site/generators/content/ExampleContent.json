@@ -1,36 +1,40 @@
 {
 	"Name" : "ExampleContent",
 	"Type" : "Content",
-	"Dependencies" : "generators\\table\\Colors.json;generators\\table\\Shapes.json",
+	"Dependencies" : "generators\\table\\Colors.json;generators\\table\\Names.json",
 
 	"Data" : {
 		"1" : {
-			"Text" : "This is an example content file. A simple section like this always shows up."		
+			"Text" : "This is an example content file. A simple section like this always shows up."			
 		},
 		"2" : {
 			"Text" : "This section only shows up some of the time. Specifically 75% of the time.",
 			"Chance" : 75			
 		},
-		"3" : {
-			"Text" : "The section below actually repeats between 1 and 10 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as an unordered list in html."		
+		"2" : {
+			"Text" : "You can use the ParagraphType option to changes the way the text will be displayed in browser. The default is paragraph. You can also have Paragraph-Start and Paragraph-End to cross paragraphs across sections. List will display text entries in unordered lists. List-Start and List-End work exactly like with Paragraph.",
+			"ParagraphType" : "Paragraph"		
 		},
 		"4" : {
+			"Text" : "The section below actually repeats between 1 and 10 times. It also calling a Table Generator to replace the text with content from another generator. Colors in this case. By setting the ParagraphType to List its displayed as a list with dots."		
+		},
+		"5" : {
 			"Text" : "$T-Colors$",
 			"MinAmount" : 1,
 			"MaxAmount" : 5,
 			"ParagraphType" : "List"
 		},
-		"5" : {
-			"Text" : "The shape list below shows up 75% of the time and has 1 to 3 repeats. "		
-		},
 		"6" : {
-			"Text" : "$T-Shapes$",
+			"Text" : "The Name list below shows up 75% of the time and has 1 to 3 repeats. If you want to use Generators in other Generator files you need to add the specific files needed to load for those in the Dependencies Entry at the top."		
+		},
+		"7" : {
+			"Text" : "$T-Names$",
 			"Chance" : 75,
 			"MinAmount" : 1,
 			"MaxAmount" : 3,
 			"ParagraphType" : "List"
 		},
-		"7" : {
+		"8" : {
 			"Text" : "This entry generates a random number between 1 and 1000 through a special Generator markup:$R-1_1000$."
 		}
 	}

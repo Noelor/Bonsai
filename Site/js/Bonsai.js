@@ -63,10 +63,12 @@ function generateFromContent(contentName)
 				section.ParagraphType = "Paragraph";
 			
 			//Dispatch to specific paragraph type methods
-			if(section.ParagraphType == "Paragraph")
+			if(section.ParagraphType == "Paragraph" || section.ParagraphType == "Paragraph-Start" 
+			|| section.ParagraphType == "Paragraph-End")
 			{
 				content += generateContentParagraph(section);
-			}else if (section.ParagraphType == "List") {
+			}else if (section.ParagraphType == "List" || section.ParagraphType == "List-Start" 
+			|| section.ParagraphType == "List-End") {
 				content += generateContentList(section);
 			}else{
 				//Fallback to no decorations on unspecified type.
@@ -88,13 +90,17 @@ function generateContentParagraph(section)
 	
 	if( chanceR < section.Chance)
 	{		
-		content+="<p>";
+		if(section.ParagraphType != "Paragraph-End")
+			content+="<p>";
+						
 		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
 		for(var i = 0;  i<amountR; i++)
 		{			
 			content += processNestedEntries(section.Text);					
 		}
-		content+="</p>";
+		
+		if(section.ParagraphType != "Paragraph-Start")
+			content+="</p>";	
 	}
 	
 	return content;
@@ -108,13 +114,16 @@ function generateContentList(section)
 	
 	if( chanceR < section.Chance)
 	{		
-		content+="<ul>";
+		if(section.ParagraphType != "List-End")
+			content+="<ul>";
+		
 		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
 		for(var i = 0;  i<amountR; i++)
 		{			
 			content += "<li>" + processNestedEntries(section.Text) + "</li>";					
 		}
-		content+="</ul>";
+		if(section.ParagraphType != "List-Start")			
+			content+="</ul>";
 	}
 	
 	return content;	
