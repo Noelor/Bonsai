@@ -3,7 +3,7 @@ var generatorsTable = {};
 var generatorsContent = {};
 
 //Load a table type generator
-function loadGenerator(filePath) {		
+function loadGenerator(filePath,callBack) {		
 	$.getJSON( filePath, function(Generator) {		
 		if(Generator.Type)
 		{
@@ -35,6 +35,11 @@ function loadGenerator(filePath) {
 			{
 				loadGenerator(dependency);
 			});
+		}
+		
+		if(callBack)
+		{
+			callBack(Generator.Name);
 		}
 	});
 }

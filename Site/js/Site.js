@@ -4,11 +4,12 @@ var rootGeneratorName = "";
 
 $( document ).ready(function( $ ) {
   //Grab generator information from page
-  rootGeneratorPath = $("#GeneratorFile").val();
-  rootGeneratorName = $("#GeneratorName").val();  
-  
+  rootGeneratorPath = $("#GeneratorFile").val();  
   //Load up root generator that will be used  
-  loadGenerator(rootGeneratorPath);
+  loadGenerator(rootGeneratorPath,function(generatorName)
+  {
+    rootGeneratorName = generatorName;
+  });
     
   //Because the generators are loaded through ajax we wait until  
   //all ajax activity has stopped before starting to attempt generating
