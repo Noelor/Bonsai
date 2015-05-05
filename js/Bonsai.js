@@ -3,9 +3,8 @@ var generatorsTable = {};
 var generatorsContent = {};
 
 //Load a table type generator
-function loadGenerator(filePath,callBack) {			
-	console.log(filePath)
-	$.getJSON( filePath, function(Generator) {				
+function loadGenerator(filePath,callBack) {		
+	$.getJSON( filePath, function(Generator) {		
 		if(Generator.Type)
 		{
 			if(Generator.Type == "Table")
@@ -120,7 +119,7 @@ function generateContentParagraph(section)
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
 	
-	if( chanceR < section.Chance)
+	if( chanceR <= section.Chance)
 	{		
 		if(section.ParagraphType != "Paragraph-End")
 			content+="<p>";
@@ -144,7 +143,7 @@ function generateContentList(section)
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
 	
-	if( chanceR < section.Chance)
+	if( chanceR <= section.Chance)
 	{		
 		if(section.ParagraphType != "List-End")
 			content+="<ul>";
@@ -167,7 +166,7 @@ function generateContentUndecorated(section)
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
 	
-	if( chanceR < section.Chance)
+	if( chanceR <= section.Chance)
 	{				
 		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
 		for(var i = 0;  i<amountR; i++)
