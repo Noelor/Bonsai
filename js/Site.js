@@ -35,6 +35,7 @@ function generateContent()
 {
     var generatedContent = generateFromContent(rootGeneratorName);
     $("#BonsaiContent").html(generatedContent);
+    $("#GeneratorButton").show();
 }
 
 //Source: http://www.jquerybyexample.net/2012/06/get-url-parameters-using-jquery.html through http://stackoverflow.com/questions/19491336/get-url-parameter-jquery
