@@ -1,0 +1,16 @@
+{
+	"Name" : "FSMaskedAvenger",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Masked Avenger</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "For many years, you watched your society slowly sink into corruption. Crime runs rampant on the streets. Justice eludes the common man. Criminals are rewarded—victims, forgotten. The police and judiciary, hopelessly tainted or just plain unable to deal with the evil’s  rising tide, can’t be trusted to do the job. The time for brooding is over. Seeking to strike fear into the hearts of evildoers, you have donned a distinctive, armored costume and identity-concealing mask to take the law into your own hands. You use your own uncompromising moral compass to find wrongdoers and beat the crap out of them. With your fierce fists and barking automatic pistols, you aim to turn back the clock and return to an age of justice. Although your abilities are formidable, you do not expect to transform society all on your own. Only when people stand up for themselves and take back their own streets will the criminals of the world truly quake in fear.<br /><br /> Rhetoric aside, your mission may not be entirely altruistic: the Masked Avenger’s melodramatic hook usually involves sworn vengeance of some sort. Did some terrible event push you over the edge from thinking about vigilantism to stalking the streets in funny clothes looking for villains to punish? Maybe you’re a little crazy—but the really crazy ones are the bad guys who stand in your way."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Tremble in fear, evildoers! Your time of reckoning is at hand!\" and are probably from the Modern Juncture though vigilanties can be found in all Junctures."
+		}
+	}
+}

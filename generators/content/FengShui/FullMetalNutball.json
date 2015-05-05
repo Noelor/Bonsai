@@ -1,0 +1,16 @@
+{
+	"Name" : "FSFullMetalNutball",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Full Metal Nutball</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "They call you a gun nut—accent on the gun. Well, also, come to think of it, accent on the nut. Okay, okay, sure, they apply equally. Except that you don’t just love guns. You delight in ordnance of all kinds, the more explosive the better. Your weird little hideout bristles with rare, illegal, and just plain impractical weaponry. How you acquired it all with no visible means of a support may be revealed in the course of play, or remain a mystery hardly worth addressing. You don’t shoot your firearms as well as you lovingly care for them, so when you finally get a chance to pull the trigger for real, the results skew toward the slapstick as well as the lethal. When you meet real deal shooting and killing types, you try to contain your drooling enthusiasm, but when things get hot the whooping and hollering starts. Mostly you come off as a lovable oddball. In addition to your pistolophilia, you likely spout various paranoid beliefs. When you stumble into the Chi War, you may be as surprised as any when you discover how right you’ve been!"		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Technically it's unsafe to store something like this here, but...\" and are probably from the Modern Juncture though you could be from the Future Juncture."
+		}
+	}
+}

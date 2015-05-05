@@ -1,0 +1,17 @@
+{
+	"Name" : "FengShuiCharacter",
+	"Title" : "Feng-Shui Character",
+	"Description" : "Can't decide on what to play? In a hurry and need to make up a random npc? Looking for automated inspiration? Here you go.",
+	"Dependencies" : "generators/table/FengShui/Archetype.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "You are playing a:"
+		},
+		"2" : {
+			"Text" : "$T-FSArchetype$",
+			"ParagraphType" : "None"
+		}
+	}
+}

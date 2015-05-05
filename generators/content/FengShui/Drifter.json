@@ -1,0 +1,16 @@
+{
+	"Name" : "FSDrifter",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Drifter</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Whatever your story is, you ain’t tellin’. Constantly on the move, you want nothing more than to be left alone— and maybe the simple pleasures of life, like a cold drink on a hot day. Destiny, that well-known son of a bitch, has  other plans. You have a knack for wandering into other peoples’ trouble, and a conscience that won’t let you stay out of it. Whenever thugs are threatening a helpless young widow, you’re there. Whenever criminals become the law, you’re there. There with a great big freaking gun. And if you have to plant a bunch of them in the ground, well, you always warn them not to mess with you. A great choice if you know you’ll be attending game sessions irregularly."
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Nope, I ain't from around here.\" and are probably from the Modern Juncture though drifters can  be found in all Junctures."
+		}
+	}
+}

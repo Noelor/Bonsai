@@ -1,0 +1,16 @@
+{
+	"Name" : "FSTwoFistedArch",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Two-fisted Archaeologist</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "The past is dangerous. Your years as a field historian have proved that time and time again. Magic isn’t mere myth—it used to be stronger, and pockets of its power reside in the iconic treasures your museum trustees back home most want you to find and bring back for their display cases. Through bitter experience you’ve learned that some of these are best stored in secure facilities, where the chaos they’d otherwise unleash cannot threaten humanity. <br /> <br />By seeking these items you’ve nosed your way into a covert battle waged with history as its prize, and knowledge of that history a key weapon. Your rivals have ranged from unscrupulous profiteers to hallucinogen-snorting cultists to reactionary terrorist groups. The archaeological sites you’ve dedicated your professional life to resonate with mystical energies, making them strategic prizes in that fight. To protect both innocent lives and the precious heritage of these sites, you’re about to join the Chi War."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Your idol's a replica, Ginet. I switched them back in Singapore.\" and are probably from the Modern Juncture though could also be from the Past Juncture."
+		}
+	}
+}

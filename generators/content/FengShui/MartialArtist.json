@@ -1,0 +1,16 @@
+{
+	"Name" : "FSMartialArtist",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Martial Artist</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "An accomplished young student of one or more schools of hand-to-hand combat, you are as effective with your bare hands as when wielding traditional hand-to-hand weapons. Embarking on a lifetime’s study, you have recently mastered a number of esoteric chi powers. Most importantly, you have absorbed a profound truth: martial arts are more than just a series of combat moves. They represent an ancient and learned discipline, one that preaches restraint, discipline, and humility. You work hard to live up to that philosophy. You choose your fights carefully, and work to uphold the values you have learned, such as reverence for elders, respect for the traditions of the past, and self-sacrifice for the greater good. You probably work at a humble job, caring little for material goods. The only goal you consider worthy of pursuing is the physical and spiritual perfection attained by the great masters of the past. When you encounter the Chi War, your dedication to honor and self-perfection leads you into the battle against evil without a second thought."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Your Kung Fu is strong. You shall be a worthy opponent.\" and are probably from the Modern Juncture though could be from any other Junctures."
+		}
+	}
+}

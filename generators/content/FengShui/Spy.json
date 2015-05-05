@@ -1,0 +1,16 @@
+{
+	"Name" : "FSSpy",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Spy</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You used to work for an intelligence agency. There are any number of reasons why you might have left, melodramatic hooks all of them. Maybe you were squeezed out by the machinations of shady new superiors. (Did you overhear them saying something about a Lodge, or a Wheel?) Maybe you left under a cloud of suspicion, after making a tragic mistake that led to the deaths of your subordinates. Or maybe you don’t remember  who you used to be and why those assassins keep chasing you, but are determined to find out. Your retirement, happy or otherwise, comes to an abrupt end when the shadow world closes in on you again—this time revealing the strange outlines of the Chi War. What it offers, more than the chance to put those mothballed skills back into the field, is a feeling that may be new to you—that this time, you’ll know why you’re fighting, and that the fight is just."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"With all the torture these days, getting captured is plan B. But it's still a plan.\" and are probably from the Modern Juncture though could also be spying in the Ancient or Past Junctures."
+		}
+	}
+}

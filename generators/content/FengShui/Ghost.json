@@ -1,0 +1,16 @@
+{
+	"Name" : "FSGhost",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Ghost</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Ghosts aplenty haunt the magic-rich ancient juncture. You are one of these—a spirit unwilling or unable to leave the trappings of mortal life behind to join the eternal cycle of reincarnation. The Netherworld is also home to many ghosts, former Chi Warriors whose life forces were too strong to depart the Inner Kingdom when their physical bodies died. Other ghosts prey on mortals, motivated either by jealousy of the living or by the same malign intentions they harbored in life. But you are tied to Earth for some other reason. Your soul cannot rest, for in life you swore a solemn oath to complete some great undertaking. This crucial unfinished business probably comprises your melodramatic hook. You may have sworn to protect someone, to wreak vengeance on an enemy, or to recover some lost treasure or artifact. Ghosts have a bad habit of falling in love with mortals, and can often be stunningly beautiful and alluring. Although you know such loves are forbidden, you may already find yourself in a romantic entanglement that crosses the sacred barrier between the living and the dead. If you are not in such a doomed relationship, you are sufficiently prone to such temptations that you might end up in one before the series ends."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Although the gulf of life and death separates us, can I not still love you?\" and are definitly from the Ancient Juncture."
+		}
+	}
+}

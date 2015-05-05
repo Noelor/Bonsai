@@ -1,0 +1,16 @@
+{
+	"Name" : "FSRedeemedPirate",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Redeemed Pirate</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You used to be a member of one of the many pirate gangs that sailed the South China Sea. The sea belonged to you and your comrades and there wasn’t a thing the Manchu could do about it. You lived a heedless life of looting and slaying. When the British fleet arrived in Chinese waters and took it upon themselves to end piracy, matters grew dicier for you and your friends. Against those impudent foreigners, you did what you had to do to survive— including some things you aren’t proud of. Your efforts against the British brought you into contact with the monks of the Guiding Hand. From them, you learned of the Chi War. Yet you bridled under their Buddhist purity. Detachment from earthly pleasures has never been your way. The pivotal events of your melodramatic hook sent you wandering again, perhaps far from your time and the seas you where you feel most confident. Now you are about to throw in with a ragged band of misfits, in whose company you might finally atone for the darkness of your past."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"You killed my friends, imperialist dog! Now taste my steel!\" and are probably from the Past Juncture though could hail from any of the Junctures."
+		}
+	}
+}

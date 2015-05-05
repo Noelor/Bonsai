@@ -1,0 +1,16 @@
+{
+	"Name" : "FSEverydayHero",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Everyday hero</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You might be nobody special, but that’s the source of all your awesome. Unlike some archetypes you could name, you work for a living—probably in a good, honest, vanishing blue-collar job. Maybe you’re a factory worker, a truck driver, a plumber, or a sailor. You may be on vacation when the action begins, or find yourself in a crossfire as the result of a jobrelated errand. Aside from taking care of your melodramatic hook, all you really want to do is sit down with a can of beer and watch some sports at the local bar. But somehow trouble always comes looking for you. That’s because of your basic, essential decency and/or stupidity. And also your peculiar luck. On one hand, your luck gets you through situations that even you don’t believe you could survive. But on the other hand, your luck tends to get you into weird and frightening situations to begin with because the good guys need your help. You may not be the smartest, or the strongest, or the most skilled person in the world. But you’re a good guy, and “Good guys always finish—ugh! Hey, wha’d you shoot me for? Oh, man, now I’m bleeding… howzabout a knuckle sandwich?” A good choice if you like to play mechanically simple characters."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Hey, I may not have the faintest clue what's going on here, but I'm an American, dammit! And that means I got two strong American fists, and a big American heart—and a big American gun!\" and are probably from the Modern Juncture though Everyday Heroes can be found in all Junctures."
+		}
+	}
+}

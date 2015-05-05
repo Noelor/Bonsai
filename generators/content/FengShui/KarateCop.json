@@ -1,0 +1,16 @@
+{
+	"Name" : "FSKarateCop",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Karate Cop</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You are a loyal, team-playing officer of the law who happens to be about as adept in the martial arts as you are with your service revolver. You overcome the bad guys not by being bigger or tougher but by sheer pluck and perseverance. When you punch a huge slab of a goon in the jaw, it hurts your hand. When you leap from a bridge to a passing hovercraft, you feel the impact roll up through your body. When fireworks set your jacket aflame mid-fight, you struggle awkwardly to put it out. You’re not the most graceful combatant of the Chi War, or able to manifest the bizarre fu powers of the ancient masters. But no matter how many times they knock you down, you get back up, shake off the pain, and keep running after the wrongdoers."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"You have the right to remain—oouCH—silent! You have the right to—urGHH—an attorney. Anything you say can and will— HNNHHHGHK!—be used against you in a court of—HHNNNHH!\" and are probably from the Modern Juncture though can be at home in all the Junctures."
+		}
+	}
+}

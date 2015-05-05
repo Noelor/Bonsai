@@ -1,0 +1,16 @@
+{
+	"Name" : "FSScrappyKid",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Scrappy Kid</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Life is simple. You’re a kid. You like to have fun. But there are these bad guys who want to wreck everybody’s happiness. They think they’re better than everyone else. They want to be the boss of you. So even though boring old grownups want to keep you safely tucked away somewhere stupid, you’re gonna do something about it. After all, why should they get all the fun of shooting guns off and watching explosions and meeting cool monsters and all that stuff? Sure, you’re not exactly a killing machine, like you plan to be when you grow up. But you’re not bad for someone whose age isn’t in the double digits yet. You’re the best kung fu kid in your class, and you’ve learned some tricks you weren’t supposed to learn yet. And you’re fast, you know how to duck, and bad guys underestimate you. Chi war— hey, what could be cooler?<br /><br /> You don’t have to play the Scrappy Kid as comic relief. (And shouldn’t, if your GM and the rest of the group want to maintain a consistently dark and gritty tone in your Feng Shui 2 series.) Maybe you’re a grim little warrior, forced by tragedy to fight back in a grownup world. Just because you haven’t hit puberty yet doesn’t mean that you don’t have a threatening squint worthy of Clint Eastwood."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Hey, when do we get to stop the evil scientists from taking over the world? Huh, huh? When do we? Can I play with that gun? Ah, c'mon, I won't wreck it or nothin'. That sword is really cool. Can we stop the evil scientists now, can we, can we, huh, huh? Are we there yet?\" and are probably from the Modern Juncture though could be from any other Junctures."
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"Name" : "FSPrivateInvestigator",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Private Investigator</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "As an experienced investigator you have accumulated contacts throughout society: from well-heeled clients who can afford to hire you, to the enforcers of the law you must occasionally skirt, to the seediest elements of the criminal underworld. You most often work for lawyers, digging up information for use in court cases. When one corporation sues another, you find yourself poring over corporate ledgers and sifting for obscure references in old business publications. You’ve worked for insurance companies, keeping plaintiffs under surveillance to see if they’re as injured as they claim to be. And then of course there are divorce cases. Although you may have gotten into your line of work because you fell in love with the film noir world of Philip Marlowe and Sam Spade, you’ve spent more time hunched over a laptop performing background checks than you have slugging it out with gangsters and crooked cops. Maybe that’s why, when you sniff out the first clues that point you to the existence of the Chi War, you’re ready to chuck the real-life world of the private detective in favor of the fantastic adventure you’ve always dreamed of."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"All my life, I've been waiting for someone dressed like you to waltz into this office and  give me a spiel like that. Not that I believe it for a second, but it's lovely to see your daydreams realized.\" and are probably from the Modern Juncture though could be from any of the Junctures."
+		}
+	}
+}

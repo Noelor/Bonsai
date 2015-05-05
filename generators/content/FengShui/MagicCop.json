@@ -1,0 +1,16 @@
+{
+	"Name" : "FSMagicCop",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Magic Cop</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Even in junctures where magic is rare and difficult to perform, supernatural manifestations still ooze from the world’s dark corners, sometimes with lethal results. Many large police jurisdictions secretly maintain small units of officers trained in the mystic arts. These cops are able to take on the occasional renegade sorcerer or shaman who might pop up, and can dispatch demons and ghosts without freaking out. You are one of these cops. You’re probably a loner; the system is set up so you have little contact with regular law enforcement officials. Other officers think you’re nuts, if they know who you are at all. You have built up tough mental defenses against the creatures of the night. To normal folks, you come off as grim or aloof. You might think of yourself as a holy warrior, implacably gunning down anything that smacks of the occult. Or maybe you wish you could build a bridge between the world of the supernatural and the world of everyday humanity. Magic cops are often drawn into the Chi War as they hunt down agents of the Lotus or escapees from the Netherworld, discovering that there is much hidden beneath reality’s mundane veneer that even they know nothing about."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"There are some things man was meant not to know. It's my job to hunt down those things and kill them\" and are definitly from the Modern Juncture."
+		}
+	}
+}

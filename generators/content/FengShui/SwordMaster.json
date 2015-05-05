@@ -1,0 +1,16 @@
+{
+	"Name" : "FSSwordMaster",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Sword Master</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Once you enjoyed status, respect, and honor, as a true warrior. You cared only for the practice field, for the art of the sword. You trained until your blade became an extension of your being. Only in those elongated split seconds when you dueled against a foe, when the time stolen for an intake of breath could mean the difference between life and death, did you feel truly alive. <br /> <br />That was a long time ago. Before you were betrayed, before you were forced to confront the emptiness of your warrior ethos. You might have believed it, but your superiors never did. And when the bad times came, they discarded you, without a second thought. <br /> <br />Since then you’ve wandered the earth, seeking a fight. Not a fight, the fight. The one that will once more give your life meaning."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"I have nothing left but this blade. This 24 inches of tamahagane steel.\" and are probably from the Past Juncture though could be from any of the other Junctures."
+		}
+	}
+}

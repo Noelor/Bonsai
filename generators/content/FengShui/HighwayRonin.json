@@ -1,0 +1,16 @@
+{
+	"Name" : "FSHighwayRonin",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Highway Ronin</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Until you discovered the Chi War, you drove the desolate highways of the shattered future, not to get somewhere, but to escape from everywhere else. You fought for gasoline, for your freedom, and sometimes to avoid ending up on a cannibal’s flame grill. When confronted by the helpless, the desperate, you told them they didn’t need another hero. But in the end, you stepped up, and drove your battered but trusty vehicle against the strong, to protect the weak. Now that you’ve learned of the Chi War, and the real reason your world imploded, you figure your survival skills might be turned to an ultimate purpose—to rewrite the history of the future, so the huddled masses need never fear again."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"All that's left of the world is the open road.\" and are without a doubt from the Future Juncture."
+		}
+	}
+}

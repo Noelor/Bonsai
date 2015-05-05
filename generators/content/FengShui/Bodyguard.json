@@ -1,0 +1,16 @@
+{
+	"Name" : "FSBodyguard",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Bodyguard</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You have a very particular set of skills. As a Personal Protection Specialist, you get your client from point A to point C while avoiding the bad guy at point B. Obscure outside the tight circles of your profession, you avoid the glare of fame cast by your celebrity and political clients. Maybe you lost the client who most mattered to you, the one you broke the rules for and fell in love with. Perhaps shadowy forces have taken your client, and your entry into the Chi War comes as you swear to get her back. However you came to this juncture, now your greatest act of protection awaits, as you discover the Chi War and realize that the entire world needs a bodyguard."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Get down! Now!\" and are probably from the Modern Juncture though could also be from the other Junctures."
+		}
+	}
+}

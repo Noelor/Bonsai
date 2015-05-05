@@ -1,0 +1,16 @@
+{
+	"Name" : "FSSifu",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Sifu</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "Sometimes the greatest warrior fights by healing his comrades. With your mastery of pressure points, perhaps in tandem with Western medicine, you keep your fellow heroes up, when they would otherwise fall. Whether they’re bruised, battered, scorched, or riddled with bullets, you can supply the few miraculous jabs required to send them tottering back into the fight for another round of brutal punishment.<br /> <br /> You serve as headmaster of a martial arts school, healer to the surrounding neighborhood, and beacon of wisdom for all who seek your counsel. You teach your students to embrace the honor and tranquility of Chinese philosophy. A man of peace, you were dragged only reluctantly into a battle with the injustices of your age, and from there into the fires of the Chi War. You would sooner bring your adversaries to the light than  kick them into the darkness. But because you are a humble as well as a learned person, you are not so arrogant as to think that you can heal everyone. When push comes to shove, sometimes the weak must be defended. On those sad days, you stop setting bones and start breaking them. <br /> <br />Want to specialize in  healing and denial attacks? Play the Sifu. If you’d rather be the best at fu powers, though you falter in the stretch, play the Old Master."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"Martial arts is not a way of fighting. It is a way of living.\" and are probably from the Past Juncture though Sifu's are not unheard of in any Junctures."
+		}
+	}
+}

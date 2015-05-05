@@ -1,0 +1,16 @@
+{
+	"Name" : "FSArcher",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Archer</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You exert supreme mastery over mankind’s quintessential missile weapon: the bow and arrow. With perfect serenity, you nock an arrow and draw. Sensing time’s crystalline nature, you divide the moment of aiming into a spiderweb of interlocking infinities. At the moment of precision, you loose the arrow. Your mind’s eye flies through the air, following the arrowhead as it closes the distance between you and your target. With the silence of the serpent, it strikes. Already you have drawn another arrow, ready to repeat. Guns may be louder, faster, more destructive. But no one deals death more beautifully than you."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"I become one with the arrow. The arrow becomes one with your left ventricle!\" and are probably from the Ancient Juncture though you could also be from any of the other Junctures."
+		}
+	}
+}

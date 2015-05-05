@@ -1,0 +1,16 @@
+{
+	"Name" : "FSOldMaster",		
+	"Type" : "Content",	
+	"Data" : {
+		"1" : {
+			"Text" : "<h1>Old Master</h1>",
+			"ParagraphType" : "None"
+		},		
+		"2" : {
+			"Text" : "You are an elderly expert who long ago conquered the most difficult principles of martial arts and chi powers. You spent many long years tutoring others in the secrets of your art, and are used to being treated with utmost respect. Therefore, you can be a bit of a hothead when challenged by others who do not know enough to bow before your superior experience. You are a harsh disciplinarian; no matter what juncture you hail from, you grumpily pine for the good old days when proper respect was paid to elders and the heavens were in harmony with the Earth. <br /><br />Although you no longer possess the physical strength and endurance you had as a young student, your skill and Chi powers still make you a formidable opponent. You want to retire from active participation in the world of martial arts, leaving the field to the young men and women you have trained to follow in your footsteps. Now you want to rest, and to study the arts and ancient poems. But the tide of evil in the world seems to be growing again. You must show a new generation of heroes how to become masters themselves, as your masters taught you. Used to deference and with bones growing more tired by the day, you can be surprisingly cranky, even comically crude, when crossed. Some life lessons are best imparted with a clout upside the head."		
+		},
+		"3" : {
+			"Text" : "You like to say things like: \"You think I am old and feeble, do you? Well, face my Flying Windmill Kick, asshole!\" and are probably from the Ancient Juncture though could also hail from the Modern or Past Junctures."
+		}
+	}
+}
