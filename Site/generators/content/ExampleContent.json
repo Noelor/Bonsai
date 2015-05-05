@@ -4,7 +4,7 @@
 	"Description" : "This is an example Content Generator, its purpose is to document the functionality of Bonsai Content Generators",
 	"Type" : "Content",
 
-	"Dependencies" : "generators\\table\\Colors.json;generators\\table\\Names.json;generators\\content\\ExampleNestedContent.json",
+	"Dependencies" : "generators/table/Colors.json;generators/table/Names.json;generators/content/ExampleNestedContent.json",
 
 	"Data" : {
 		"1" : {
