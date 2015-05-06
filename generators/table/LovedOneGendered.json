@@ -1,0 +1,39 @@
+{
+    "Name" : "LovedOneGendered",
+    "Type" : "Table",
+    "Dependencies" : "",
+    "Data": {
+    	"1": [
+			{"father":3},
+			{"mother":3},
+			{"brother":4},
+			{"sister":4},
+			{"lover":4},
+			{"secret lover":2},
+			{"husband":4},
+			{"wife":4},
+			{"fiance":4},
+			{"childhood friend":2},
+			{"best friend":4},
+			{"only friend":2},
+			{"friend":3},
+			{"long lost twin":1},
+			{"twin":4},
+			{"old flame":3},
+			{"son":2},
+			{"daughter":2},
+			{"grandmother":1},
+			{"grandfather":1},
+			{"granddaughter":1},
+			{"grandson":1},
+			{"cousin":3},
+			{"nephew":2},
+			{"niece":2},
+			{"uncle":2},
+			{"aunt":2},
+			{"godfather":1},
+			{"godmother":1},			
+			{"clone":1}
+		]
+	}
+}
