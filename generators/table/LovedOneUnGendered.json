@@ -1,0 +1,25 @@
+{
+    "Name" : "LovedOneUnGendered",
+    "Type" : "Table",
+    "Dependencies" : "",
+    "Data": {
+    	"1": [
+			{"lover":4},
+			{"parent":4},
+			{"grandparent":4},
+			{"grandchild":4},
+			{"in law":4},
+			{"cousin":4},
+			{"secret lover":2},
+			{"fiance":4},
+			{"childhood friend":2},
+			{"best friend":4},
+			{"only friend":2},
+			{"friend":3},
+			{"long lost twin":1},
+			{"twin":4},
+			{"old flame":3},			
+			{"clone":1}
+		]
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "Name" : "FSAntagonistPerson",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/FengShui/AntagonistOrg.json",
+    "Data": {
+    	"1": [
+			{"a $T-FSAntagonistOrg$ leader":4},
+			{"an Ancient Immortal Chinese Sorcerer":1},
+			{"Ming I, Queen of the Darkness Pagoda":1},
+			{"Huan Ken, King of the Thunder Pagoda":1},
+			{"Li Ting, King of the Fire Pagoda":1},
+			{"Pi Tui, Queen of the Ice Pagoda":1},
+			{"Furious George":1},			
+			{"a corrupt US Senator":2},
+			{"a corrupt Party Official":4},
+			{"a $T-FSAntagonistOrg$ wetworker":2}
+		],
+		"2": [
+			{"":15},
+			{" from the future":1},
+			{" from the past":1}
+		]
+	}
+}
