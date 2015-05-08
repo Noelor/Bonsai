@@ -78,7 +78,14 @@ function generateFromContent(contentName)
 		var content = "";
 		
 		var contentGenerator = generatorsContent[contentName].Data;
-		$.each(contentGenerator, function(_,section){
+		$.each(contentGenerator, function(key,section){
+			
+			//Select one of the options in a -Choice sections, by weight.
+			if("TextTable" in section)
+			{				
+				var totalWeight = totalWeightTableSection(section.TextTable);				
+				section.Text = getRandomTableSectionEntryByWeight(section.TextTable, totalWeight);
+			}
 			
 			//set properties not specified in json to default
 			if("Chance" in section == false)
@@ -104,7 +111,7 @@ function generateFromContent(contentName)
 			}else{
 				//Fallback to no decorations on unspecified type.
 				content += generateContentUndecorated(section);
-			}
+			}								
 		});
 				
 		return content;
@@ -242,7 +249,7 @@ function processNestedEntries(entry)
 function totalWeightTableSection(section)
 {
 	var weight = 0;
-	
+		
 	//weight is not relevant if there is only one entry 
 	//one entry sections can exist to include a whitespace or fixed strings.
 	if(Object.keys(section).length == 1)
@@ -263,6 +270,7 @@ function totalWeightTableSection(section)
 //Return an entry from a Table Section randomly but modified by weight. 
 function getRandomTableSectionEntryByWeight(section, totalweight)
 {
+	
 	var r = Math.floor((Math.random() * totalweight));	
 	var returnText = "";
 	var finished = false; //Can't neatly break out of a jquery .each so use a manual termination.

@@ -47,6 +47,16 @@
 		"10" : {
 			"Text" : "$C-ExampleNestedContent$",
 			"ParagraphType" : "None"
+		},
+		"11":{
+			"TextTable" : [
+				{"If a section has a TextTable like this.":1},
+				{"In that case the TextTable option is treated much like one section of a Table file":1},
+				{"And one of these options will be displayed as the text":1},
+				{"Options with heigher weights will have a heigher chance to show up":2}	
+			],
+			"Text" : "Any text in a text entry are overwritten, so this will never be shown.", 
+			"ParagraphType" : "None"
 		}
 	}
 }
