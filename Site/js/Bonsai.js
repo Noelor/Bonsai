@@ -41,6 +41,9 @@ function loadGenerator(filePath,callBack) {
 		{
 			callBack(Generator.Name);
 		}
+	}).fail(function( jqxhr, textStatus, error ) {
+    	var err = textStatus + ", " + error;
+    	console.log( "Request Failed: " + err );
 	});
 }
 
