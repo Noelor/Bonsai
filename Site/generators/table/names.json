@@ -10,7 +10,7 @@
 			{"Griet":6},
 			{"Paul":3}
 		],
-		"2" : [{" \"$T-Colors$ $T-Shapes$\" ":1}],
+		"2" : " \"$T-Colors$ $T-Shapes$\" ",
 		"3": [
 			{"Hein":1},
 			{"Boomsma":1},

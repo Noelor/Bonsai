@@ -198,15 +198,21 @@ function generateFromTable(tableName)
 			var table = generatorsTable[tableName];
 			$.each(table, function(_, section)
 			{
-				//Grab a random entry from the section
-				var totalWeight = totalWeightTableSection(section);				
-				var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
-				
-				//Find any nested references to generators and process those.
-				randomEntry = processNestedEntries(randomEntry);
-								
-				//Add to content																	
-				content += randomEntry;
+				if((typeof section ) === 'string')
+				{
+					content+= processNestedEntries(section);
+				}else
+				{
+					//Grab a random entry from the section
+					var totalWeight = totalWeightTableSection(section);				
+					var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
+					
+					//Find any nested references to generators and process those.
+					randomEntry = processNestedEntries(randomEntry);
+									
+					//Add to content																	
+					content += randomEntry;
+				}			
 			});
 						
 			return content;
@@ -252,14 +258,7 @@ function processNestedEntries(entry)
 function totalWeightTableSection(section)
 {
 	var weight = 0;
-		
-	//weight is not relevant if there is only one entry 
-	//one entry sections can exist to include a whitespace or fixed strings.
-	if(Object.keys(section).length == 1)
-	{
-		return 1;
-	}
-	
+			
 	$.each(section, function(_, entry)
 	{		
 		$.each(entry, function(_,w){
