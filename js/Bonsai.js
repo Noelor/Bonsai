@@ -41,6 +41,9 @@ function loadGenerator(filePath,callBack) {
 		{
 			callBack(Generator.Name);
 		}
+	}).fail(function( jqxhr, textStatus, error ) {
+    	var err = textStatus + ", " + error;
+    	console.log( "Request Failed: " + err );
 	});
 }
 
@@ -78,7 +81,14 @@ function generateFromContent(contentName)
 		var content = "";
 		
 		var contentGenerator = generatorsContent[contentName].Data;
-		$.each(contentGenerator, function(_,section){
+		$.each(contentGenerator, function(key,section){
+			
+			//Select one of the options in a -Choice sections, by weight.
+			if("TextTable" in section)
+			{				
+				var totalWeight = totalWeightTableSection(section.TextTable);				
+				section.Text = getRandomTableSectionEntryByWeight(section.TextTable, totalWeight);
+			}
 			
 			//set properties not specified in json to default
 			if("Chance" in section == false)
@@ -104,7 +114,7 @@ function generateFromContent(contentName)
 			}else{
 				//Fallback to no decorations on unspecified type.
 				content += generateContentUndecorated(section);
-			}
+			}								
 		});
 				
 		return content;
@@ -188,15 +198,21 @@ function generateFromTable(tableName)
 			var table = generatorsTable[tableName];
 			$.each(table, function(_, section)
 			{
-				//Grab a random entry from the section
-				var totalWeight = totalWeightTableSection(section);				
-				var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
-				
-				//Find any nested references to generators and process those.
-				randomEntry = processNestedEntries(randomEntry);
-								
-				//Add to content																	
-				content += randomEntry;
+				if((typeof section ) === 'string')
+				{
+					content+= processNestedEntries(section);
+				}else
+				{
+					//Grab a random entry from the section
+					var totalWeight = totalWeightTableSection(section);				
+					var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
+					
+					//Find any nested references to generators and process those.
+					randomEntry = processNestedEntries(randomEntry);
+									
+					//Add to content																	
+					content += randomEntry;
+				}			
 			});
 						
 			return content;
@@ -242,14 +258,7 @@ function processNestedEntries(entry)
 function totalWeightTableSection(section)
 {
 	var weight = 0;
-	
-	//weight is not relevant if there is only one entry 
-	//one entry sections can exist to include a whitespace or fixed strings.
-	if(Object.keys(section).length == 1)
-	{
-		return 1;
-	}
-	
+			
 	$.each(section, function(_, entry)
 	{		
 		$.each(entry, function(_,w){
@@ -263,6 +272,7 @@ function totalWeightTableSection(section)
 //Return an entry from a Table Section randomly but modified by weight. 
 function getRandomTableSectionEntryByWeight(section, totalweight)
 {
+	
 	var r = Math.floor((Math.random() * totalweight));	
 	var returnText = "";
 	var finished = false; //Can't neatly break out of a jquery .each so use a manual termination.
