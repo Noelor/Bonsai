@@ -1,0 +1,14 @@
+{
+	"Name" : "Default",
+	"Dependencies" : "",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Bonsai Random Generators</h3>"
+		},
+		"2" : { 
+			"Text" : "Bonsai random generators are here to help or amuse you by randomly generating things like rpg characters, names, scenarios or nerd stuff.</p><p> To get started select something from the side bar."
+		}
+	}
+}
