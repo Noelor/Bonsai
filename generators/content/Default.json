@@ -8,7 +8,10 @@
 			"Text" : "<h3>Bonsai Random Generators</h3>"
 		},
 		"2" : { 
-			"Text" : "Bonsai random generators are here to help or amuse you by randomly generating things like rpg characters, names, scenarios or nerd stuff.</p><p> To get started select something from the side bar."
+			"Text" : "Bonsai random generators are here to help or amuse you by randomly generating things like rpg characters, names, scenarios or other nerd stuff.</p><p> To get started select something from the side bar."
+		},
+		"3" : { 
+			"Text" : "This site is hosted through <a href='https://pages.github.com/'>Github Pages</a>, the javascript that powers Bonsai can also be found on the <a href='https://github.com/Xesyto/Bonsai'>Bonsai</a> Github repo."
 		}
 	}
 }
