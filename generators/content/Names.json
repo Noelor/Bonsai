@@ -1,0 +1,16 @@
+{
+	"Name" : "NamesIndex",
+	"Title" : "Name Generator Index",
+	"Description" : "Names are hard. Maybe one of these generators can help you with that.",
+	"Dependencies" : "",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Real Cultures/Country names</h3>"
+		},
+		"2" : { 
+			"Text" : "<a href='index.html?gen=Names/Dutch'>Dutch</a><br>"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"Name" : "DutchNames",
+	"Dependencies" : "generators/table/Names/DutchMaleGiven.json;generators/table/Names/DutchFemaleGiven.json;generators/table/Names/DutchFamily.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Dutch Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-DutchMaleGivenName$ $T-DutchFamilyName$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-DutchFemaleGivenName$ $T-DutchFamilyName$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}
