@@ -65,6 +65,14 @@ function getContentPageInformation(contentName)
 		{
 			Information["Description"] = contentGenerator["Description"];
 		}
+		
+		if("ButtonText" in contentGenerator)
+		{
+			Information["ButtonText"] = contentGenerator["ButtonText"];
+		}else
+		{
+			Information["ButtonText"] = "Again";
+		}
 				
 	}else{
 		console.error("Content Generator " + contentName + " is not loaded.");

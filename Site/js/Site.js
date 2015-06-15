@@ -18,6 +18,14 @@ $( document ).ready(function( $ ) {
            
     $("#BonsaiTitle").html(info.Title);
     $("#BonsaiDescription").html(info.Description);
+    
+    if(info.ButtonText == "Hide")
+    {
+      $("#BonsaiButton").hide();
+    }else{
+      $("#BonsaiButton").val(info.ButtonText);  
+    }
+    
         
     generateContent();
   });
