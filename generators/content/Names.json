@@ -3,6 +3,7 @@
 	"Title" : "Name Generator Index",
 	"Description" : "Names are hard. Maybe one of these generators can help you with that.",
 	"Dependencies" : "",
+	"ButtonText" : "Hide",
 	"Type" : "Content",
 	
 	"Data" : {

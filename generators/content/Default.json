@@ -1,6 +1,7 @@
 {
 	"Name" : "Default",
 	"Dependencies" : "",
+	"ButtonText" : "Hide",
 	"Type" : "Content",
 	
 	"Data" : {

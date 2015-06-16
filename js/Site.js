@@ -27,8 +27,12 @@ $( document ).ready(function( $ ) {
     $("#BonsaiTitle").html(info.Title);
     $("#BonsaiDescription").html(info.Description);
     
-    $("#GeneratorButton").show();
-        
+    if(info.ButtonText != "Hide")
+    {
+      $("#GeneratorButton").val(info.ButtonText); 
+      $("#GeneratorButton").show();        
+    }
+            
     generateContent();
   });
 });
