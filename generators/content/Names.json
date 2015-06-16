@@ -10,7 +10,10 @@
 			"Text" : "<h3>Real Cultures/Country names</h3>"
 		},
 		"2" : { 
-			"Text" : "<a href='index.html?gen=Names/American'>American</a><br><a href='index.html?gen=Names/Dutch'>Dutch</a><br>"
+			"TextIndex" : [
+				{"American":"?gen=Names/American"},
+				{"Dutch":"?gen=Names/Dutch"}
+			] 
 		}
 	}
 }
