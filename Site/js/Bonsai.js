@@ -96,6 +96,10 @@ function generateFromContent(contentName)
 			{				
 				var totalWeight = totalWeightTableSection(section.TextTable);				
 				section.Text = getRandomTableSectionEntryByWeight(section.TextTable, totalWeight);
+			}else if("TextIndex" in section)
+			{
+				section.Text = generateIndex(section.TextIndex);
+				section.ParagraphType = "None";
 			}
 			
 			//set properties not specified in json to default
@@ -228,6 +232,22 @@ function generateFromTable(tableName)
 			console.error("Table Generator " + tableName + " is not loaded.");
 		}
 		
+}
+
+function generateIndex(indexTable)
+{
+	var text = "";	
+	text += "<ul class='indexList'>";
+	
+	$.each(indexTable, function(_, value){
+		$.each(value, function(k,v){
+			text += "<li> <a href='"+ v +"'>"+ k +"</a> </li>";
+		});
+		
+	});
+	
+	text += "</ul>";	
+	return text;
 }
 
 //Find references to generators in a string and replace them with the generators content

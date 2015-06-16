@@ -58,6 +58,15 @@
 			],
 			"Text" : "Any text in a text entry are overwritten, so this will never be shown.", 
 			"ParagraphType" : "None"
+		},
+		"12":{
+			"TextIndex" : [
+				{"Index":"Stuff"},
+				{"Used for":"http://www.google.nl/"},
+				{"Convenient lists of links":"local/link"},
+				{"Exclusive with Text or TextTable":"test"}	
+			],
+			"Text" : "Any text in a text entry are overwritten, so this will never be shown." 			
 		}
 	}
 }
