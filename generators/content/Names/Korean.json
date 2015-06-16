@@ -1,0 +1,31 @@
+{
+	"Name" : "KoreanNames",
+	"Dependencies" : "generators/table/Names/KoreanMaleGiven.json;generators/table/Names/KoreanFemaleGiven.json;generators/table/Names/KoreanFamily.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Korean Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-KoreanMaleGivenName$ $T-KoreanFamilyName$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-KoreanFemaleGivenName$ $T-KoreanFamilyName$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}

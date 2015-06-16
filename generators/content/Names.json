@@ -14,7 +14,9 @@
 			"TextIndex" : [
 				{"American":"?gen=Names/American"},
 				{"Chinese":"?gen=Names/Chinese"},
-				{"Dutch":"?gen=Names/Dutch"}
+				{"Dutch":"?gen=Names/Dutch"},
+				{"French":"?gen=Names/French"},
+				{"Korean":"?gen=Names/Korean"}
 			] 
 		}
 	}

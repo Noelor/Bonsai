@@ -1,0 +1,37 @@
+{
+    "Name" : "KoreanFamilyName",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Ahn":1},
+			{"Bae":1},
+			{"Baek":1},
+			{"Cho":1},
+			{"Choi":4},
+			{"Chung":4},
+			{"Han":1},
+			{"Hong":1},
+			{"Hwang":1},
+			{"Im":1},
+			{"Jang":1},
+			{"Jeon":1},
+			{"Jeong":1},
+			{"Jo":1},
+			{"Jong":1},
+			{"Jung":1},
+			{"Kang":4},
+			{"Kim":10},
+			{"Kwon":1},
+			{"Lee":10},
+			{"Lim":1},
+			{"Oh":1},
+			{"Park":10},
+			{"Seo":1},
+			{"Shin":1},
+			{"Song":1},
+			{"Yim":1},
+			{"Yoo":1},
+			{"Yoon":1}
+		]
+	}
+}
