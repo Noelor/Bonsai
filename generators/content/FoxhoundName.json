@@ -1,0 +1,18 @@
+{
+	"Name" : "FoxHoundName",
+    "Title" : "FOXHOUND Unit Names",
+    "Description" : "Really in need of a list of High-Tech Black Ops Special Forces? Here is some.",
+	"Dependencies" : "generators/table/Creatures/AnimalsSingleWord.json;generators/table/FoxhoundAdjectives.json",	
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>FOXHOUND Unit Names</h3>"
+		},
+		"2" : { 
+			"Text" : "$T-FoxhoundAdjectives$ $T-AnimalsSingleWord$",
+            "MinAmount" : 10,
+            "ParagraphType" : "List"
+		}
+	}
+}
