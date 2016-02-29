@@ -86,6 +86,12 @@ img {
 #header ul li a span {
 	display:block;
 }
+
+#TitleLink{
+    text-decoration: none;
+    color: #000;
+}
+
 /* 'widths' sub menu */
 #layoutdims {
 	clear:both;
