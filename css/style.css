@@ -147,6 +147,9 @@ ul.Double-List{
 	width:21%;			/* left column content width (column width minus left and right padding) */
 	left:6%;			/* (right column left and right padding) plus (left column left padding) */
 }
+
+
+
 /* Footer styles */
 #footer {
 	clear:both;
