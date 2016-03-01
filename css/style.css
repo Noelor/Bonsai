@@ -87,6 +87,12 @@ img {
 	display:block;
 }
 
+ul.Double-List{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
 #TitleLink{
     text-decoration: none;
     color: #000;

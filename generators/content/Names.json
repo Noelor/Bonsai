@@ -17,7 +17,8 @@
 				{"Dutch":"?gen=Names/Dutch"},
 				{"French":"?gen=Names/French"},
 				{"Korean":"?gen=Names/Korean"}
-			] 
+			],
+            "ParagraphType" : "DoubleIndex" 
 		}
 	}
 }
