@@ -315,8 +315,8 @@ function processNestedEntries(entry)
 		}
 		else if(match[1] == "R") //Random Number
 		{
-			var numbers = match[2].split("_");            			
-			var r = Math.floor((Math.random() * numbers[1]) + numbers[0]);            
+			var numbers = match[2].split("_");            						
+            var r = getRandomNumberInclusive(numbers[0],numbers[1]);                      
 			entry = entry.replace(match[0],r);
 		}else if(match[1] == "V") //Random Number
 		{			
@@ -366,4 +366,13 @@ function getRandomTableSectionEntryByWeight(section, totalweight)
 	});	 
 	
 	return returnText;
+}
+
+
+function getRandomNumberInclusive(min, max) {    
+    min = Number(min);
+    max = Number(max);
+    
+    var r   =  Math.floor(Math.random() * (max - min + 1)) + min;       
+    return r;
 }
