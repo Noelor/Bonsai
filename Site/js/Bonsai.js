@@ -1,6 +1,7 @@
 /* global $ */
 var generatorsTable = {};
 var generatorsContent = {};
+var contentVariables = {};
 
 //Load a table type generator
 function loadGenerator(filePath,callBack) {		
@@ -82,14 +83,31 @@ function getContentPageInformation(contentName)
 }
 
 //Generate the text entries from a Content Generator
-function generateFromContent(contentName)
+function generateFromContent(contentName, clearData = false)
 {
 	if(contentName in generatorsContent)
 	{
 		var content = "";
-		
-		var contentGenerator = generatorsContent[contentName].Data;
-		$.each(contentGenerator, function(key,section){
+		                
+		var contentGenerator = generatorsContent[contentName];
+        
+        if(clearData)
+        {
+            contentVariables = {};
+        }
+        
+        //Process Variables, for use in markup.
+        if("Variables" in contentGenerator)
+        {
+            $.each(contentGenerator.Variables, function(name,value){
+                if(name in contentVariables == false)
+                {
+                    contentVariables[name] = processNestedEntries(value);                                                    
+                }
+            });
+        }
+        
+		$.each(contentGenerator.Data, function(key,section){
 			
 			//Select one of the options in a -Choice sections, by weight.
 			if("TextTable" in section)
@@ -286,20 +304,23 @@ function processNestedEntries(entry)
 	//Recurse for nested entries.
 	while ((match = regex.exec(regexString)) !== null) {
 		var insert = "";
-		if(match[1] == "T")
+		if(match[1] == "T") //Table Entry
 		{						
 			insert = generateFromTable(match[2]);
 			entry = entry.replace(match[0],insert);										
-		}else if(match[1] == "C")
+		}else if(match[1] == "C") //Content Entry
 		{
 			insert = generateFromContent(match[2]);
 			entry = entry.replace(match[0],insert);
 		}
-		else if(match[1] == "R")
+		else if(match[1] == "R") //Random Number
 		{
-			var numbers = match[2].split("_");			
-			var r = Math.floor((Math.random() * numbers[1]) + numbers[0]);
+			var numbers = match[2].split("_");            			
+			var r = Math.floor((Math.random() * numbers[1]) + numbers[0]);            
 			entry = entry.replace(match[0],r);
+		}else if(match[1] == "V") //Random Number
+		{			
+			entry = entry.replace(match[0],contentVariables[match[2]]);
 		}
 		
 	}	

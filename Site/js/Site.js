@@ -33,6 +33,6 @@ $( document ).ready(function( $ ) {
 
 function generateContent()
 {
-    var generatedContent = generateFromContent(rootGeneratorName);
+    var generatedContent = generateFromContent(rootGeneratorName, true); // pressing the Again button should clear set variables, so clearData = true
     $("#BonsaiContent").html(generatedContent);
 }

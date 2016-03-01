@@ -6,6 +6,11 @@
 	"Type" : "Content",
 
 	"Dependencies" : "generators/table/Colors.json;generators/table/Names.json;generators/content/ExampleNestedContent.json",
+    
+    "Variables" : {
+      "Color" : "$T-Colors$",
+      "Amount" : "$R-3_6$"      
+    },
 
 	"Data" : {
 		"1" : {
@@ -76,6 +81,12 @@
 				{"Exclusive with Text or TextTable":"test"}	
 			],
 			"Text" : "Any text in a text entry is overwritten, so this will never be shown. ParagraphType defaults to list but can also be DoubleIndex for a double column index."                         			
-		}
+		},
+        "15":{
+            "Text" : "<h3>Variables</h3> Variables can be set in the special Variables Section, once set they can be included in the text like markup. For Example:"
+        },
+        "16":{
+            "Text" : "John was wearing hip $V-Color$ shades and was juggeling $V-Amount$ balls, sadly one of his $V-Amount$ balls caused him to knock his $V-Color$ shades to the ground."
+        }
 	}
 }
