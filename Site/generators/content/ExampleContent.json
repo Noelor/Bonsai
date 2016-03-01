@@ -32,41 +32,50 @@
 			"MaxAmount" : 5,
 			"ParagraphType" : "List"
 		},
-		"7" : {
+        "7" : {
+			"Text" : "A double Column list of colours, requires some simple css"			
+		},
+        "8" : {
+			"Text" : "$T-Colors$",
+			"MinAmount" : 10,
+			"MaxAmount" : 30,
+			"ParagraphType" : "DoubleList"
+		},
+		"9" : {
 			"Text" : "The Name list below shows up 75% of the time and has 1 to 3 repeats. If you want to use Generators in other Generator files you need to add the specific files needed to load for those in the Dependencies Entry at the top."		
 		},
-		"8" : {
+		"10" : {
 			"Text" : "$T-Names$",
 			"Chance" : 75,
 			"MinAmount" : 1,
 			"MaxAmount" : 3,
 			"ParagraphType" : "List"
 		},
-		"9" : {
+		"11" : {
 			"Text" : "This entry generates a random number between 1 and 1000 through a special Generator markup:$R-1_1000$."
 		},
-		"10" : {
+		"12" : {
 			"Text" : "$C-ExampleNestedContent$",
 			"ParagraphType" : "None"
 		},
-		"11":{
+		"13":{
 			"TextTable" : [
 				{"If a section has a TextTable like this.":1},
 				{"In that case the TextTable option is treated much like one section of a Table file":1},
 				{"And one of these options will be displayed as the text":1},
 				{"Options with heigher weights will have a heigher chance to show up":2}	
 			],
-			"Text" : "Any text in a text entry are overwritten, so this will never be shown.", 
+			"Text" : "Any text in a text entry is overwritten, so this will never be shown.", 
 			"ParagraphType" : "None"
 		},
-		"12":{
+		"14":{
 			"TextIndex" : [
 				{"Index":"Stuff"},
 				{"Used for":"http://www.google.nl/"},
 				{"Convenient lists of links":"local/link"},
 				{"Exclusive with Text or TextTable":"test"}	
 			],
-			"Text" : "Any text in a text entry are overwritten, so this will never be shown." 			
+			"Text" : "Any text in a text entry is overwritten, so this will never be shown. ParagraphType defaults to list but can also be DoubleIndex for a double column index."                         			
 		}
 	}
 }

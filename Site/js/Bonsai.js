@@ -98,8 +98,12 @@ function generateFromContent(contentName)
 				section.Text = getRandomTableSectionEntryByWeight(section.TextTable, totalWeight);
 			}else if("TextIndex" in section)
 			{
-				section.Text = generateIndex(section.TextIndex);
-				section.ParagraphType = "None";
+				var doubleIndex= false;
+                if(section.ParagraphType == "DoubleIndex")
+                    doubleIndex = true;
+                
+                section.Text = generateIndex(section.TextIndex,doubleIndex);
+				                
 			}
 			
 			//set properties not specified in json to default
@@ -114,13 +118,15 @@ function generateFromContent(contentName)
 			
 			if("ParagraphType" in section == false)
 				section.ParagraphType = "Paragraph";
-			
+			            
 			//Dispatch to specific paragraph type methods
 			if(section.ParagraphType == "Paragraph" || section.ParagraphType == "Paragraph-Start" 
 			|| section.ParagraphType == "Paragraph-End")
 			{
 				content += generateContentParagraph(section);
-			}else if (section.ParagraphType == "List" || section.ParagraphType == "List-Start" 
+			}else if(section.ParagraphType == "DoubleList" || section.ParagraphType == "DoubleList-Start"){
+                content += generateContentList(section,true);
+            }else if (section.ParagraphType == "List" || section.ParagraphType == "List-Start" 
 			|| section.ParagraphType == "List-End") {
 				content += generateContentList(section);
 			}else{
@@ -160,7 +166,7 @@ function generateContentParagraph(section)
 }
 
 //generate a Content Generator section with List decorations
-function generateContentList(section)
+function generateContentList(section, doubleColumn = false)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -168,14 +174,25 @@ function generateContentList(section)
 	if( chanceR <= section.Chance)
 	{		
 		if(section.ParagraphType != "List-End")
-			content+="<ul>";
-		
+        {
+            if(doubleColumn)
+            {
+                content+="<ul class='Double-List'>";
+            }
+            else
+            {
+                content+="<ul>";    
+            }                        
+        }
+        					
 		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
-		for(var i = 0;  i<amountR; i++)
+		
+        for(var i = 0;  i<amountR; i++)
 		{			
 			content += "<li>" + processNestedEntries(section.Text) + "</li>";					
 		}
-		if(section.ParagraphType != "List-Start")			
+		
+        if(section.ParagraphType != "List-Start"  && section.ParagraphType != "DoubleList-Start")			
 			content+="</ul>";
 	}
 	
@@ -234,11 +251,18 @@ function generateFromTable(tableName)
 		
 }
 
-function generateIndex(indexTable)
+function generateIndex(indexTable,doubleColumn = false)
 {
 	var text = "";	
-	text += "<ul class='indexList'>";
-	
+	if(doubleColumn)
+    {
+        text +="<ul class='indexList Double-List'>";
+    }
+    else
+    {
+        text += "<ul class='indexList'>";    
+    }
+    	
 	$.each(indexTable, function(_, value){
 		$.each(value, function(k,v){
 			text += "<li> <a href='"+ v +"'>"+ k +"</a> </li>";
