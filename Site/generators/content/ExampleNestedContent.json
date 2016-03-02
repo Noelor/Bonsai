@@ -2,7 +2,8 @@
 	"Name" : "ExampleNestedContent",
 	"Title" : "Example Nested Content Generator Title",
 	"Description" : "This is an example Content Generator file meant to be nested in another Content file",
-	"Type" : "Content",
+	"Dependencies" : "",
+    "Type" : "Content",
 	
 	"Data" : {
 		"1" : {

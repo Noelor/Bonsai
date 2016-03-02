@@ -34,11 +34,14 @@ function loadGenerator(filePath,callBack) {
 		//Load listed dependencies, if any	
 		if("Dependencies" in Generator)
 		{
-			var dependencies = Generator.Dependencies.split(";");
-			$.each(dependencies, function(_,dependency)
-			{
-				loadGenerator(dependency);
-			});
+			if( Generator.Dependencies != "")
+            {
+                var dependencies = Generator.Dependencies.split(";");
+                $.each(dependencies, function(_,dependency)
+                {
+                    loadGenerator(dependency);
+                });    
+            }            
 		}
 		
 		if(callBack)
