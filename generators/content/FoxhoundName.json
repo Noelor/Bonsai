@@ -2,7 +2,7 @@
 	"Name" : "FoxHoundName",
     "Title" : "FOXHOUND Unit Names",
     "Description" : "Really in need of a list of High-Tech Black Ops Special Forces? Here is some.",
-	"Dependencies" : "generators/table/Creatures/AnimalsSingleWord.json;generators/table/FoxhoundAdjectives.json",	
+	"Dependencies" : "generators/table/Creatures/AnimalsSingleWord.json;generators/table/Misc/FoxhoundAdjectives.json",	
 	"Type" : "Content",
 	
 	"Data" : {
