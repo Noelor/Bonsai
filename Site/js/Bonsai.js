@@ -303,28 +303,35 @@ function processNestedEntries(entry)
 									
 	//Recurse for nested entries.
 	while ((match = regex.exec(regexString)) !== null) {
-		var insert = "";
-		if(match[1] == "T") //Table Entry
-		{						
-			insert = generateFromTable(match[2]);
-			entry = entry.replace(match[0],insert);										
-		}else if(match[1] == "C") //Content Entry
-		{
-			insert = generateFromContent(match[2]);
-			entry = entry.replace(match[0],insert);
-		}
-		else if(match[1] == "R") //Random Number
-		{
-			var numbers = match[2].split("_");            						
-            var r = getRandomNumberInclusive(numbers[0],numbers[1]);                      
-			entry = entry.replace(match[0],r);
-		}else if(match[1] == "V") //Random Number
-		{			
-			entry = entry.replace(match[0],contentVariables[match[2]]);
-		}
-		
+		var insertValue = processEntryMarkup(match);
+        entry = entry.replace(match[0],insertValue);		
 	}	
 	return entry;
+}
+
+//Given a regex match for markup, returns a valid replacement value.
+function processEntryMarkup(match)
+{
+    var text = "Markup Replacement Error for: " + match[0];
+    
+    if(match[1] == "T") //Table Entry
+    {						
+        text = generateFromTable(match[2]);													
+    }else if(match[1] == "C") //Content Entry
+    {
+        text = generateFromContent(match[2]);       
+    }
+    else if(match[1] == "R") //Random Number
+    {
+        var numbers = match[2].split("_");            						
+        var r = getRandomNumberInclusive(numbers[0],numbers[1]);                      
+        text = "" + r;
+    }else if(match[1] == "V") //Variable
+    {			
+        text = contentVariables[match[2]];
+    }
+    
+    return text;
 }
 
 //Add up all the weight in a Sections
