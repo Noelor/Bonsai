@@ -39,7 +39,7 @@ $( document ).ready(function( $ ) {
 
 function generateContent()
 {
-    var generatedContent = generateFromContent(rootGeneratorName);
+    var generatedContent = generateFromContent(rootGeneratorName, true);
     $("#BonsaiContent").html(generatedContent);
     
 }
