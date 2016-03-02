@@ -4,7 +4,8 @@
     "Dependencies" : "",
     "Data": {
     	"1": [
-			{"lover":4},
+			{"lover":3},
+            {"partner":3},            
 			{"parent":4},
 			{"grandparent":4},
 			{"grandchild":4},
