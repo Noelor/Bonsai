@@ -3,6 +3,9 @@ var generatorsTable = {};
 var generatorsContent = {};
 var contentVariables = {};
 
+var poolName = "None";
+var exlusivePools = {};
+
 //Load a table type generator
 function loadGenerator(filePath,callBack) {		
 	$.getJSON( filePath, function(Generator) {		
@@ -94,6 +97,7 @@ function generateFromContent(contentName, clearData = false)
         if(clearData)
         {
             contentVariables = {};
+            exlusivePools = {}           
         }
         
         //Process Variables, for use in markup.
@@ -109,6 +113,17 @@ function generateFromContent(contentName, clearData = false)
         
 		$.each(contentGenerator.Data, function(key,section){
 			
+            //Check if this is going into an exlusivity pool
+            if("Exclusive" in section)
+            {
+                poolName = section.Exclusive;                
+            }else
+            {
+                poolName = "None";                
+            }
+            
+            
+            
 			//Select one of the options in a -Choice sections, by weight.
 			if("TextTable" in section)
 			{				
@@ -304,6 +319,38 @@ function processNestedEntries(entry)
 	//Recurse for nested entries.
 	while ((match = regex.exec(regexString)) !== null) {
 		var insertValue = processEntryMarkup(match);
+        
+        //If a poolname is set, ensure the value is exclusive before allowing it in.
+        if( poolName != "None")
+        {
+            if( poolName in exlusivePools )
+            {                
+                var i = 100 ; // Max Retry attempts.
+                while($.inArray(insertValue, exlusivePools[poolName]) != -1)
+                {
+                    insertValue = processEntryMarkup(match);
+                    i--;
+                    
+                    //Abort if no new values found after to many attempts, throw an error on the log
+                    if( i < 0)
+                    {
+                        insertValue = "Error";
+                        console.debug ("Not enough possible variations for exclusive pool");
+                        break;
+                    }                                                           
+                }
+                
+                exlusivePools[poolName].push(insertValue); 
+                //console.log(exlusivePools[poolName]);                
+            }
+            else  
+            {
+                exlusivePools[poolName] = [];
+                exlusivePools[poolName].push(insertValue);   
+            }
+        }
+        
+        //finally replace value
         entry = entry.replace(match[0],insertValue);		
 	}	
 	return entry;

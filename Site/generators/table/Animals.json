@@ -1,0 +1,29 @@
+{
+    "Name" : "Animals",
+    "Type" : "Table",
+    "Data": {
+    	"1": [
+			{"Wunderpus photogenicus":1},
+			{"Spiny lumpsucke":1},
+			{"Pleasing fungus beetle":1},
+			{"Pink fairy armadillo":1},
+			{"Raspberry crazy ant":1},
+			{"Satanic leaf-tailed gecko":1},
+			{"Tasseled wobbegong":1},
+			{"Hellbender":1},
+			{"Chicken turtle":1},
+			{"Star-nosed mole":1},
+			{"Blobfish":1},
+			{"Red-lipped batfish":1},
+			{"Goblin shark":1},
+			{"Hummingbird hawk-moth":1},
+			{"Leafy seadragon":1},
+			{"Frill-necked lizard":1},
+			{"Mustached puffbird":1},
+			{"Ice cream cone worm":1},
+			{"Strange-tailed tyrant":1},
+			{"Fried egg jellyfish":1},
+			{"Screaming hairy armadillo":1}
+		]
+	}
+}

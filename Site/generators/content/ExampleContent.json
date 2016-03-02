@@ -5,7 +5,7 @@
 	"ButtonText" : "Again",
 	"Type" : "Content",
 
-	"Dependencies" : "generators/table/Colors.json;generators/table/Names.json;generators/content/ExampleNestedContent.json",
+	"Dependencies" : "generators/table/Colors.json;generators/table/Names.json;generators/content/ExampleNestedContent.json;generators/table/Animals.json",
     
     "Variables" : {
       "Color" : "$T-Colors$",
@@ -87,6 +87,21 @@
         },
         "16":{
             "Text" : "John was wearing hip $V-Color$ shades and was juggeling $V-Amount$ balls, sadly one of his $V-Amount$ balls caused him to knock his $V-Color$ shades to the ground."
-        }
+        },
+        "17":{
+            "Text" : "<h3>Exclusivity</h3> You can make the randomly generated bits of an entry exclusive by setting that option. All entries with the same exclusive 'pool' are exlusive with eachother. Defaults to off."
+        },
+        "18" : {
+			"Text" : "$T-Animals$",			
+			"MinAmount" : 5,			
+			"ParagraphType" : "List",
+            "Exclusive" : "ExamplePool"
+		},
+        "19" : {
+			"Text" : "$T-Animals$",			
+			"MinAmount" : 5,			
+			"ParagraphType" : "List",
+            "Exclusive" : "ExamplePool"
+		}
 	}
 }
