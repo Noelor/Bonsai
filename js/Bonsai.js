@@ -3,6 +3,9 @@ var generatorsTable = {};
 var generatorsContent = {};
 var contentVariables = {};
 
+var poolName = "None";
+var exlusivePools = {};
+
 //Load a table type generator
 function loadGenerator(filePath,callBack) {		
 	$.getJSON( filePath, function(Generator) {		
@@ -31,11 +34,14 @@ function loadGenerator(filePath,callBack) {
 		//Load listed dependencies, if any	
 		if("Dependencies" in Generator)
 		{
-			var dependencies = Generator.Dependencies.split(";");
-			$.each(dependencies, function(_,dependency)
-			{
-				loadGenerator(dependency);
-			});
+			if( Generator.Dependencies != "")
+            {
+                var dependencies = Generator.Dependencies.split(";");
+                $.each(dependencies, function(_,dependency)
+                {
+                    loadGenerator(dependency);
+                });    
+            }            
 		}
 		
 		if(callBack)
@@ -94,6 +100,7 @@ function generateFromContent(contentName, clearData = false)
         if(clearData)
         {
             contentVariables = {};
+            exlusivePools = {}           
         }
         
         //Process Variables, for use in markup.
@@ -109,6 +116,17 @@ function generateFromContent(contentName, clearData = false)
         
 		$.each(contentGenerator.Data, function(key,section){
 			
+            //Check if this is going into an exlusivity pool
+            if("Exclusive" in section)
+            {
+                poolName = section.Exclusive;                
+            }else
+            {
+                poolName = "None";                
+            }
+            
+            
+            
 			//Select one of the options in a -Choice sections, by weight.
 			if("TextTable" in section)
 			{				
@@ -303,28 +321,67 @@ function processNestedEntries(entry)
 									
 	//Recurse for nested entries.
 	while ((match = regex.exec(regexString)) !== null) {
-		var insert = "";
-		if(match[1] == "T") //Table Entry
-		{						
-			insert = generateFromTable(match[2]);
-			entry = entry.replace(match[0],insert);										
-		}else if(match[1] == "C") //Content Entry
-		{
-			insert = generateFromContent(match[2]);
-			entry = entry.replace(match[0],insert);
-		}
-		else if(match[1] == "R") //Random Number
-		{
-			var numbers = match[2].split("_");            						
-            var r = getRandomNumberInclusive(numbers[0],numbers[1]);                      
-			entry = entry.replace(match[0],r);
-		}else if(match[1] == "V") //Random Number
-		{			
-			entry = entry.replace(match[0],contentVariables[match[2]]);
-		}
-		
+		var insertValue = processEntryMarkup(match);
+        
+        //If a poolname is set, ensure the value is exclusive before allowing it in.
+        if( poolName != "None")
+        {
+            if( poolName in exlusivePools )
+            {                
+                var i = 100 ; // Max Retry attempts.
+                while($.inArray(insertValue, exlusivePools[poolName]) != -1)
+                {
+                    insertValue = processEntryMarkup(match);
+                    i--;
+                    
+                    //Abort if no new values found after to many attempts, throw an error on the log
+                    if( i < 0)
+                    {
+                        insertValue = "Error";
+                        console.debug ("Not enough possible variations for exclusive pool");
+                        break;
+                    }                                                           
+                }
+                
+                exlusivePools[poolName].push(insertValue); 
+                //console.log(exlusivePools[poolName]);                
+            }
+            else  
+            {
+                exlusivePools[poolName] = [];
+                exlusivePools[poolName].push(insertValue);   
+            }
+        }
+        
+        //finally replace value
+        entry = entry.replace(match[0],insertValue);		
 	}	
 	return entry;
+}
+
+//Given a regex match for markup, returns a valid replacement value.
+function processEntryMarkup(match)
+{
+    var text = "Markup Replacement Error for: " + match[0];
+    
+    if(match[1] == "T") //Table Entry
+    {						
+        text = generateFromTable(match[2]);													
+    }else if(match[1] == "C") //Content Entry
+    {
+        text = generateFromContent(match[2]);       
+    }
+    else if(match[1] == "R") //Random Number
+    {
+        var numbers = match[2].split("_");            						
+        var r = getRandomNumberInclusive(numbers[0],numbers[1]);                      
+        text = "" + r;
+    }else if(match[1] == "V") //Variable
+    {			
+        text = contentVariables[match[2]];
+    }
+    
+    return text;
 }
 
 //Add up all the weight in a Sections
