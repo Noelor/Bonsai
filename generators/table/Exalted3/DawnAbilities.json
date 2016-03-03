@@ -4,14 +4,14 @@
     "Data": {
     	"1": [
 			{"Archery":1},
-            {"Awareness":3},
+            {"Awareness":1},
             {"Brawl":1},
             {"Martial Arts":1},
-            {"Dodge":3},
+            {"Dodge":1},
             {"Melee":1},
             {"Thrown":1},
-            {"War":3},            
-			{"Resistance":3}
+            {"War":1},            
+			{"Resistance":1}
 		]
 	}
 }

@@ -10,16 +10,15 @@
 		},
         "2" : {
 			"Text" : "Supernal: $T-Exalted3EDawnAbilities$",
-            "Exlusive" : "Exalted3EAbilities"
+            "Exclusive" : "Exalted3EAbilities"
 		},
         "3" : {
 			"Text" : "Caste Abilities:"
 		},
         "4" : {
 			"Text" : "$T-Exalted3EDawnAbilities$",
-            "Exlusive" : "Exalted3EAbilities",
-            "MinAmount": "4",
-            "MaxAmount": "4",
+            "Exclusive" : "Exalted3EAbilities",
+            "MinAmount": "4",            
             "ParagraphType" : "List"
 		}        	
 	}

@@ -31,9 +31,8 @@
 		},
         "7" : {
 			"Text" : "$T-Exalted3ESolarAbilities$",
-            "Exlusive" : "Exalted3EAbilities",
-            "MinAmount": "5",
-            "MaxAmount": "5",
+            "Exclusive" : "Exalted3EAbilities",
+            "MinAmount": "5",            
             "ParagraphType" : "List"
 		}
 	}
