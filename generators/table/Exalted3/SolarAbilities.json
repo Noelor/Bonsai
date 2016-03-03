@@ -1,0 +1,34 @@
+{
+    "Name" : "Exalted3ESolarAbilities",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Archery":1},
+            {"Athletics":1},
+            {"Awareness":1},
+            {"Brawl":1},
+            {"Bureaucracy":1},
+            {"Craft":1},
+            {"Dodge":1},
+            {"Integrity":1},
+            {"Investigation":1},
+            {"Larceny":1},
+            {"Linguistics":1},
+            {"Lore":1},
+            {"Martial Arts":1},
+            {"Medicine":1},
+            {"Melee":1},
+            {"Occult":1},
+            {"Performance":1},
+            {"Presence":1},
+            {"Resistance":1},
+            {"Ride":1},
+            {"Sail":1},
+            {"Socialize":1},
+            {"Stealth":1},
+            {"Survival":1},
+            {"Thrown":1},
+            {"War":1}
+		]
+	}
+}

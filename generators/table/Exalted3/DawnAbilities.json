@@ -1,0 +1,17 @@
+{
+    "Name" : "Exalted3EDawnAbilities",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Archery":1},
+            {"Awareness":3},
+            {"Brawl":1},
+            {"Martial Arts":1},
+            {"Dodge":3},
+            {"Melee":1},
+            {"Thrown":1},
+            {"War":3},            
+			{"Resistance":3}
+		]
+	}
+}

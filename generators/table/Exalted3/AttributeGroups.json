@@ -1,0 +1,12 @@
+{
+    "Name" : "Exalted3EAttributeGroups",
+    "Type" : "Table",
+    "Dependencies" : "",
+    "Data": {
+    	"1": [
+			{"Physical":1},
+			{"Mental":1},
+            {"Social":1}
+		]
+	}
+}

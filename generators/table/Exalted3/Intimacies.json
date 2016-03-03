@@ -1,0 +1,11 @@
+{
+    "Name" : "Exalted3EIntimacies",
+    "Type" : "Table",
+    "Dependencies" : "",
+    "Data": {
+    	"1": [
+			{"Tie(Context)":1},
+			{"Principle":1}
+		]
+	}
+}

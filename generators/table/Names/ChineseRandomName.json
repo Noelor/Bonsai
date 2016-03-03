@@ -1,0 +1,15 @@
+{
+    "Name" : "ChineseRandomName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/ChineseMaleGiven.json;generators/table/Names/ChineseFemaleGiven.json;generators/table/Names/ChineseFamily.json",    
+    "Data": {
+    	"1": [
+            {"$T-ChineseMaleGivenName$":1},
+            {"$T-ChineseFemaleGivenName$":1}
+        ],        
+        "2": [
+            {"":1},
+            {" $T-ChineseFamilyName$":3}
+        ]
+	}
+}

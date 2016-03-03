@@ -1,0 +1,37 @@
+{
+	"Name" : "Exalted3ECharacter",		
+	"Dependencies" : "generators/table/Names/ChineseRandomName.json;generators/table/Exalted3/Intimacies.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	
+    "Variables" : {
+        "Name" : "$T-ChineseRandomName$"
+    },
+    
+	"Data" : {
+		"1" : {
+			"Text" : "<b>Name:</b> $V-Name$"
+		},
+        "2" : {
+			"Text" : "<h3>Intimacies</h3><b>Defining:</b> An Example"
+		},
+        "3" : {
+			"Text" : "<b>Major:</b>"            
+		},
+        "4" : {
+			"Text" : "$T-Exalted3EIntimacies$",
+            "ParagraphType" : "List",
+            "MinAmount" : "1",
+            "MaxAmount" : "4"
+		},
+        "5" : {
+			"Text" : "<b>Minor:</b>"
+		},
+        "6" : {
+			"Text" : "$T-Exalted3EIntimacies$",
+            "ParagraphType" : "List",
+            "MinAmount" : "2",
+            "MaxAmount" : "6"
+		}		
+	}
+}

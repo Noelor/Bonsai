@@ -1,0 +1,26 @@
+{
+	"Name" : "Exalted3EDawn",		
+	"Dependencies" : "generators/table/Exalted3/DawnAbilities.json",	
+	"Type" : "Content",
+	
+    
+	"Data" : {
+		"1" : {
+			"Text" : "<b>Caste:</b> Dawn"
+		},
+        "2" : {
+			"Text" : "Supernal: $T-Exalted3EDawnAbilities$",
+            "Exlusive" : "Exalted3EAbilities"
+		},
+        "3" : {
+			"Text" : "Caste:"
+		},
+        "4" : {
+			"Text" : "$T-Exalted3EDawnAbilities$",
+            "Exlusive" : "Exalted3EAbilities",
+            "MinAmount": "4",
+            "MaxAmount": "4",
+            "ParagraphType" : "List"
+		}        	
+	}
+}

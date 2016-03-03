@@ -1,0 +1,10 @@
+{
+    "Name" : "Exalted3ESolarCaste",
+    "Type" : "Table",
+    "Dependencies" : "generators/content/Exalted3/Dawn.json",
+    "Data": {
+    	"1": [
+			{"$C-Exalted3EDawn$":1}
+		]
+	}
+}
