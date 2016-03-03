@@ -150,7 +150,7 @@ function generateFromContent(contentName, clearData = false)
 				section.MinAmount = 1;
 			
 			if("MaxAmount" in section == false)
-				section.MaxAmount = 1;
+				section.MaxAmount = section.MinAmount;
 			
 			if("ParagraphType" in section == false)
 				section.ParagraphType = "Paragraph";
@@ -221,8 +221,8 @@ function generateContentList(section, doubleColumn = false)
             }                        
         }
         					
-		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
-		
+		var amountR = getRandomNumberInclusive(section.MinAmount,section.MaxAmount); 
+        								
         for(var i = 0;  i<amountR; i++)
 		{			
 			content += "<li>" + processNestedEntries(section.Text) + "</li>";					
@@ -243,7 +243,7 @@ function generateContentUndecorated(section)
 	
 	if( chanceR <= section.Chance)
 	{				
-		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
+		var amountR = getRandomNumberInclusive(section.MinAmount,section.MaxAmount);						
 		for(var i = 0;  i<amountR; i++)
 		{			
 			content += processNestedEntries(section.Text);					
