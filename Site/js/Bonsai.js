@@ -159,7 +159,9 @@ function generateFromContent(contentName, clearData = false)
             }else if (section.ParagraphType == "List" || section.ParagraphType == "List-Start" 
 			|| section.ParagraphType == "List-End") {
 				content += generateContentList(section,false,poolName);
-			}else{
+			}else if(section.ParagraphType == "CommaSeperatedList"){
+                content += generateContentCommaSeperated(section,poolName);              
+            }else{
 				//Fallback to no decorations on unspecified type.
 				content += generateContentUndecorated(section,poolName);
 			}								
@@ -227,6 +229,23 @@ function generateContentList(section, doubleColumn = false, poolName = "None")
 	}
 	
 	return content;	
+}
+
+function generateContentCommaSeperated(section, poolName = "None")
+{
+    var content = [];
+	var chanceR = Math.floor((Math.random() * 100) +1);	
+	
+	if( chanceR <= section.Chance)
+	{				
+		var amountR = getRandomNumberInclusive(section.MinAmount,section.MaxAmount);						
+		for(var i = 0;  i<amountR; i++)
+		{			
+			content.push(processNestedEntries(section.Text,poolName));					
+		}		
+	}
+	
+	return content.join(", ");	
 }
 
 //generate a Content Generator section without any decorations. 

@@ -102,6 +102,14 @@
 			"MinAmount" : 5,			
 			"ParagraphType" : "List",
             "Exclusive" : "ExamplePool"
-		}
+		},
+        "20":{
+            "Text" : "<h3>Comma seperated list</h3> Sometimes its preferable to have a series of values simply be a single line of text instead of a bulleted list. There is a paragraphy type for that. Techincally this is an undecorated paragaph and can thus easily be joined to other things that are not full paragraphs themselves."
+        },
+        "21" : {
+			"Text" : "$T-Animals$",			
+			"MinAmount" : 5,			
+			"ParagraphType" : "CommaSeperatedList"            
+		}         
 	}
 }
