@@ -87,7 +87,7 @@ function getContentPageInformation(contentName)
 }
 
 //Generate the text entries from a Content Generator
-function generateFromContent(contentName, clearData = false)
+function generateFromContent(contentName, clearData)
 {
 	if(contentName in generatorsContent)
 	{
@@ -174,7 +174,7 @@ function generateFromContent(contentName, clearData = false)
 }
 
 //generate a Content Generator section with Paragraph decoration
-function generateContentParagraph(section, poolName = "None")
+function generateContentParagraph(section, poolName)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -198,7 +198,7 @@ function generateContentParagraph(section, poolName = "None")
 }
 
 //generate a Content Generator section with List decorations
-function generateContentList(section, doubleColumn = false, poolName = "None")
+function generateContentList(section, doubleColumn, poolName)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -231,7 +231,7 @@ function generateContentList(section, doubleColumn = false, poolName = "None")
 	return content;	
 }
 
-function generateContentCommaSeperated(section, poolName = "None")
+function generateContentCommaSeperated(section, poolName)
 {
     var content = [];
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -249,7 +249,7 @@ function generateContentCommaSeperated(section, poolName = "None")
 }
 
 //generate a Content Generator section without any decorations. 
-function generateContentUndecorated(section, poolName = "None")
+function generateContentUndecorated(section, poolName)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -267,7 +267,7 @@ function generateContentUndecorated(section, poolName = "None")
 }
 
 //Generate the text entries from a Table
-function generateFromTable(tableName, poolName = "None")
+function generateFromTable(tableName, poolName)
 {	
 		if(tableName in generatorsTable)
 		{
@@ -300,7 +300,7 @@ function generateFromTable(tableName, poolName = "None")
 		
 }
 
-function generateIndex(indexTable,doubleColumn = false)
+function generateIndex(indexTable,doubleColumn)
 {
 	var text = "";	
 	if(doubleColumn)
@@ -324,7 +324,7 @@ function generateIndex(indexTable,doubleColumn = false)
 }
 
 //Find references to generators in a string and replace them with the generators content
-function processNestedEntries(entry, poolName = "None")
+function processNestedEntries(entry, poolName)
 {
 	var regex = /\$(\w)-(\w+)\$/g;
 	var match;																		
