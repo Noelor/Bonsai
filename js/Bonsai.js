@@ -2,8 +2,6 @@
 var generatorsTable = {};
 var generatorsContent = {};
 var contentVariables = {};
-
-var poolName = "None";
 var exlusivePools = {};
 
 //Load a table type generator
@@ -89,12 +87,12 @@ function getContentPageInformation(contentName)
 }
 
 //Generate the text entries from a Content Generator
-function generateFromContent(contentName, clearData = false)
+function generateFromContent(contentName, clearData)
 {
 	if(contentName in generatorsContent)
 	{
 		var content = "";
-		                
+		var poolName = "None";            
 		var contentGenerator = generatorsContent[contentName];
         
         if(clearData)
@@ -109,7 +107,7 @@ function generateFromContent(contentName, clearData = false)
             $.each(contentGenerator.Variables, function(name,value){
                 if(name in contentVariables == false)
                 {
-                    contentVariables[name] = processNestedEntries(value);                                                    
+                    contentVariables[name] = processNestedEntries(value,"None");                                                    
                 }
             });
         }
@@ -120,13 +118,9 @@ function generateFromContent(contentName, clearData = false)
             if("Exclusive" in section)
             {
                 poolName = section.Exclusive;                
-            }else
-            {
-                poolName = "None";                
             }
             
-            
-            
+                        
 			//Select one of the options in a -Choice sections, by weight.
 			if("TextTable" in section)
 			{				
@@ -150,7 +144,7 @@ function generateFromContent(contentName, clearData = false)
 				section.MinAmount = 1;
 			
 			if("MaxAmount" in section == false)
-				section.MaxAmount = 1;
+				section.MaxAmount = section.MinAmount;
 			
 			if("ParagraphType" in section == false)
 				section.ParagraphType = "Paragraph";
@@ -159,15 +153,17 @@ function generateFromContent(contentName, clearData = false)
 			if(section.ParagraphType == "Paragraph" || section.ParagraphType == "Paragraph-Start" 
 			|| section.ParagraphType == "Paragraph-End")
 			{
-				content += generateContentParagraph(section);
+				content += generateContentParagraph(section,poolName);
 			}else if(section.ParagraphType == "DoubleList" || section.ParagraphType == "DoubleList-Start"){
-                content += generateContentList(section,true);
+                content += generateContentList(section,true,poolName);
             }else if (section.ParagraphType == "List" || section.ParagraphType == "List-Start" 
 			|| section.ParagraphType == "List-End") {
-				content += generateContentList(section);
-			}else{
+				content += generateContentList(section,false,poolName);
+			}else if(section.ParagraphType == "CommaSeperatedList"){
+                content += generateContentCommaSeperated(section,poolName);              
+            }else{
 				//Fallback to no decorations on unspecified type.
-				content += generateContentUndecorated(section);
+				content += generateContentUndecorated(section,poolName);
 			}								
 		});
 				
@@ -178,7 +174,7 @@ function generateFromContent(contentName, clearData = false)
 }
 
 //generate a Content Generator section with Paragraph decoration
-function generateContentParagraph(section)
+function generateContentParagraph(section, poolName)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -191,7 +187,7 @@ function generateContentParagraph(section)
 		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
 		for(var i = 0;  i<amountR; i++)
 		{			
-			content += processNestedEntries(section.Text);					
+			content += processNestedEntries(section.Text,poolName);					
 		}
 		
 		if(section.ParagraphType != "Paragraph-Start")
@@ -202,7 +198,7 @@ function generateContentParagraph(section)
 }
 
 //generate a Content Generator section with List decorations
-function generateContentList(section, doubleColumn = false)
+function generateContentList(section, doubleColumn, poolName)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
@@ -221,11 +217,11 @@ function generateContentList(section, doubleColumn = false)
             }                        
         }
         					
-		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
-		
+		var amountR = getRandomNumberInclusive(section.MinAmount,section.MaxAmount); 
+        								
         for(var i = 0;  i<amountR; i++)
 		{			
-			content += "<li>" + processNestedEntries(section.Text) + "</li>";					
+			content += "<li>" + processNestedEntries(section.Text,poolName) + "</li>";					
 		}
 		
         if(section.ParagraphType != "List-Start"  && section.ParagraphType != "DoubleList-Start")			
@@ -235,18 +231,35 @@ function generateContentList(section, doubleColumn = false)
 	return content;	
 }
 
+function generateContentCommaSeperated(section, poolName)
+{
+    var content = [];
+	var chanceR = Math.floor((Math.random() * 100) +1);	
+	
+	if( chanceR <= section.Chance)
+	{				
+		var amountR = getRandomNumberInclusive(section.MinAmount,section.MaxAmount);						
+		for(var i = 0;  i<amountR; i++)
+		{			
+			content.push(processNestedEntries(section.Text,poolName));					
+		}		
+	}
+	
+	return content.join(", ");	
+}
+
 //generate a Content Generator section without any decorations. 
-function generateContentUndecorated(section)
+function generateContentUndecorated(section, poolName)
 {
 	var content = "";
 	var chanceR = Math.floor((Math.random() * 100) +1);	
 	
 	if( chanceR <= section.Chance)
 	{				
-		var amountR = Math.floor((Math.random() * section.MaxAmount) + section.MinAmount);						
+		var amountR = getRandomNumberInclusive(section.MinAmount,section.MaxAmount);						
 		for(var i = 0;  i<amountR; i++)
 		{			
-			content += processNestedEntries(section.Text);					
+			content += processNestedEntries(section.Text,poolName);					
 		}		
 	}
 	
@@ -254,7 +267,7 @@ function generateContentUndecorated(section)
 }
 
 //Generate the text entries from a Table
-function generateFromTable(tableName)
+function generateFromTable(tableName, poolName)
 {	
 		if(tableName in generatorsTable)
 		{
@@ -265,7 +278,7 @@ function generateFromTable(tableName)
 			{
 				if((typeof section ) === 'string')
 				{
-					content+= processNestedEntries(section);
+					content+= processNestedEntries(section,poolName);
 				}else
 				{
 					//Grab a random entry from the section
@@ -273,7 +286,7 @@ function generateFromTable(tableName)
 					var randomEntry = getRandomTableSectionEntryByWeight(section, totalWeight);
 					
 					//Find any nested references to generators and process those.
-					randomEntry = processNestedEntries(randomEntry);
+					randomEntry = processNestedEntries(randomEntry,poolName);
 									
 					//Add to content																	
 					content += randomEntry;
@@ -287,7 +300,7 @@ function generateFromTable(tableName)
 		
 }
 
-function generateIndex(indexTable,doubleColumn = false)
+function generateIndex(indexTable,doubleColumn)
 {
 	var text = "";	
 	if(doubleColumn)
@@ -311,7 +324,7 @@ function generateIndex(indexTable,doubleColumn = false)
 }
 
 //Find references to generators in a string and replace them with the generators content
-function processNestedEntries(entry)
+function processNestedEntries(entry, poolName)
 {
 	var regex = /\$(\w)-(\w+)\$/g;
 	var match;																		
@@ -326,20 +339,20 @@ function processNestedEntries(entry)
         //If a poolname is set, ensure the value is exclusive before allowing it in.
         if( poolName != "None")
         {
+            //console.log("Pool: " + poolName)
             if( poolName in exlusivePools )
             {                
                 var i = 100 ; // Max Retry attempts.
                 while($.inArray(insertValue, exlusivePools[poolName]) != -1)
-                {
+                {                    
                     insertValue = processEntryMarkup(match);
                     i--;
                     
                     //Abort if no new values found after to many attempts, throw an error on the log
                     if( i < 0)
                     {
-                        insertValue = "Error";
-                        console.debug ("Not enough possible variations for exclusive pool");
-                        break;
+                        console.log("Duplicate: " + insertValue + " vs " + exlusivePools[poolName])
+                        return entry;
                     }                                                           
                 }
                 
