@@ -1,0 +1,11 @@
+{
+    "Name" : "Exalted3EPeople",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"The Scarlet Empress":1},
+            {"Chejop Kejak":1},
+            {"Mnemon":1}           
+		]
+	}
+}

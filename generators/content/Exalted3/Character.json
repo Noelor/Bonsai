@@ -1,6 +1,6 @@
 {
 	"Name" : "Exalted3ECharacter",		
-	"Dependencies" : "generators/table/Names/ChineseRandomName.json;generators/table/Exalted3/Intimacies.json",
+	"Dependencies" : "generators/table/Names/ChineseRandomName.json;generators/table/Exalted3/Intimacies.json;generators/table/Exalted3/Principles.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	
@@ -13,23 +13,25 @@
 			"Text" : "<b>Name:</b> $V-Name$"
 		},
         "2" : {
-			"Text" : "<h3>Intimacies</h3><b>Defining:</b> An Example"
+			"Text" : "<h3>Intimacies</h3><b>Defining:</b> $T-Exalted3EPrinciples$"
 		},
         "3" : {
-			"Text" : "<b>Major:</b>"            
+			"Text" : "<b>Major: </b>",
+            "ParagraphType" : "Paragraph-Start"            
 		},
         "4" : {
 			"Text" : "$T-Exalted3EIntimacies$",
-            "ParagraphType" : "List",
+            "ParagraphType" : "CommaSeperatedList",
             "MinAmount" : "1",
             "MaxAmount" : "4"
 		},
         "5" : {
-			"Text" : "<b>Minor:</b>"
+			"Text" : "<b>Minor: </b>",
+            "ParagraphType" : "Paragraph-Start"
 		},
         "6" : {
 			"Text" : "$T-Exalted3EIntimacies$",
-            "ParagraphType" : "List",
+            "ParagraphType" : "CommaSeperatedList",
             "MinAmount" : "2",
             "MaxAmount" : "6"
 		}		

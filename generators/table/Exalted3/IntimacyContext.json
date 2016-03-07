@@ -1,0 +1,38 @@
+{
+    "Name" : "Exalted3EIntimacyContext",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Acceptance":1},
+            {"Admiration":1},
+            {"Amazed":1},
+            {"Angry":1},
+            {"Annoyed":1},
+            {"Anticipation":1},
+            {"Aprehension":1},
+            {"Bored":1},
+            {"Contempt":1},
+            {"Disapproval":1},
+            {"Disgust":1},
+            {"Distraction":1},
+            {"Ecstasy":1},
+            {"Fear":1},
+            {"Grief":1},
+            {"Interest":1},
+            {"Joy":1},
+            {"Loathing":1},
+            {"Love":1},
+            {"Optimistic":1},
+            {"Pensive":1},
+            {"Rage":1},
+            {"Remorse":1},
+            {"Sad":1},
+            {"Suprise":1},
+            {"Terror":1},
+            {"Trust":1},
+            {"Obligation":1},
+            {"Attachment":1},
+            {"Vigilant":1}         
+		]
+	}
+}

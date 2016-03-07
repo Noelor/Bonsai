@@ -27,13 +27,14 @@
 			"Text" : "$T-Exalted3ESolarCaste$"
 		},
         "6" : {
-			"Text" : "Favoured Abilities:"
+			"Text" : "<b>Favoured Abilities: </b>",
+            "ParagraphType" : "Paragraph-Start"
 		},
         "7" : {
 			"Text" : "$T-Exalted3ESolarAbilities$",
             "Exclusive" : "Exalted3EAbilities",
             "MinAmount": "5",            
-            "ParagraphType" : "List"
+            "ParagraphType" : "CommaSeperatedList"
 		}
 	}
 }

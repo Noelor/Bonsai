@@ -1,25 +1,26 @@
 {
 	"Name" : "Exalted3EDawn",		
-	"Dependencies" : "generators/table/Exalted3/DawnAbilities.json",	
+	"Dependencies" : "generators/table/Exalted3/DawnAbilities.json;generators/table/Exalted3/DawnAbilitiesWeighted.json",	
 	"Type" : "Content",
 	
     
 	"Data" : {
 		"1" : {
-			"Text" : "<b>Caste:</b> Dawn"
+			"Text" : "<h3>Caste: Dawn</h3>"
 		},
         "2" : {
-			"Text" : "Supernal: $T-Exalted3EDawnAbilities$",
+			"Text" : "<h3>Abilities</h3><b>Supernal: </b>$T-Exalted3EDawnAbilities$",
             "Exclusive" : "Exalted3EAbilities"
 		},
         "3" : {
-			"Text" : "Caste Abilities:"
+			"Text" : "<b>Caste Abilities: </b>",
+            "ParagraphType" : "Paragraph-Start"
 		},
         "4" : {
-			"Text" : "$T-Exalted3EDawnAbilities$",
+			"Text" : "$T-Exalted3EDawnAbilitiesWeighted$",
             "Exclusive" : "Exalted3EAbilities",
             "MinAmount": "4",            
-            "ParagraphType" : "List"
+            "ParagraphType" : "CommaSeperatedList"
 		}        	
 	}
 }

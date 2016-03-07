@@ -1,0 +1,18 @@
+{
+    "Name" : "Exalted3EDawnAbilitiesWeighted",
+    "Type" : "Table",
+    "Comment" : "This version has much heigher weight on the none weapon abilities, build a better character. In theory.",    
+    "Data": {
+    	"1": [
+			{"Archery":1},
+            {"Awareness":3},
+            {"Brawl":1},
+            {"Martial Arts":1},
+            {"Dodge":3},
+            {"Melee":1},
+            {"Thrown":1},
+            {"War":3},            
+			{"Resistance":3}
+		]
+	}
+}

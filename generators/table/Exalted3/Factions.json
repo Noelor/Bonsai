@@ -1,0 +1,29 @@
+{
+    "Name" : "Exalted3EFactions",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"The Guild":1},
+            {"The Realm":1},
+            {"House Mnemon":1},
+            {"House Cathak":1},
+            {"House Ragara":1},
+            {"House Peleps":1},
+            {"House V'Neef":1},
+            {"House Cynis":1},
+            {"House Ledaal":1},
+            {"House Nellens":1},
+            {"House Tepet":1},
+            {"House Iselsi":1},
+            {"The Imperial Legion":1},
+            {"The Immaculate Order":1},
+            {"The Seventh Legion":1},
+            {"The Silver Pact":1},
+            {"The Fair Folk":1},
+            {"The Deathlords":1},
+            {"Heaven":1},
+            {"Bureau of Destinity":1},
+            {"The Fivescore Fellowship":1}        
+		]
+	}
+}
