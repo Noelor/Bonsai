@@ -13,7 +13,8 @@
 			"Text" : "<b>Name:</b> $V-Name$"
 		},
         "2" : {
-			"Text" : "<h3>Intimacies</h3><b>Defining:</b> $T-Exalted3EPrinciples$"
+			"Text" : "<h3>Intimacies</h3><b>Defining:</b> $T-Exalted3EPrinciples$",
+            "Exclusive" : "Intimacies"
 		},
         "3" : {
 			"Text" : "<b>Major: </b>",
@@ -22,6 +23,7 @@
         "4" : {
 			"Text" : "$T-Exalted3EIntimacies$",
             "ParagraphType" : "CommaSeperatedList",
+            "Exclusive" : "Intimacies",
             "MinAmount" : "1",
             "MaxAmount" : "4"
 		},
@@ -32,6 +34,7 @@
         "6" : {
 			"Text" : "$T-Exalted3EIntimacies$",
             "ParagraphType" : "CommaSeperatedList",
+            "Exclusive" : "Intimacies",
             "MinAmount" : "2",
             "MaxAmount" : "6"
 		}		
