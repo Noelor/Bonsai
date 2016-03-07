@@ -1,0 +1,26 @@
+{
+	"Name" : "Exalted3ETwilight",		
+	"Dependencies" : "generators/table/Exalted3/TwilightAbilities.json",	
+	"Type" : "Content",
+	
+    
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Caste: Twilight</h3>"
+		},
+        "2" : {
+			"Text" : "<h3>Abilities</h3><b>Supernal: </b>$T-Exalted3ETwilightAbilities$",
+            "Exclusive" : "Exalted3EAbilities"
+		},
+        "3" : {
+			"Text" : "<b>Caste Abilities: </b>",
+            "ParagraphType" : "Paragraph-Start"
+		},
+        "4" : {
+			"Text" : "$T-Exalted3ETwilightAbilities$",
+            "Exclusive" : "Exalted3EAbilities",
+            "MinAmount": "4",            
+            "ParagraphType" : "CommaSeperatedList"
+		}        	
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "Name" : "Exalted3ENightAbilities",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Athletics":1},
+            {"Awareness":1},
+            {"Dodge":1},
+            {"Investigation":1},
+            {"Larceny":1},
+            {"Ride":1},
+            {"Stealth":1},
+            {"Socialize":1}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "Name" : "Exalted3EZenithAbilities",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Athletics":1},
+            {"Integrity":1},
+            {"Performance":1},
+            {"Lore":1},
+            {"Presence":1},
+            {"Resistance":1},
+            {"Survival":1},
+            {"War":1}           
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "Name" : "Exalted3ETwilightAbilities",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Bureaucracy":1},
+            {"Craft":1},
+            {"Integrity":1},
+            {"Investigation":1},
+            {"Larceny":1},
+            {"Lore":1},
+            {"Medicine":1},
+            {"Occult":1}           
+		]
+	}
+}

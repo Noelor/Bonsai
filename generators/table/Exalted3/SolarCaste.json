@@ -1,10 +1,14 @@
 {
     "Name" : "Exalted3ESolarCaste",
     "Type" : "Table",
-    "Dependencies" : "generators/content/Exalted3/Dawn.json",
+    "Dependencies" : "generators/content/Exalted3/Dawn.json;generators/content/Exalted3/Zenith.json;generators/content/Exalted3/Twilight.json;generators/content/Exalted3/Night.json;generators/content/Exalted3/Night.json;generators/content/Exalted3/Eclipse.json",
     "Data": {
     	"1": [
-			{"$C-Exalted3EDawn$":1}
+			{"$C-Exalted3EDawn$":1},
+            {"$C-Exalted3EZenith$":1},
+            {"$C-Exalted3ETwilight$":1},
+            {"$C-Exalted3ENight$":1},
+            {"$C-Exalted3EEclipse$":1}
 		]
 	}
 }

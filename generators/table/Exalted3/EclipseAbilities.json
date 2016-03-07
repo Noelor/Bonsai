@@ -1,0 +1,16 @@
+{
+    "Name" : "Exalted3EEclipseAbilities",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Bureaucracy":1},
+            {"Larceny":1},
+            {"Linguistics":1},
+            {"Occult":1},
+            {"Presence":1},
+            {"Ride":1},
+            {"Sail":1},
+            {"Socialize":1}
+		]
+	}
+}
