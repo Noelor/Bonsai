@@ -1,12 +1,12 @@
 {
 	"Name" : "Exalted3ESolar",
 	"Title" : "Exalted 3E Solar Generator",	
-	"Dependencies" : "generators/table/Names/ChineseRandomName.json;generators/content/Exalted3/Character.json;generators/table/Exalted3/AttributeGroups.json;generators/table/Exalted3/SolarCaste.json;generators/table/Exalted3/SolarAbilities.json",
+	"Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Character.json;generators/table/Exalted3/AttributeGroups.json;generators/table/Exalted3/SolarCaste.json;generators/table/Exalted3/SolarAbilities.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	
     "Variables" : {
-        "Name" : "$T-ChineseRandomName$"
+        "Name" : "$C-Exalted3EName$"
     },
     
 	"Data" : {

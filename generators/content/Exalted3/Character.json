@@ -1,11 +1,11 @@
 {
 	"Name" : "Exalted3ECharacter",		
-	"Dependencies" : "generators/table/Names/ChineseRandomName.json;generators/table/Exalted3/Intimacies.json;generators/table/Exalted3/Principles.json",
+	"Dependencies" : "generators/content/Exalted3/Names.json;generators/table/Exalted3/Intimacies.json;generators/table/Exalted3/Principles.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	
     "Variables" : {
-        "Name" : "$T-ChineseRandomName$"
+        "Name" : "$C-Exalted3EName$"
     },
     
 	"Data" : {
@@ -35,8 +35,8 @@
 			"Text" : "$T-Exalted3EIntimacies$",
             "ParagraphType" : "CommaSeperatedList",
             "Exclusive" : "Intimacies",
-            "MinAmount" : "2",
-            "MaxAmount" : "6"
+            "MinAmount" : "1",
+            "MaxAmount" : "5"
 		}		
 	}
 }
