@@ -67,6 +67,7 @@
             {"Hidden":1},
             {"Crouching":1},
             {"Running":1},
+            {"Ebon":1},
             {"Sleeping":1}
         ]        
 	}
