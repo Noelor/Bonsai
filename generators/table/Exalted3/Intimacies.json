@@ -1,13 +1,14 @@
 {
     "Name" : "Exalted3EIntimacies",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Factions.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/People.json;generators/table/Exalted3/IntimacyContext.json;generators/table/People/LovedOneGendered.json;generators/table/Exalted3/Principles.json",
+    "Dependencies" : "generators/content/Exalted3/Names.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/People.json;generators/table/Exalted3/IntimacyContext.json;generators/table/People/LovedOneGendered.json;generators/table/Exalted3/Principles.json",
     "Data": {
     	"1": [
 			{"$T-Exalted3EPlaces$ ( $T-Exalted3EIntimacyContext$ )":1},
             {"$T-Exalted3EFactions$ ( $T-Exalted3EIntimacyContext$ )":1},
             {"$T-Exalted3EPeople$ ( $T-Exalted3EIntimacyContext$ )":1},
-            {"My $T-LovedOneGendered$ ( $T-Exalted3EIntimacyContext$ )":3},
+            {"My $T-LovedOneGendered$ ( $T-Exalted3EIntimacyContext$ )":2},
+            {"$C-Exalted3EName$ ( $T-Exalted3EIntimacyContext$ )":3},
 			{"$T-Exalted3EPrinciples$":2}
 		]
 	}
