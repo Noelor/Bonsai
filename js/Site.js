@@ -27,13 +27,16 @@ $( document ).ready(function( $ ) {
     $("#BonsaiTitle").html(info.Title);
     $("#BonsaiDescription").html(info.Description);
     
+    addSaveButton();  
+    
     if(info.ButtonText != "Hide")
     {
       $("#GeneratorButton").val(info.ButtonText); 
-      $("#GeneratorButton").show();        
+      $("#GeneratorButton").show();
+      $("#SaveButton").show();         
     }
 
-    addSaveButton();            
+              
     generateContent();    
   });
 });

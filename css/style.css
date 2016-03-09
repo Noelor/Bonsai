@@ -170,6 +170,7 @@ ul.Double-List{
 #SaveButton{
     text-decoration: none;
     float: right;
+    display: none;
 }
 
 #SaveButton:hover {
