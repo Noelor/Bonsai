@@ -32,8 +32,9 @@ $( document ).ready(function( $ ) {
       $("#GeneratorButton").val(info.ButtonText); 
       $("#GeneratorButton").show();        
     }
-            
-    generateContent();
+
+    addSaveButton();            
+    generateContent();    
   });
 });
 
@@ -41,6 +42,7 @@ function generateContent()
 {
     var generatedContent = generateFromContent(rootGeneratorName, true);
     $("#BonsaiContent").html(generatedContent);
+    updateSaveButton();
     
 }
 
@@ -57,4 +59,24 @@ function getUrlParameter(sParam)
             return sParameterName[1];
         }
     }
+}
+
+function addSaveButton()
+{
+    var strip = document.getElementById("ButtonStrip")
+    
+    var a = strip.appendChild(
+        document.createElement("a")
+    );
+    
+    a.download = "Bonsai.html";
+    a.setAttribute("id", "SaveButton");
+    a.title = "Save Page";
+    a.innerHTML = "💾";    
+}
+
+function updateSaveButton()
+{
+    a =  document.getElementById("SaveButton")
+    a.href = "data:text/html," + document.getElementById("BonsaiContent").innerHTML;
 }

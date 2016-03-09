@@ -164,3 +164,16 @@ ul.Double-List{
 #GeneratorButton{
 	display:none;
 }
+
+
+/* Additional Elements */
+#SaveButton{
+    text-decoration: none;
+    float: right;
+}
+
+#SaveButton:hover {
+	color:#fff;
+	background:#f4f4f4;
+	text-decoration:none;
+}
