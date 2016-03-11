@@ -1,17 +1,18 @@
 {
     "Name" : "Exalted3E4DotMerits",
-    "Type" : "Table",    
+    "Type" : "Table",
+    "Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Places.json;generators/content/Exalted3/Factions.json",    
     "Data": {
     	"1": [
 			{"Artifact":1},
-            {"Backing":1},
+            {"Backing ( $T-Exalted3EFactions$ )":1},
             {"Command":1},
             {"Cult":1},
             {"Demense":1},
             {"Fleet of Foot":1},
             {"Giant":1},
             {"Hearthstone":1},
-            {"Influence":1},
+            {"Influence ( $T-Exalted3EPlaces$ )":1},
             {"Martial Artist":1},
             {"Pain Tolerance":1},
             {"Quick Draw":1},
