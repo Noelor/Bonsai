@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E1DotMerits",
     "Type" : "Table",
-    "Dependencies" : "",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json",    
     "Data": {
     	"1": [            
             {"Ambidextrous":1},
@@ -13,7 +13,7 @@
             {"Followers":1},
             {"Influence":1},
             {"Iron Stomache":1},
-            {"Language":1},
+            {"Language ( $T-Exalted3ELanguages$ )":1},
             {"Mentor":1},
             {"Mighty Thew":1},
             {"Quick Draw":1},
