@@ -1,7 +1,7 @@
 {
 	"Name" : "Exalted3ESolar",
 	"Title" : "Exalted 3E Solar Generator",	
-	"Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Character.json;generators/table/Exalted3/AttributeGroups.json;generators/table/Exalted3/SolarCaste.json;generators/table/Exalted3/SolarAbilities.json",
+	"Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Character.json;generators/table/Exalted3/AttributeGroups.json;generators/table/Exalted3/SolarCaste.json;generators/table/Exalted3/SolarAbilities.json;generators/table/Exalted3/Merits/1DotMerits.json;generators/table/Exalted3/Merits/3DotMerits.json;generators/table/Exalted3/Merits/5DotMerits.json;generators/table/Exalted3/Merits/2DotMerits.json;generators/table/Exalted3/Merits/4DotMerits.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	
@@ -35,6 +35,21 @@
             "Exclusive" : "Exalted3EAbilities",
             "MinAmount": "5",            
             "ParagraphType" : "CommaSeperatedList"
-		}
+		},
+        "8" : {
+            "Text" : "<h3>Merits</h3>"
+        },
+        "9" : {
+            "TextTable" : [
+				{"<table> <tr> <td>⚫⚫⚫⚫⚫</td> <td>$T-Exalted3E5DotMerits$</td> </tr> <tr> <td>⚫⚫⚫</td> <td>$T-Exalted3E3DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> </table>":1},
+                {"<table> <tr> <td>⚫⚫⚫⚫</td> <td>$T-Exalted3E4DotMerits$</td> </tr> <tr> <td>⚫⚫⚫</td> <td>$T-Exalted3E3DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> </table>":1},
+                {"<table> <tr> <td>⚫⚫⚫</td> <td>$T-Exalted3E3DotMerits$</td> </tr> <tr> <td>⚫⚫⚫</td> <td>$T-Exalted3E3DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> </table>":1},
+                {"<table> <tr> <td>⚫⚫⚫⚫</td> <td>$T-Exalted3E3DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> </table>":1},
+                {"<table> <tr> <td>⚫⚫⚫⚫⚫</td> <td>$T-Exalted3E5DotMerits$</td> </tr> <tr> <td>⚫⚫⚫⚫⚫</td> <td>$T-Exalted3E5DotMerits$</td> </tr> </table>":1},
+                {"<table> <tr> <td>⚫⚫⚫</td> <td>$T-Exalted3E3DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> <tr> <td>⚫</td> <td>$T-Exalted3E1DotMerits$</td> </tr> </table>":1},
+                {"<table> <tr> <td>⚫⚫⚫⚫</td> <td>$T-Exalted3E4DotMerits$</td> </tr> <tr> <td>⚫⚫⚫⚫</td> <td>$T-Exalted3E4DotMerits$</td> </tr> <tr> <td>⚫⚫</td> <td>$T-Exalted3E2DotMerits$</td> </tr> </table>":1}
+			],
+            "Exclusive" : "Merits"
+        }
 	}
 }

@@ -1,0 +1,16 @@
+{
+    "Name" : "Exalted3E5DotMerits",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Ally":1},
+            {"Artifact":1},
+            {"Command":1},
+            {"Contacts":1},
+            {"Cult":1},
+            {"Influence":1},
+            {"Manse":1},
+            {"Resources":1}         
+		]
+	}
+}

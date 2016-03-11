@@ -1,0 +1,22 @@
+{
+    "Name" : "Exalted3E4DotMerits",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Artifact":1},
+            {"Backing":1},
+            {"Command":1},
+            {"Cult":1},
+            {"Demense":1},
+            {"Fleet of Foot":1},
+            {"Giant":1},
+            {"Hearthstone":1},
+            {"Influence":1},
+            {"Martial Artist":1},
+            {"Pain Tolerance":1},
+            {"Quick Draw":1},
+            {"Retainer":1},
+            {"Resources":1}          
+		]
+	}
+}

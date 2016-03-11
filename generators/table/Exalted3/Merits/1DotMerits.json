@@ -1,0 +1,25 @@
+{
+    "Name" : "Exalted3E1DotMerits",
+    "Type" : "Table",
+    "Dependencies" : "",    
+    "Data": {
+    	"1": [            
+            {"Ambidextrous":1},
+            {"Ally":1},
+            {"Contact":1},
+            {"Cult":1},
+            {"Direction Sense":1},
+            {"Familiar":1},
+            {"Followers":1},
+            {"Influence":1},
+            {"Iron Stomache":1},
+            {"Language":1},
+            {"Mentor":1},
+            {"Mighty Thew":1},
+            {"Quick Draw":1},
+            {"Resources":1},
+            {"Selective Conception":1},
+            {"Strong Lungs":1}
+        ]        
+	}
+}
