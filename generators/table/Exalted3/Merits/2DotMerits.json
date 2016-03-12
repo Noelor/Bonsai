@@ -1,12 +1,13 @@
 {
     "Name" : "Exalted3E2DotMerits",
-    "Type" : "Table",    
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Merits/DifficultTerrain.json",    
     "Data": {
     	"1": [
 			{"Ambidextrous":1},
             {"Artifact":1},
             {"Boundless Endurance":1},
-            {"Backing":1},
+            {"Backing ( $T-Exalted3EFactions$ )":1},
             {"Command":1},
             {"Cult":1},
             {"Demense":1},
@@ -14,12 +15,12 @@
             {"Familiar":1},
             {"Followers":1},
             {"Hearthstone":1},
-            {"Influence":1},
+            {"Influence ( $T-Exalted3EPlaces$ )":1},
             {"Mentor ( $C-Exalted3EName$ )":1},
             {"Mighty Thew":1},
             {"Natural Immunity":1},            
             {"Retainers":1},
-            {"Tempered by the Elements":1}          
+            {"Tempered by the Elements ( $T-Exalted3EDifficultTerrain$ )":1}          
 		]
 	}
 }

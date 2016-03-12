@@ -1,0 +1,14 @@
+{
+    "Name" : "Exalted3EDifficultTerrain",
+    "Type" : "Table",        
+    "Data": {
+    	"1": [
+			{"Thick Jungle":1},
+            {"Deep Snow":1},
+            {"Broken Ruins":1},
+            {"Blazing Desert":1},
+            {"Swamp":1},
+            {"Volcanic Wasteland":1}                      
+		]
+	}
+}

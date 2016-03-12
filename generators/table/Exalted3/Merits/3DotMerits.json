@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E3DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Places.json;generators/content/Exalted3/Factions.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json",    
     "Data": {
     	"1": [            
             {"Ally ( $C-Exalted3EName$ )":1},
