@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E2DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Merits/DifficultTerrain.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/DifficultTerrain.json",    
     "Data": {
     	"1": [
 			{"Ambidextrous":1},
