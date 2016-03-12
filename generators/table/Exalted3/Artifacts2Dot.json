@@ -1,0 +1,12 @@
+{
+    "Name" : "Exalted3EArtifacts2Dot",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Collar of Dawn’s Cleansing Light":1},
+            {"Hearthstone Amulet":1},
+            {"Traveler’s Staff":1},
+            {"Yasal Crystal":1}                     
+		]
+	}
+}

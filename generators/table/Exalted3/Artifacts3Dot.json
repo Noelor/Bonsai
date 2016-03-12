@@ -1,0 +1,18 @@
+{
+    "Name" : "Exalted3EArtifacts3Dot",
+    "Type" : "Table",
+    "Dependencies" : "",    
+    "Data": {
+    	"1": [
+			{"Light Weapon":1},
+            {"Medium Weapon":1},
+            {"Heavy Weapon":1},
+            {"Light Armor":1},
+            {"Heavy Armor":1},
+            {"Medium Armor":1},
+            {"Belt of Shadow Walking":1},
+            {"Bracers of Universal Crafting":1},
+            {"Essence Glider":1}
+        ]
+	}
+}

@@ -1,11 +1,11 @@
 {
     "Name" : "Exalted3E5DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts5Dot.json",    
     "Data": {
     	"1": [
 			{"Ally":1},
-            {"Artifact":1},
+            {"Artifact ( $T-Exalted3EArtifacts5Dot$ )":4},
             {"Command":1},
             {"Contact ( $T-Exalted3EPlaces$ )":1},
             {"Contact ( $T-Exalted3EFactions$ )":1},
