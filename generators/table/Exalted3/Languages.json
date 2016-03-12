@@ -3,14 +3,14 @@
     "Type" : "Table",    
     "Data": {
     	"1": [
-			{"High Realm":1},
+			{"High Realm":4},
             {"Old Realm":1},
             {"Dragontongue":1},
-            {"Riverspeak":1},
-            {"Skytongue":1},
-            {"Flametongue":1},
-            {"Forest-tongue":1},
-            {"Seatongue":1},
+            {"Riverspeak":4},
+            {"Skytongue":4},
+            {"Flametongue":4},
+            {"Forest-tongue":4},
+            {"Seatongue":4},
             {"Guild Cant":1}   
 		]
 	}
