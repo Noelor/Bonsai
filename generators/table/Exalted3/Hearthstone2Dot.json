@@ -1,0 +1,25 @@
+{
+    "Name" : "Exalted3EHearthstone2Dot",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"The Orb of Cool Breezes":1},
+            {"The Memory Stone":1},
+            {"The Stone of Stability":1},
+            {"Iron Soul Stone":1},
+            {"The Firestop Stone":1},
+            {"Sphere of the Revolutionary Dog":1},
+            {"Cinder of Burning Mind":1},
+            {"The Purity Gem":1},
+            {"The Fountain-Summoning Stone":1},
+            {"The Health Stone":1},
+            {"The Monkey Stone":1},
+            {"Stone of Innocent’s Protection":1},
+            {"Stone of the Nightly Reunion":1},
+            {"Stone of Nature’s Bounty":1},
+            {"Chameleon Stone":1},
+            {"Gem of Luck":1},
+            {"Jewel of the Celestial Mandarin":1}           
+		]
+	}
+}

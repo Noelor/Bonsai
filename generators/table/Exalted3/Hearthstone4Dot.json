@@ -1,0 +1,29 @@
+{
+    "Name" : "Exalted3EHearthstone4Dot",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Aetherial Sphere":1},
+            {"Gem of Fair Winds":1},
+            {"Twice-Striking Lightning Prism":1},
+            {"The Earth Shaping Jewel ":1},
+            {"Mountain-Burden Stone":1},
+            {"Sword-Soul Gem":1},
+            {"Gem of Endless Summer ":1},
+            {"Candent Carbuncle":1},
+            {"The Orb of Calm":1},
+            {"The Freedom Stone  n":1},
+            {"The Harvest Gem":1},
+            {"Rose of Millions":1},
+            {"The Gem of Day’s Light":1},
+            {"Hierophant’s Eye":1},
+            {"Gem of Inner Power":1},
+            {"Glory Sphere ":1},
+            {"Walking Corpse Stone":1},
+            {"Gem of Ghostly Protection":1},
+            {"Beast Gem":1},
+            {"Sphere of Red Rain":1},
+            {"Stone of Hidden Safety":1}           
+		]
+	}
+}

@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E4DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts4Dot.json;generators/table/Misc/MilitaryCompany.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts4Dot.json;generators/table/Misc/MilitaryCompany.json;generators/table/Exalted3/Hearthstone4Dot.json",    
     "Data": {
     	"1": [
 			{"Artifact ( $T-Exalted3EArtifacts4Dot$ )":4},
@@ -11,7 +11,7 @@
             {"Demense":1},
             {"Fleet of Foot":1},
             {"Giant":1},
-            {"Hearthstone":1},
+            {"Hearthstone ( $T-Exalted3EHearthstone4Dot$ ) ":1},
             {"Influence ( $T-Exalted3EPlaces$ )":1},
             {"Martial Artist":1},
             {"Pain Tolerance":1},

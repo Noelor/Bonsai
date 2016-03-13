@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E2DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/DifficultTerrain.json;generators/table/Exalted3/Artifacts2Dot.json;generators/table/Exalted3/Familiar2Dot.json;generators/table/Misc/MilitaryCompany.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/DifficultTerrain.json;generators/table/Exalted3/Artifacts2Dot.json;generators/table/Exalted3/Familiar2Dot.json;generators/table/Misc/MilitaryCompany.json;generators/table/Exalted3/Hearthstone2Dot.json",    
     "Data": {
     	"1": [
 			{"Ambidextrous":1},
@@ -14,7 +14,7 @@
             {"Eidetic Memory":1},
             {"Familiar ( $T-Exalted3Familiar2Dot$ )":2},
             {"Followers":1},
-            {"Hearthstone":1},
+            {"Hearthstone ( $T-Exalted3EHearthstone2Dot$ )":1},
             {"Influence ( $T-Exalted3EPlaces$ )":1},
             {"Mentor ( $C-Exalted3EName$ )":1},
             {"Mighty Thew":1},
