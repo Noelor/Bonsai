@@ -1,0 +1,28 @@
+{
+    "Name" : "Exalted3Familiar1Dot",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Squirrel":1},
+            {"Owl":1},
+            {"Cat":1},
+            {"Dog":1},
+            {"Bat":1},
+            {"Hawk":1},
+            {"Lizard":1},
+            {"Rat":1}, 
+            {"Raven":1},
+            {"Snake":1},
+            {"Toad":1},
+            {"Hedgehog":1}, 
+            {"Penguin":1},
+            {"Peacock":1},
+            {"Turtle":1},
+            {"Weasel":1}, 
+            {"Wallaby":1},
+            {"Large Spider":1},
+            {"Goat":1},
+            {"Giant Centipede":1}                  
+		]
+	}
+}

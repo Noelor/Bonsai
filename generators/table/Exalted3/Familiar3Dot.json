@@ -1,0 +1,12 @@
+{
+    "Name" : "Exalted3Familiar3Dot",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Talking Halta Monkey":1},
+            {"Tyrant Lizard":1},
+            {"Armored and Fire Breathing Ox":1},
+            {"God Blooded Horse":1}                        
+		]
+	}
+}

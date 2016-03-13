@@ -1,0 +1,36 @@
+{
+    "Name" : "Exalted3Familiar2Dot",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Horse":1},
+            {"Pony":1},
+            {"Mule":1},
+            {"Elephant":1},
+            {"Yak":1},
+            {"Camel":1},
+            {"Reindeer":1},
+            {"Zebra":1},
+            {"Ostrich":1},
+            {"Deer":1},
+            {"Simhata":1},
+            {"Tiger":1},
+            {"Omen Dog":1},
+            {"Wolf":1},
+            {"Panther":1},
+            {"Lion":1},
+            {"Hyena":1},
+            {"Bear":1},
+            {"Polecat":1},
+            {"Honey Badger":1},
+            {"Wolverine":1},
+            {"Eagle":1},
+            {"Vulture":1},
+            {"Cassowary":1},            
+            {"Emu":1},
+            {"Condor":1},
+            {"Bustard":1},
+            {"Pelican":1}                      
+		]
+	}
+}
