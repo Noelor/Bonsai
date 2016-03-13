@@ -1,12 +1,12 @@
 {
     "Name" : "Exalted3E5DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts5Dot.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts5Dot.json;generators/table/Misc/MilitaryCompany.json",    
     "Data": {
     	"1": [
 			{"Ally":1},
             {"Artifact ( $T-Exalted3EArtifacts5Dot$ )":4},
-            {"Command":1},
+            {"Command ( $T-MilitaryCompany$ )":1},
             {"Contact ( $T-Exalted3EPlaces$ )":1},
             {"Contact ( $T-Exalted3EFactions$ )":1},
             {"Cult":1},
