@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E3DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts3Dot.json;generators/table/Exalted3/Familiar3Dot.json;generators/table/Misc/MilitaryCompany.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts3Dot.json;generators/table/Exalted3/Familiar3Dot.json;generators/table/Misc/MilitaryCompany.json;generators/table/Exalted3/ManseName.json",    
     "Data": {
     	"1": [            
             {"Ally ( $C-Exalted3EName$ )":1},
@@ -16,7 +16,7 @@
             {"Fast Reflexes":1},
             {"Followers":1},            
             {"Influence ( $T-Exalted3EPlaces$ )":1},
-            {"Manse":1},
+            {"Manse ( The $T-Exalted3EManseName$ )":1},
             {"Mentor ( $C-Exalted3EName$ )":1},
             {"Mighty Thew":1},                                    
             {"Resources":1},

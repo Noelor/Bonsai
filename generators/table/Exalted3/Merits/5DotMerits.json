@@ -11,7 +11,7 @@
             {"Contact ( $T-Exalted3EFactions$ )":1},
             {"Cult":1},
             {"Influence ( $T-Exalted3EPlaces$ )":1},
-            {"Manse":1},
+            {"Manse ( The $T-Exalted3EManseName$ )":1},
             {"Resources":1}         
 		]
 	}
