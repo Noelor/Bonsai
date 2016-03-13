@@ -4,7 +4,7 @@
     "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts5Dot.json;generators/table/Misc/MilitaryCompany.json",    
     "Data": {
     	"1": [
-			{"Ally":1},
+			{"Ally ( $C-Exalted3EName$ )":1},
             {"Artifact ( $T-Exalted3EArtifacts5Dot$ )":4},
             {"Command ( $T-MilitaryCompany$ )":1},
             {"Contact ( $T-Exalted3EPlaces$ )":1},
