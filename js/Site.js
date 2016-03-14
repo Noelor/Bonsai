@@ -3,6 +3,7 @@ var rootGeneratorPath = "";
 var rootGeneratorName = "";
 
 $( document ).ready(function( $ ) {
+  
   //Grab generator information from ulr or fallback to default on defined on page
   var generator = getUrlParameter("gen");  
   if(generator)
@@ -15,6 +16,16 @@ $( document ).ready(function( $ ) {
         
   //Load up root generator that will be used  
   loadGenerator(rootGeneratorPath,function(generatorName)
+  {
+    var message = document.getElementById("LoadingMessage");
+    var text = "";
+          
+    var splitWords = generatorName.split("(?=\\p{Upper})");
+    text = generatorName.replace(/([A-Z])/g, ' $1');
+    
+    message.innerHTML = "Loaded: " + text;
+        
+  },function(generatorName)
   {
     rootGeneratorName = generatorName;
   });
