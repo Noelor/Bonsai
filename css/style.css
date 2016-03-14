@@ -178,3 +178,7 @@ ul.Double-List{
 	background:#f4f4f4;
 	text-decoration:none;
 }
+
+#LoadingMessage {
+    text-align: center;
+}
