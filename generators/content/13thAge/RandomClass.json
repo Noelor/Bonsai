@@ -1,0 +1,15 @@
+{
+	"Name" : "13thAgeRandomClass",
+	"Title" : "13th Age Random Class",	
+	"Dependencies" : "generators/content/13thAge/Classes/Barbarian.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	    
+	"Data" : {
+		"1" : {
+			"TextTable" : [
+				{"$C-13thAgeClassBarbarian$":1}                					
+			]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"Name" : "13thAgeClassBarbarian",
+	"Title" : "13th Age Barbarian",	
+	"Dependencies" : "",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	    
+	"Data" : {
+		"1" : {
+			"Text" : "Bar bar bar bar."
+		}
+	}
+}

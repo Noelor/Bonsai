@@ -1,0 +1,28 @@
+{
+	"Name" : "13thAgeCharacters",
+	"Title" : "13th Age Characters",	
+	"Dependencies" : "",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	
+    "Variables" : {        
+    },
+    
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>13th Age Characters</h2>"
+		},
+        "2" : {
+			"Text" : "<a href='?gen=13thAge/RandomClass'>Random Character</a>"
+		},
+        "3" : {
+			"Text" : "<h2>Specific Classes</h2>"
+		},
+        "4" : { 
+            "TextIndex" : [
+                {"Barbarian":"?gen=13thAge/Classes/Barbarian"}
+            ],
+            "ParagraphType" : "DoubleIndex" 
+		} 
+	}
+}
