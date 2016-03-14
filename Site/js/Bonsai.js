@@ -5,7 +5,7 @@ var contentVariables = {};
 var exlusivePools = {};
 
 //Load a table type generator
-function loadGenerator(filePath,callBack) {		
+function loadGenerator(filePath,loadingMessageCallback, rootNameCallBack) {		
 	$.getJSON( filePath, function(Generator) {		
 		if(Generator.Type)
 		{
@@ -37,14 +37,19 @@ function loadGenerator(filePath,callBack) {
                 var dependencies = Generator.Dependencies.split(";");
                 $.each(dependencies, function(_,dependency)
                 {
-                    loadGenerator(dependency);
+                    loadGenerator(dependency,loadingMessageCallback);
                 });    
             }            
 		}
 		
-		if(callBack)
+		if(rootNameCallBack)
 		{
-			callBack(Generator.Name);
+			rootNameCallBack(Generator.Name);
+		}
+        
+        if(loadingMessageCallback)
+		{
+			loadingMessageCallback(Generator.Name);
 		}
 	}).fail(function( jqxhr, textStatus, error ) {
     	var err = textStatus + ", " + error;

@@ -6,8 +6,11 @@ $( document ).ready(function( $ ) {
   //Grab generator information from page
   rootGeneratorPath = $("#GeneratorFile").val();  
   //Load up root generator that will be used  
-  loadGenerator(rootGeneratorPath,function(generatorName)
+  loadGenerator(rootGeneratorPath,function(generatorName){
+    //This callback returns the generatorName for each loaded .json generator. useful for a loading screen.
+  }  ,function(generatorName)
   {
+    //This callback return the generatorName of the root element loaded.
     rootGeneratorName = generatorName;
   });
     
