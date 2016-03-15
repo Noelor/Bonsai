@@ -1,0 +1,14 @@
+{
+	"Name" : "13thAgeRandomRace",		
+	"Dependencies" : "generators/content/13thAge/Races/Human.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	    
+	"Data" : {
+		"1" : {
+			"TextTable" : [
+				{"$C-13thAgeRaceHuman$":1}                					
+			]
+		}
+	}
+}

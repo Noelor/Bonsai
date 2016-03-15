@@ -2,7 +2,7 @@
 	"Name" : "13thAgeCharacters",
 	"Title" : "13th Age Characters",	
 	"Dependencies" : "",
-	"ButtonText" : "Another",
+	"ButtonText" : "Hide",
 	"Type" : "Content",
 	
     "Variables" : {        

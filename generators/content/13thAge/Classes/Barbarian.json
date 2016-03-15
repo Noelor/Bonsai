@@ -1,13 +1,45 @@
 {
 	"Name" : "13thAgeClassBarbarian",
 	"Title" : "13th Age Barbarian",	
-	"Dependencies" : "",
+	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
-	    
+	  
+    "Variables" : {
+        "PrimaryAbilityScore" : "Strength",
+        "SecondaryAbilityScore" : "Constitution"
+    },      
+        
 	"Data" : {
 		"1" : {
-			"Text" : "Bar bar bar bar."
-		}
+			"Text" : "<h2>Barbarian</h2>"
+		},
+        "2" : {
+			"Text" : "$C-13thAgeRandomRace$"
+		},
+        "3" : {
+			"Text" : "<b>Class Ability bonus:</b> +2 to Strength or +2 to Constitution."
+		},
+        "4" : {
+			"Text" : "$C-13thAgeAbilityArrays$"
+		},
+        "6" : {
+			"Text" : "One Unique thing"
+		},
+        "8" : {
+			"Text" : "Icon Relationships"
+		},
+        "10" : {
+			"Text" : "Backgrounds"
+		},
+        "12" : {
+			"Text" : "Class Features"
+		},
+        "14" : {
+			"Text" : "Talents"
+		},
+        "16" : {
+			"Text" : "Abilities/Spells"
+		}     
 	}
 }

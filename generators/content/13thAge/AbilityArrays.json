@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeAbilityArrays",			
+	"ButtonText" : "Hide",
+    "Dependencies" : "generators/table/13thAge/Abilities.json",
+	"Type" : "Content",
+	  
+    "Variables" : {
+        "PrimaryAbilityScore" : "Strength",
+        "SecondaryAbilityScore" : "Constitution"
+    },      
+        
+	"Data" : {
+		"1" : {
+			"TextTable" : [
+                {"<table> <tr> <td><b>$V-PrimaryAbilityScore$</b></td> <td>18</td> <td>+4</td> </tr> <tr> <td><b>$V-SecondaryAbilityScore$</b></td> <td>14</td> <td>+2</td> </tr> <tr> <td><b>$T-13thAgeAbilities$</b></td> <td>10</td> <td>0</td> </tr> <tr> <td><b>$T-13thAgeAbilities$</b></td> <td>10</td> <td>0</td> </tr> <tr> <td><b>$T-13thAgeAbilities$</b></td> <td>10</td> <td>0</td> </tr> <tr> <td><b>$T-13thAgeAbilities$</b></td> <td>9</td> <td>0</td> </tr> </table>":1}
+            ],
+            "Exclusive" : "Abilities"
+		}   
+	}
+}
