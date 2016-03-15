@@ -1,0 +1,20 @@
+{
+    "Name" : "13thAgeIcons",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Archmage":1},
+            {"Crusader":1},
+            {"Diabolist":1},
+            {"Dwarf King":1},
+            {"Elf Queen":1},
+            {"Great Gold Wyrm":1},
+            {"High Druid":1},
+            {"Lich King":1},
+            {"Orc Lord":1},
+            {"Priestess":1},
+            {"Prince of Shadows":1},
+            {"The Three":1}       
+		]
+	}
+}
