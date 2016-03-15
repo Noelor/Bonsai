@@ -182,3 +182,22 @@ ul.Double-List{
 #LoadingMessage {
     text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th, td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+ .border,
+ table.border th, 
+ table.border td {
+    border: 1px solid black;
+}
