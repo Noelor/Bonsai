@@ -4,9 +4,9 @@
     "Dependencies" : "",    
     "Data": {
     	"1": [
-			{"Light Weapon":1},
-            {"Medium Weapon":1},
-            {"Heavy Weapon":1},
+			{"Light Weapon - $T-Exalted3EArtifactNameWeapon$":1},
+            {"Medium Weapon - $T-Exalted3EArtifactNameWeapon$":1},
+            {"Heavy Weapon - $T-Exalted3EArtifactNameWeapon$":1},
             {"Light Armor":1},
             {"Heavy Armor":1},
             {"Medium Armor":1},
