@@ -9,11 +9,8 @@
 			"Text" : "<h3>Name: Example Name</h3>"
 		},
         "2" : {
-			"Text" : "<b>Race:</b> Human <br> <b>Racial Power:</b> Quick to Fight"
-		},
-        "3" : {
-			"Text" : "<b>Bonus Feat</b>: ---"
-		},
+			"Text" : "<b>Race:</b> Human <br> <b>Racial Power:</b> Quick to Fight <br> <b>Bonus Feat</b>: ---"
+		},        
         "4" : {
 			"Text" : "<b>Racial Ability Bonus:</b> +2 to Any ability score"
 		}                        
