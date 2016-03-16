@@ -7,9 +7,9 @@
 	"Data" : {
 		"1" : {
 			"TextTable" : [
-                {"<table> <tr> <td>3</td> <td>$T-13thAgeIcons$</td> </tr> </table>":1},
-                {"<table> <tr> <td>2</td> <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> </table>":2},
-                {"<table> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> </table>":1}
+                {"<table> <tr> <td>3</td>  <td>$T-13thAgeIcons$</td> </tr> </table>":1},
+                {"<table> <tr> <td>2</td>  <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> </table>":2},
+                {"<table> <tr> <td>1</td>  <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> </table>":1}
             ],
             "Exclusive" : "Abilities"
 		}   

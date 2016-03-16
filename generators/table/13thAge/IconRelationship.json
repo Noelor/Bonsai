@@ -1,0 +1,11 @@
+{
+    "Name" : "13thAgeIconRelationships",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Positive":1},
+            {"Negative":1},
+            {"Conflicted":1}     
+		]
+	}
+}
