@@ -10,13 +10,14 @@ $( document ).ready(function( $ ) {
     //This callback returns the generatorName for each loaded .json generator. useful for a loading screen.
   }  ,function(generatorName)
   {
-    //This callback return the generatorName of the root element loaded.
+    //This callback returns the generatorName of the root element loaded.
     rootGeneratorName = generatorName;
   });
     
   //Because the generators are loaded through ajax we wait until  
   //all ajax activity has stopped before starting to attempt generating
   $( document ).ajaxStop(function() {
+    $(this).unbind("ajaxStop");
     var info = getContentPageInformation(rootGeneratorName);
            
     $("#BonsaiTitle").html(info.Title);
