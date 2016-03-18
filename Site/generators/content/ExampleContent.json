@@ -110,6 +110,9 @@
 			"Text" : "$T-Animals$",			
 			"MinAmount" : 5,			
 			"ParagraphType" : "CommaSeperatedList"            
-		}         
+		},  
+        "22" : {
+			"Text" : "<h3>Inline Optional Content</h3> $O-generators/content/ExampleInlineContent.json_Optional$$O-generators/content/ExampleInlineContent.json_Content$$O-generators/content/ExampleInlineContent.json_Buttons$"												            
+		}               
 	}
 }

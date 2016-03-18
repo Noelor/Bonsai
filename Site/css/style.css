@@ -3,3 +3,10 @@ ul.Double-List{
     -webkit-columns: 2;
     -moz-columns: 2;
 }
+
+.OptionalInlineContent{
+    background-color: #ddd;
+    position: relative;
+    left: 35px;
+    width: 75%;
+}

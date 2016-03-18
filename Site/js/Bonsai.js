@@ -178,6 +178,28 @@ function generateFromContent(contentName, clearData)
 	}
 }
 
+function generateOptionalInlineContent(filePath,idNumber)
+{
+    var rootGeneratorName;
+    var button = document.getElementById("OptionalInclusive" + idNumber);       
+    var div = document.createElement("div");
+    
+    div.className = "OptionalInlineContent";    
+    
+    loadGenerator(filePath,function(generatorName){},function(generatorName)
+    {
+        rootGeneratorName = generatorName;        
+    });
+    
+    $( document ).ajaxStop(function() {
+         $(this).unbind("ajaxStop");
+        div.innerHTML = generateFromContent(rootGeneratorName, true);
+        button.parentNode.insertBefore(div, button.nextSibling);
+        
+        button.style.display = 'none'; 
+    });
+}
+
 //generate a Content Generator section with Paragraph decoration
 function generateContentParagraph(section, poolName)
 {
@@ -331,7 +353,7 @@ function generateIndex(indexTable,doubleColumn)
 //Find references to generators in a string and replace them with the generators content
 function processNestedEntries(entry, poolName)
 {
-	var regex = /\$(\w)-(\w+)\$/g;
+	var regex = /\$(\w)-([\w\.\/]+)\$/g;
 	var match;																		
 	//Modifying the original string during regex.exec resets the progress.
 	//So copy it and regex over the copy while modifying the original
@@ -397,6 +419,11 @@ function processEntryMarkup(match)
     }else if(match[1] == "V") //Variable
     {			
         text = contentVariables[match[2]];
+    }else if(match[1] == "O") //Optional Inline Content
+    {			        
+        var e = match[2].split("_");
+        rId = getRandomNumberInclusive(1,10000);
+        text = "<button id='OptionalInclusive{1}' onclick=generateOptionalInlineContent('{2}',{1})>{0}</button>".format(e[1],rId,e[0])
     }
     
     return text;

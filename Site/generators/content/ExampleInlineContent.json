@@ -1,0 +1,19 @@
+{
+	"Name" : "ExampleInlineContent",
+	"Title" : "Example Inline Content Generator Title",
+	"Description" : "This is an example Content Generator file meant to be nested in another Content file",
+	"Dependencies" : "",
+    "Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Example Content</h2>"
+		},
+        "2" : {
+			"Text" : "This was loaded later after a button was pressed."
+		},
+        "3" : {
+			"Text" : "$O-generators/content/ExampleInlineContent.json_Nested$"
+		}    
+	}
+}
