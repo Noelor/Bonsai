@@ -177,6 +177,7 @@ ul.Double-List{
 	color:#000;
 	background:#fff;
 	text-decoration:none;
+    cursor: pointer;
 }
 
 #LoadingMessage {
