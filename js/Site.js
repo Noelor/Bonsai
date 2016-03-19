@@ -77,5 +77,5 @@ function saveContent()
     var t = document.getElementById("BonsaiContent").innerHTML;         
     var blob = new Blob([t], {type: "text/html;charset=utf-8"});
     
-    saveAs(blob, "hello world.html");
+    saveAs(blob, "Bonsai.html");
 }
