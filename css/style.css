@@ -174,9 +174,10 @@ ul.Double-List{
 }
 
 #SaveButton:hover {
-	color:#fff;
-	background:#f4f4f4;
+	color:#000;
+	background:#fff;
 	text-decoration:none;
+    cursor: pointer;
 }
 
 #LoadingMessage {

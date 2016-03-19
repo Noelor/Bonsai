@@ -39,16 +39,13 @@ $( document ).ready(function( $ ) {
     $("#BonsaiTitle").html(info.Title);
     $("#BonsaiDescription").html(info.Description);
     
-    addSaveButton();  
-    
     if(info.ButtonText != "Hide")
     {
       $("#GeneratorButton").val(info.ButtonText); 
       $("#GeneratorButton").show();
       $("#SaveButton").show();         
     }
-
-              
+                  
     generateContent();    
   });
 });
@@ -56,9 +53,7 @@ $( document ).ready(function( $ ) {
 function generateContent()
 {
     var generatedContent = generateFromContent(rootGeneratorName, true);
-    $("#BonsaiContent").html(generatedContent);
-    updateSaveButton();
-    
+    $("#BonsaiContent").html(generatedContent);    
 }
 
 //Source: http://www.jquerybyexample.net/2012/06/get-url-parameters-using-jquery.html through http://stackoverflow.com/questions/19491336/get-url-parameter-jquery
@@ -76,22 +71,11 @@ function getUrlParameter(sParam)
     }
 }
 
-function addSaveButton()
-{
-    var strip = document.getElementById("ButtonStrip")
-    
-    var a = strip.appendChild(
-        document.createElement("a")
-    );
-    
-    a.download = "Bonsai.html";
-    a.setAttribute("id", "SaveButton");
-    a.title = "Save Page";
-    a.innerHTML = "💾";    
-}
 
-function updateSaveButton()
-{
-    a =  document.getElementById("SaveButton")
-    a.href = "data:text/html," + document.getElementById("BonsaiContent").innerHTML;
+function saveContent()
+{   
+    var t = document.getElementById("BonsaiContent").innerHTML;         
+    var blob = new Blob([t], {type: "text/html;charset=utf-8"});
+    
+    saveAs(blob, "Bonsai.html");
 }
