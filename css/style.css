@@ -182,3 +182,10 @@ ul.Double-List{
 #LoadingMessage {
     text-align: center;
 }
+
+.OptionalInlineContent{
+    background-color: #ddd;
+    position: relative;
+    left: 35px;
+    width: 75%;
+}

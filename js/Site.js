@@ -33,6 +33,7 @@ $( document ).ready(function( $ ) {
   //Because the generators are loaded through ajax we wait until  
   //all ajax activity has stopped before starting to attempt generating
   $( document ).ajaxStop(function() {
+    $(this).unbind("ajaxStop");
     var info = getContentPageInformation(rootGeneratorName);
            
     $("#BonsaiTitle").html(info.Title);
