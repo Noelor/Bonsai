@@ -1,15 +1,15 @@
 {
     "Name" : "Exalted3EArtifacts3Dot",
     "Type" : "Table",
-    "Dependencies" : "",    
+    "Dependencies" : "generators/table/Exalted3/ArtifactNameWeapon.json;generators/table/Exalted3/ArtifactNameArmor.json",  
     "Data": {
     	"1": [
-			{"Light Weapon":1},
-            {"Medium Weapon":1},
-            {"Heavy Weapon":1},
-            {"Light Armor":1},
-            {"Heavy Armor":1},
-            {"Medium Armor":1},
+			{"Light Weapon - $T-Exalted3EArtifactNameWeapon$":1},
+            {"Medium Weapon - $T-Exalted3EArtifactNameWeapon$":1},
+            {"Heavy Weapon - $T-Exalted3EArtifactNameWeapon$":1},
+            {"Light Armor - $T-Exalted3EArtifactNameArmors$":1},
+            {"Heavy Armor - $T-Exalted3EArtifactNameArmors$":1},
+            {"Medium Armor - $T-Exalted3EArtifactNameArmors$":1},
             {"Belt of Shadow Walking":1},
             {"Bracers of Universal Crafting":1},
             {"Essence Glider":1}

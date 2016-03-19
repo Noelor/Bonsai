@@ -183,6 +183,7 @@ ul.Double-List{
     text-align: center;
 }
 
+
 table {
     border-collapse: collapse;
 }
@@ -200,4 +201,11 @@ th, td{
  table.border th, 
  table.border td {
     border: 1px solid black;
+}
+
+.OptionalInlineContent{
+    background-color: #f4f4f4;
+    position: relative;
+    left: 35px;
+    width: 85%;
 }
