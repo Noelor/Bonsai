@@ -55,6 +55,10 @@
             {"Dragon":1},
             {"Frost":1},
             {"Fire":1},
+            {"Burning":1},
+            {"Raging":1},
+            {"Raising":1},
+            {"Sacred":1},
             {"Ice":1},
             {"Flame":1},
             {"Peony":1},
@@ -114,6 +118,7 @@
         "4": [
 			{"Tooth":1},
             {"Claw":1},
+            {"Heart":1},
             {"Fang":1},
             {"Tail":1},
             {"Blade":1},
@@ -143,11 +148,13 @@
             {"Sickle":1},
             {"Scythe":1},
             {"Staff":1},
+            {"Bardiche":1},
             {"Whip":1}             
 		],
         "5" : [
             {"":40},
             {" Denied":1},
+            {" Assault":1},
             {" of Gluttony":1},
             {" of Lust":1},
             {" of Greed":1},

@@ -53,6 +53,10 @@
         "2": [
 			{"":5},
             {"Dragon":1},
+            {"Burning":1},
+            {"Raging":1},
+            {"Raising":1},
+            {"Sacred":1},
             {"Frost":1},
             {"Fire":1},
             {"Ice":1},
@@ -99,6 +103,7 @@
         "3": " ",
         "4": [
 			{"Chain":1},
+            {"Heart":1},
             {"Board":1},
             {"Turle":1},
             {"Shield":1},
