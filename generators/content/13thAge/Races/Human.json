@@ -5,7 +5,8 @@
 	"Type" : "Content",
 	   
     "Variables" : {
-        "Race" : "Human"
+        "Race" : "Human",
+        "RaceAbilityBonus" : "+2 to Any ability score"
     },        
         
 	"Data" : {
@@ -14,9 +15,6 @@
 		},
         "2" : {
 			"Text" : "<b>Race:</b> Human <br> <b>Racial Power:</b> Quick to Fight <br> <b>Bonus Feat</b>: $T-13thAgeGeneralFeats$"
-		},        
-        "4" : {
-			"Text" : "<b>Racial Ability Bonus:</b> +2 to Any ability score"
 		}                        
 	}
 }

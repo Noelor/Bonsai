@@ -18,7 +18,7 @@
                 {"<table> <tr> <td>5</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>3</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
                 {"<table> <tr> <td>2</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
                 {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
-                {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1}                            
+                {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1}                            
             ],
             "Exclusive" : "Backgrounds"
 		}   
