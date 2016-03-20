@@ -1,0 +1,18 @@
+{
+    "Name" : "13thAgeOneUniqueThing",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"I am the only $V-Races$ knight of the Dragon Emperor":1},
+            {"I am the only acrobat who performed their way out of the Diabolist’s Circus of Hell":1},
+            {"I am the only $V-Race$ child of a zombie mother":1},
+            {"I have a clockwork heart made by the dwarves":1},
+            {"My eyes were unjustly put out in the elven Court so the Elf Queen replaced them with magical opals":1},
+            {"I see truths in shadows that cannot be seen in the real world":1},
+            {"I’m full of demons":1},
+            {"I am bizarrely well-read, knowing everything about everything":1},
+            {"I am the only $V-Race$ in the world with human ears":1},
+            {"I am an $V-Race$ pyromaniac":1}          
+		]
+	}
+}
