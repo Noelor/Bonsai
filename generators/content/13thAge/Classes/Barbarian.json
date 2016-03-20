@@ -1,7 +1,7 @@
 {
 	"Name" : "13thAgeClassBarbarian",
 	"Title" : "13th Age Barbarian",	
-	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Barbarian.json;generators/content/13thAge/BackgroundArrays.json;generators/table/13thAge/Talents/Barbarian.json;generators/table/13thAge/OneUniqueThing.json",
+	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Barbarian.json;generators/content/13thAge/BackGroundArrays.json;generators/table/13thAge/Talents/Barbarian.json;generators/table/13thAge/OneUniqueThing.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	  
