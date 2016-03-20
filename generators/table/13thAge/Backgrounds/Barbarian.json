@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeBarbarianBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Wolf Clan Champion":1},
+            {"Caravan Outrider":1},
+            {"Fur Trapper":1},
+            {"Mountain Tribeswoman":1},
+            {"Wasteland Survivalist":1},
+            {"Underworld Refugee":1},
+            {"Gladiator":1},
+            {"Iron Seacoast Hunter":1}             
+		]
+	}
+}

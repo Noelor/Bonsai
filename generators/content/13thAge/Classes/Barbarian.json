@@ -1,13 +1,14 @@
 {
 	"Name" : "13thAgeClassBarbarian",
 	"Title" : "13th Age Barbarian",	
-	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json",
+	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Barbarian.json;generators/content/13thAge/BackgroundArrays.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	  
     "Variables" : {
         "PrimaryAbilityScore" : "Strength",
-        "SecondaryAbilityScore" : "Constitution"
+        "SecondaryAbilityScore" : "Constitution",
+        "ClassBackground" : "$T-13thAgeBarbarianBackgrounds$"
     },      
         
 	"Data" : {
@@ -30,7 +31,7 @@
 			"Text" : "<h3>Icon Relationships</h3>$C-13thAgeIconRelationships$"
 		},
         "10" : {
-			"Text" : "Backgrounds"
+			"Text" : "<h3>Backgrounds</h3>$C-13thAgeBackgroundArrays$"
 		},
         "12" : {
 			"Text" : "Class Features"

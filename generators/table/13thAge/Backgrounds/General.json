@@ -1,0 +1,38 @@
+{
+    "Name" : "13thAgeGeneralBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Acrobat":1},
+            {"Alchemist ":1},
+            {"Animal Trainer ":1},
+            {"Architect ":1},
+            {"Aristocratic Noble":1},
+            {"Assassin":1},
+            {"Cathedral Servitor":1},
+            {"Chef":1},
+            {"Conwoman ":1},
+            {"Dinosaur Hunter":1},
+            {"Goblin Exterminator":1},
+            {"Hunted Outlaw":1},
+            {"Knight Errant":1},
+            {"Legionnaire of the 17th":1},
+            {"Magecraft":1},
+            {"Priest":1},
+            {"Refugee":1},
+            {"Scout":1},
+            {"Shepherd":1},
+            {"Soldier":1},
+            {"Spy":1},
+            {"Temple Acolyte":1},
+            {"Thief":1},
+            {"Torturer":1},
+            {"Transformed Animal":1},
+            {"Traveling Martial-Arts Pupil":1},
+            {"Tribal Healer":1},
+            {"Tunnel Scout":1},
+            {"Wandering Winstrel":1},
+            {"Warrior Poet":1}			       
+		]
+	}
+}
