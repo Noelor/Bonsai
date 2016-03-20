@@ -1,0 +1,17 @@
+{
+    "Name" : "13thAgeGeneralFeats",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Further Backgrounding":1},
+            {"Improved Initiative":1},
+            {"Linguist":1},
+            {"Precise Shot":1},
+            {"Rapid Reload":1},
+            {"Reach Tricks":1},
+            {"Skill Escalation":1},
+            {"Strong Recovery":1},
+            {"Toughness":1}           
+		]
+	}
+}

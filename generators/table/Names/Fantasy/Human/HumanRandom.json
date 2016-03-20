@@ -1,0 +1,15 @@
+{
+    "Name" : "GenericHumanFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Human/HumanFamily.json;generators/table/Names/Fantasy/Human/HumanMale.json;generators/table/Names/Fantasy/Human/HumanFemale.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericHumanFantasyNameMale$":1},
+            {"$T-GenericHumanFantasyNameFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-GenericHumanFantasyNameFamily$":10}
+        ]
+	}
+}

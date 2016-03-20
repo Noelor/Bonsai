@@ -1,15 +1,19 @@
 {
 	"Name" : "13thAgeRaceHuman",
-	"Dependencies" : "",
+	"Dependencies" : "generators/table/Names/Fantasy/Human/HumanRandom.json;generators/table/13thAge/GeneralFeats.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
-	    
+	   
+    "Variables" : {
+        "Race" : "Human"
+    },        
+        
 	"Data" : {
 		"1" : {
-			"Text" : "<h3>Name: Example Name</h3>"
+			"Text" : "<h3>Name: $T-GenericHumanFantasyNameRandom$</h3>"
 		},
         "2" : {
-			"Text" : "<b>Race:</b> Human <br> <b>Racial Power:</b> Quick to Fight <br> <b>Bonus Feat</b>: ---"
+			"Text" : "<b>Race:</b> Human <br> <b>Racial Power:</b> Quick to Fight <br> <b>Bonus Feat</b>: $T-13thAgeGeneralFeats$"
 		},        
         "4" : {
 			"Text" : "<b>Racial Ability Bonus:</b> +2 to Any ability score"
