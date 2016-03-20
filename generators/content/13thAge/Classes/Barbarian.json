@@ -1,7 +1,7 @@
 {
 	"Name" : "13thAgeClassBarbarian",
 	"Title" : "13th Age Barbarian",	
-	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Barbarian.json;generators/content/13thAge/BackgroundArrays.json",
+	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Barbarian.json;generators/content/13thAge/BackgroundArrays.json;generators/table/13thAge/Talents/Barbarian.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	  
@@ -25,22 +25,25 @@
 			"Text" : "<h3>Abilities</h3>$C-13thAgeAbilityArrays$"
 		},
         "6" : {
-			"Text" : "<b>One Unique Thing:</b>"
+			"Text" : "<b>One Unique Thing: ---</b>"
 		},
         "8" : {
 			"Text" : "<h3>Icon Relationships</h3>$C-13thAgeIconRelationships$"
 		},
         "10" : {
 			"Text" : "<h3>Backgrounds</h3>$C-13thAgeBackgroundArrays$"
-		},
-        "12" : {
-			"Text" : "Class Features"
-		},
+		},       
         "14" : {
-			"Text" : "Talents"
+			"Text" : "<h3>Talents</h3>"
+		},
+        "15" : {
+			"Text" : "$T-13thAgeTalentsBarbarian$ - Adventurer Feat",
+            "ParagraphType" : "List-Start"
 		},
         "16" : {
-			"Text" : "Abilities/Spells"
-		}     
+			"Text" : "$T-13thAgeTalentsBarbarian$",
+            "ParagraphType" : "List-End",
+            "MinAmount" : "2"
+		}         
 	}
 }

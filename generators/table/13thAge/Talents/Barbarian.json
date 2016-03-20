@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeTalentsBarbarian",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Barbaric Cleave":1},
+            {"Building Frenzy":1},
+            {"Slayer":1},
+            {"Strongheart":1},
+            {"Unstoppable":1},
+            {"Whirlwind":1}       
+		]
+	}
+}
