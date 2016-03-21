@@ -11,8 +11,9 @@
 		},
 		"2" : { 
 			"TextIndex" : [
-				{"Human":"?gen=Names/Fantasy/Human"},
-				{"Dwarven":"?gen=Names/Fantasy/Dwarf"}
+				{"Dwarven":"?gen=Names/Fantasy/Dwarf"},
+                {"Human":"?gen=Names/Fantasy/Human"},				
+                {"Orcish":"?gen=Names/Fantasy/Orc"}
 			],
             "ParagraphType" : "DoubleIndex" 
 		},

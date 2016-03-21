@@ -1,0 +1,11 @@
+{
+    "Name" : "GenericOrcFantasyNameRandom",
+    "Type" : "Table", 
+    "Dependencies" : "generators/table/Names/Fantasy/Orc/OrcFemale.json;generators/table/Names/Fantasy/Orc/OrcMale.json",   
+    "Data": {
+    	"1": [
+			{"$T-GenericHOrcFantasyNameFemale$":1},
+            {"$T-GenericHOrcFantasyNameMale$":1}      
+		]
+	}
+}
