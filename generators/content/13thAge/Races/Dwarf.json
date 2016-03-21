@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceDwarf",
+	"Dependencies" : "generators/table/13thAge/GeneralFeats.json;generators/table/Names/Fantasy/Dwarf/DwarfRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Dwarf",
+        "RaceAbilityBonus" : "+2 Constitution or +2 Wisdom"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericDwarfFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> Dwarf <br> <b>Racial Power:</b> That's Your Best Shot?"
+		}                        
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "Name" : "GenericDwarfFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Dwarf/DwarfFamily.json;generators/table/Names/Fantasy/Dwarf/DwarfMale.json;generators/table/Names/Fantasy/Dwarf/DwarfFemale.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericDwarFantasyNameMale$":1},
+            {"$T-GenericDwarfFantasyNameFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-GenericDwarfFantasyNameFamily$":10}
+        ]
+	}
+}
