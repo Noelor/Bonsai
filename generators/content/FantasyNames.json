@@ -1,0 +1,29 @@
+{
+	"Name" : "FantasyNamesIndex",
+	"Title" : "Fantasy Name Generator Index",	
+	"Dependencies" : "",
+	"ButtonText" : "Hide",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Generic Fantasy</h3>"
+		},
+		"2" : { 
+			"TextIndex" : [
+				{"Human":"?gen=Names/Fantasy/Human"},
+				{"Dwarven":"?gen=Names/Fantasy/Dwarf"}
+			],
+            "ParagraphType" : "DoubleIndex" 
+		},
+        "3" : {
+			"Text" : "<h3>Miscellaneous</h3>"
+		},
+		"4" : { 
+			"TextIndex" : [
+				{"Wuxia Inspired":"?gen=Names/Fantasy/Wuxia"}
+			],
+            "ParagraphType" : "DoubleIndex" 
+		}
+	}
+}

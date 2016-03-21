@@ -11,8 +11,8 @@
 		},
 		"2" : { 
 			"Text" : "$T-FoxhoundAdjectives$ $T-AnimalsSingleWord$",
-            "MinAmount" : 10,
-            "ParagraphType" : "List"
+            "MinAmount" : 20,
+            "ParagraphType" : "DoubleList"
 		}
 	}
 }

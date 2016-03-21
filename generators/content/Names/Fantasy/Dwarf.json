@@ -1,0 +1,31 @@
+{
+	"Name" : "GenericFantasyDwarfNames",
+	"Dependencies" : "generators/table/Names/Fantasy/Dwarf/DwarfFamily.json;generators/table/Names/Fantasy/Dwarf/DwarfMale.json;generators/table/Names/Fantasy/Dwarf/DwarfFemale.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Generic Dwarven Fantasy Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-GenericDwarFantasyNameMale$ $T-GenericDwarfFantasyNameFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-GenericDwarfFantasyNameFemale$ $T-GenericDwarfFantasyNameFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}
