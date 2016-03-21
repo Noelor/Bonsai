@@ -9,6 +9,7 @@
         "Class" : "Barbarian",
         "PrimaryAbilityScore" : "Strength",
         "SecondaryAbilityScore" : "Constitution",
+        "BonusFeat" : "Barbarian Rage - Adventurer Feat",
         "ClassBackground" : "$T-13thAgeBarbarianBackgrounds$"
     },      
         
@@ -47,6 +48,54 @@
             "ParagraphType" : "List-End",
             "MinAmount" : "2",
             "Exclusive" : "Talents"
-		}         
+		},
+         "17" : {
+			"Text" : "<h3>Gear</h3>"
+		},
+       "18" : {
+			"TextTable" : [
+                {"No Armor: 10 AC":1},
+                {"Light Armor: 12 AC":1},
+                {"Heavy Armor: 13 AC, -2 Attack Penalty":1}
+            ],
+            "ParagraphType" : "List-Start"
+		},
+        "19" : {
+			"TextTable" : [
+                {"Dagger: 1d4":1},
+                {"Dagger with Shield: 1d4, +1 AC":1},
+                {"Hand Axe: 1d6":1},
+                {"Hand Axe with Shield: 1d6, +1 AC":1},
+                {"Warclub: 1d6":1},
+                {"Warclub with Shield: 1d6, +1 AC":1},
+                {"Shortsword: 1d6":1},
+                {"Shortsword with Shield: 1d6, +1 AC":1},
+                {"Longsword: 1d8":1},
+                {"Longsword with Shield: 1d8, +1 AC":1},
+                {"Two-Handed Club: 1d6":4},
+                {"Spear: 1d8":4},
+                {"Greatsword: 1d10":4},
+                {"Greataxe: 1d10":4}             
+            ],
+            "ParagraphType" : "List-Continues"
+		},
+        "20" : {
+			"TextTable" : [
+                {"Throwing Dagger: 1d4":1},
+                {"Javelin: 1d6":2},
+                {"Throwing Axe: 1d6":2},
+                {"Spear: 1d6":2},
+                {"Shortbow: 1d6":1},
+                {"Longbow: 1d8":1}
+            ],
+            "ParagraphType" : "List-Continues"
+		},
+        "21" : {
+			"TextTable" : [
+                {"Money: 25gp":1},
+                {"Money: $R-10_60$gp":2}
+            ],
+            "ParagraphType" : "List-Continues"
+        }         
 	}
 }
