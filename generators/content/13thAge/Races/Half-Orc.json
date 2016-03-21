@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceHalfOrc",
+	"Dependencies" : "generators/table/Names/Fantasy/Orc/OrcRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Half-Orc",
+        "RaceAbilityBonus" : "+2 Strength or +2 Dexterity"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericOrcFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> Half-Orc <br> <b>Racial Power:</b> Lethal"
+		}                        
+	}
+}
