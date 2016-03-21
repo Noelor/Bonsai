@@ -55,7 +55,7 @@
        "18" : {
 			"TextTable" : [
                 {"No Armor: 10 AC":1},
-                {"Light Armor: 12 AC":1},
+                {"Light Armor: 12 AC":6},
                 {"Heavy Armor: 13 AC, -2 Attack Penalty":1}
             ],
             "ParagraphType" : "List-Start"
@@ -84,7 +84,6 @@
                 {"Throwing Dagger: 1d4":1},
                 {"Javelin: 1d6":2},
                 {"Throwing Axe: 1d6":2},
-                {"Spear: 1d6":2},
                 {"Shortbow: 1d6":1},
                 {"Longbow: 1d8":1}
             ],
