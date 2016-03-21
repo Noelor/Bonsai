@@ -1,6 +1,6 @@
 {
 	"Name" : "WuxiaInspiredNames",
-	"Dependencies" : "generators/table/Exalted3/Names/WuxiaAdjective.json;generators/table/Exalted3/Names/WuxiaNoun.json",
+	"Dependencies" : "generators/table/Exalted3/Names/WuxiaRandom.json",
 	"Type" : "Content",
 	
 	"Data" : {
@@ -9,10 +9,7 @@
 			"ParagraphType" : "None"
 		},
 		"2" : { 
-			"TextTable" : [
-                {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$":4},
-                {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$ $T-Exalted3EWuxiaNameNoun$":1}					
-			],
+			"Text" : "$T-Exalted3EWuxiaRandomName$",                								
 			"MinAmount" : 10,
 			"ParagraphType" : "DoubleList"
 		}
