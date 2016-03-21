@@ -12,10 +12,10 @@
 		"1" : {
 			"TextTable" : [ 
                 {"<table> <tr> <td>4</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>4</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},               
-                {"<table> <tr> <td>5</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
-                {"<table> <tr> <td>4</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
-                {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>3</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
-                {"<table> <tr> <td>5</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>3</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
+                {"<table> <tr> <td>5</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":4},
+                {"<table> <tr> <td>4</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":4},
+                {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>3</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":5},
+                {"<table> <tr> <td>5</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>3</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":4},
                 {"<table> <tr> <td>2</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
                 {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1},
                 {"<table> <tr> <td>3</td> <td>$V-ClassBackground$</td> </tr> <tr> <td>2</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeGeneralBackgrounds$</td> </tr> </table>":1}                            

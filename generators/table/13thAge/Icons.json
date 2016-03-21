@@ -1,21 +1,21 @@
 {
     "Name" : "13thAgeIcons",
     "Type" : "Table",    
-    "Dependencies" : "generators/table/13thAge/IconRelationship.json",
+    "Dependencies" : "",
     "Data": {
     	"1": [
-			{"Archmage - $T-13thAgeIconRelationships$":1},
-            {"Crusader - $T-13thAgeIconRelationships$":1},
-            {"Diabolist - $T-13thAgeIconRelationships$":1},
-            {"Dwarf King - $T-13thAgeIconRelationships$":1},
-            {"Elf Queen - $T-13thAgeIconRelationships$":1},
-            {"Great Gold Wyrm - $T-13thAgeIconRelationships$":1},
-            {"High Druid - $T-13thAgeIconRelationships$":1},
-            {"Lich King - $T-13thAgeIconRelationships$":1},
-            {"Orc Lord - $T-13thAgeIconRelationships$":1},
-            {"Priestess - $T-13thAgeIconRelationships$":1},
-            {"Prince of Shadows - $T-13thAgeIconRelationships$":1},
-            {"The Three - $T-13thAgeIconRelationships$":1}       
+			{"Archmage":1},
+            {"Crusader":1},
+            {"Diabolist":1},
+            {"Dwarf King ":1},
+            {"Elf Queen":1},
+            {"Great Gold Wyrm":1},
+            {"High Druid":1},
+            {"Lich King":1},
+            {"Orc Lord":1},
+            {"Priestess":1},
+            {"Prince of Shadows":1},
+            {"The Three":1}       
 		]
 	}
 }

@@ -1,17 +1,17 @@
 {
 	"Name" : "13thAgeIconRelationships",			
 	"ButtonText" : "Hide",
-    "Dependencies" : "generators/table/13thAge/Icons.json",
+    "Dependencies" : "generators/table/13thAge/Icons.json;generators/table/13thAge/IconRelationship.json",
 	"Type" : "Content",
  
 	"Data" : {
 		"1" : {
 			"TextTable" : [
-                {"<table> <tr> <td>3</td>  <td>$T-13thAgeIcons$</td> </tr> </table>":1},
-                {"<table> <tr> <td>2</td>  <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> </table>":2},
-                {"<table> <tr> <td>1</td>  <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$</td> </tr> </table>":1}
+                {"<table> <tr> <td>3</td>  <td>$T-13thAgeIcons$ - $T-13thAgeIconRelationships$</td> </tr> </table>":2},
+                {"<table> <tr> <td>2</td>  <td>$T-13thAgeIcons$ - $T-13thAgeIconRelationships$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$ - $T-13thAgeIconRelationships$</td> </tr> </table>":4},
+                {"<table> <tr> <td>1</td>  <td>$T-13thAgeIcons$ - $T-13thAgeIconRelationships$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$ - $T-13thAgeIconRelationships$</td> </tr> <tr> <td>1</td> <td>$T-13thAgeIcons$ - $T-13thAgeIconRelationships$</td> </tr> </table>":1}
             ],
-            "Exclusive" : "Abilities"
+            "Exclusive" : "Icon"
 		}   
 	}
 }
