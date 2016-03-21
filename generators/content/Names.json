@@ -12,11 +12,11 @@
 		},
 		"2" : { 
 			"TextIndex" : [
-				{"American":"?gen=Names/American"},
-				{"Chinese":"?gen=Names/Chinese"},
-				{"Dutch":"?gen=Names/Dutch"},
-				{"French":"?gen=Names/French"},
-				{"Korean":"?gen=Names/Korean"}
+				{"American":"?gen=Names/Real/American"},
+				{"Chinese":"?gen=Names/Real/Chinese"},
+				{"Dutch":"?gen=Names/Real/Dutch"},
+				{"French":"?gen=Names/Real/French"},
+				{"Korean":"?gen=Names/Real/Korean"}
 			],
             "ParagraphType" : "DoubleIndex" 
 		}

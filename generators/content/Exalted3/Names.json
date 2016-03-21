@@ -1,6 +1,6 @@
 {
 	"Name" : "Exalted3EName",		
-	"Dependencies" : "generators/table/Names/ChineseRandomName.json;generators/table/Exalted3/Names/WuxiaAdjective.json;generators/table/Exalted3/Names/WuxiaNoun.json",
+	"Dependencies" : "generators/table/Names/Real/Chinese/ChineseRandomName.json;generators/table/Exalted3/Names/WuxiaAdjective.json;generators/table/Exalted3/Names/WuxiaNoun.json",
 	"ButtonText" : "More",
 	"Type" : "Content",
     

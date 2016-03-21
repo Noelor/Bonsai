@@ -1,11 +1,11 @@
 {
-	"Name" : "ChineseNames",
-	"Dependencies" : "generators/table/Names/ChineseMaleGiven.json;generators/table/Names/ChineseFemaleGiven.json;generators/table/Names/ChineseFamily.json",
+	"Name" : "DutchNames",
+	"Dependencies" : "generators/table/Names/Real/Dutch/DutchMaleGiven.json;generators/table/Names/Real/Dutch/DutchFemaleGiven.json;generators/table/Names/Real/Dutch/DutchFamily.json",
 	"Type" : "Content",
 	
 	"Data" : {
 		"1" : {
-			"Text" : "<h2>Chinese Names</h2>",
+			"Text" : "<h2>Dutch Names</h2>",
 			"ParagraphType" : "None"
 		},
 		"2" : {
@@ -15,7 +15,7 @@
 			"Text" : "<h3>Male</h3>"
 		},
 		"4" : { 
-			"Text" : "$T-ChineseMaleGivenName$ $T-ChineseFamilyName$",
+			"Text" : "$T-DutchMaleGivenName$ $T-DutchFamilyName$",
 			"MinAmount" : 5,
 			"ParagraphType" : "List"
 		},
@@ -23,7 +23,7 @@
 			"Text" : "<h3>Female</h3>"
 		},
 		"6" : { 
-			"Text" : "$T-ChineseFemaleGivenName$ $T-ChineseFamilyName$",
+			"Text" : "$T-DutchFemaleGivenName$ $T-DutchFamilyName$",
 			"MinAmount" : 5,
 			"ParagraphType" : "List"
 		}

@@ -1,11 +1,11 @@
 {
-	"Name" : "AmericanNames",
-	"Dependencies" : "generators/table/Names/AmericanMaleGiven.json;generators/table/Names/AmericanFemaleGiven.json;generators/table/Names/AmericanFamily.json",
+	"Name" : "FrenchNames",
+	"Dependencies" : "generators/table/Names/Real/French/FrenchMaleGiven.json;generators/table/Names/Real/French/FrenchFemaleGiven.json;generators/table/Names/Real/French/FrenchFamily.json",
 	"Type" : "Content",
 	
 	"Data" : {
 		"1" : {
-			"Text" : "<h2>American Names</h2>",
+			"Text" : "<h2>French Names</h2>",
 			"ParagraphType" : "None"
 		},
 		"2" : {
@@ -15,7 +15,7 @@
 			"Text" : "<h3>Male</h3>"
 		},
 		"4" : { 
-			"Text" : "$T-AmericanMaleGivenName$ $T-AmericanFamilyName$",
+			"Text" : "$T-FrenchMaleGivenName$ $T-FrenchFamilyName$",
 			"MinAmount" : 5,
 			"ParagraphType" : "List"
 		},
@@ -23,7 +23,7 @@
 			"Text" : "<h3>Female</h3>"
 		},
 		"6" : { 
-			"Text" : "$T-AmericanFemaleGivenName$ $T-AmericanFamilyName$",
+			"Text" : "$T-FrenchFemaleGivenName$ $T-FrenchFamilyName$",
 			"MinAmount" : 5,
 			"ParagraphType" : "List"
 		}
