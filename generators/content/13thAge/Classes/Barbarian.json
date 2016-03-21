@@ -24,7 +24,7 @@
 			"Text" : "<h3>Abilities</h3>$C-13thAgeAbilityArrays$"
 		},
         "5" : {
-			"Text" : "<b>Class Ability bonus:</b> +2 to Strength or +2 to Constitution. <br> <b>Racial Ability Bonus:</b> $V-RaceAbilityBonus$"
+			"Text" : "<b>Class Ability bonus:</b> +2 Strength or +2 Constitution. <br> <b>Racial Ability Bonus:</b> $V-RaceAbilityBonus$"
 		},        
         "6" : {
 			"Text" : "<b>One Unique Thing:</b> $T-13thAgeOneUniqueThing$"
