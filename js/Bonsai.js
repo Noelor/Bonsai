@@ -161,7 +161,7 @@ function generateFromContent(contentName, clearData)
 				content += generateContentParagraph(section,poolName);
 			}else if(section.ParagraphType == "DoubleList" || section.ParagraphType == "DoubleList-Start"){
                 content += generateContentList(section,true,poolName);
-            }else if (section.ParagraphType == "List" || section.ParagraphType == "List-Start" 
+            }else if (section.ParagraphType == "List" || section.ParagraphType == "List-Continues" || section.ParagraphType == "List-Start" 
 			|| section.ParagraphType == "List-End") {
 				content += generateContentList(section,false,poolName);
 			}else if(section.ParagraphType == "CommaSeperatedList"){
@@ -232,7 +232,7 @@ function generateContentList(section, doubleColumn, poolName)
 	
 	if( chanceR <= section.Chance)
 	{		
-		if(section.ParagraphType != "List-End")
+		if(section.ParagraphType != "List-End" && section.ParagraphType != "List-Continues")
         {
             if(doubleColumn)
             {
@@ -251,7 +251,7 @@ function generateContentList(section, doubleColumn, poolName)
 			content += "<li>" + processNestedEntries(section.Text,poolName) + "</li>";					
 		}
 		
-        if(section.ParagraphType != "List-Start"  && section.ParagraphType != "DoubleList-Start")			
+        if(section.ParagraphType != "List-Start"  && section.ParagraphType != "DoubleList-Start" && section.ParagraphType != "List-Continues")			
 			content+="</ul>";
 	}
 	
