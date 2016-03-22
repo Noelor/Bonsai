@@ -4,8 +4,9 @@
     "Dependencies" : "generators/table/Exalted3/Names/WuxiaAdjective.json;generators/table/Exalted3/Names/WuxiaNoun.json",    
     "Data": {
     	"1": [
-            {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$":4},
-            {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$ $T-Exalted3EWuxiaNameNoun$":1}                      
+            {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$":6},
+            {"$T-Exalted3EWuxiaNameAdjective$-$T-Exalted3EWuxiaNameNoun$ $T-Exalted3EWuxiaNameNoun$":1},
+            {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$-$T-Exalted3EWuxiaNameNoun$":1}                      
 		]
 	}
 }
