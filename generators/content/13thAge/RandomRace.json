@@ -1,6 +1,6 @@
 {
 	"Name" : "13thAgeRandomRace",		
-	"Dependencies" : "generators/content/13thAge/Races/Human.json;generators/content/13thAge/Races/Dwarf.json;generators/content/13thAge/Races/Half-Orc.json",
+	"Dependencies" : "generators/content/13thAge/Races/Human.json;generators/content/13thAge/Races/Dwarf.json;generators/content/13thAge/Races/Half-Orc.json;generators/content/13thAge/Races/HighElf.json;generators/content/13thAge/Races/DarkElf.json;generators/content/13thAge/Races/WoodElf.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	    
@@ -9,7 +9,10 @@
 			"TextTable" : [
 				{"$C-13thAgeRaceHuman$":1},
                 {"$C-13thAgeRaceDwarf$":1},
-                {"$C-13thAgeRaceHalfOrc$":1}
+                {"$C-13thAgeRaceHalfOrc$":1},
+                {"$C-13thAgeRaceHighElf$":1},
+                {"$C-13thAgeRaceDarkElf$":1},
+                {"$C-13thAgeRaceWoodElf$":1}               
 			]
 		}
 	}

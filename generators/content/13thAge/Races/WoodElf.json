@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceWoodElf",
+	"Dependencies" : "generators/table/Names/Fantasy/Elf/Wood/WoodElfRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Wood-Elf",
+        "RaceAbilityBonus" : "+2 Dexterity or +2 Wisdom"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericWoodElfFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Elven Grace"
+		}                        
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceDarkElf",
+	"Dependencies" : "generators/table/Names/Fantasy/Elf/Dark/DarkElfRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Dark-Elf",
+        "RaceAbilityBonus" : "+2 Dexterity or +2 Charisma"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericDarkElfFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Cruel"
+		}                        
+	}
+}
