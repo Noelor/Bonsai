@@ -1,6 +1,6 @@
 {
 	"Name" : "Exalted3EName",		
-	"Dependencies" : "generators/table/Names/Real/Chinese/ChineseRandomName.json;generators/table/Exalted3/Names/WuxiaAdjective.json;generators/table/Exalted3/Names/WuxiaNoun.json",
+	"Dependencies" : "generators/table/Names/Real/Chinese/ChineseRandomName.json;generators/table/Exalted3/Names/WuxiaRandom.json",
 	"ButtonText" : "More",
 	"Type" : "Content",
     
@@ -8,8 +8,7 @@
 		"1" : {
 			"TextTable" : [
 				{"$T-ChineseRandomName$":5},
-                {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$":4},
-                {"$T-Exalted3EWuxiaNameAdjective$ $T-Exalted3EWuxiaNameNoun$ $T-Exalted3EWuxiaNameNoun$":1}					
+                {"$T-Exalted3EWuxiaRandomName$":5}					
 			],
             "ParagraphType" : "None",
             "Exclusive" : "Name"
