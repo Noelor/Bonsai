@@ -1,0 +1,13 @@
+{
+    "Name" : "GenericHalfElfFantasyNameFemale",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Elf/ElfFemale.json;generators/table/Names/Fantasy/Elf/Dark/DarkElfFamily.json;generators/table/Names/Fantasy/Human/HumanFamily.json;generators/table/Names/Fantasy/Human/HumanFemale.json;generators/table/Names/Fantasy/Elf/Wood/WoodElfFamily.json;generators/table/Names/Fantasy/Elf/High/HighElfFamily.json",    
+    "Data": {
+        "1": [
+            {"$T-GenericHumanFantasyNameFemale$ $T-GenericHumanFantasyNameFamily$":3},
+            {"$T-GenericHumanFantasyNameFemale$ $T-GenericDarkElfFantasyNameFamily$":1},
+            {"$T-GenericHumanFantasyNameFemale$ $T-GenericWoodElfFantasyNameFamily$":1},
+            {"$T-GenericHumanFantasyNameFemale$ $T-GenericHighElfFantasyNameFamily$":1}
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+	"Name" : "GenericFantasyHalfElfNames",
+	"Dependencies" : "generators/table/Names/Fantasy/HalfElf/HalfElfFemale.json;generators/table/Names/Fantasy/HalfElf/HalfElfMale.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Generic Half-Elf Fantasy Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-GenericHalfElfFantasyNameMale$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-GenericHalfElfFantasyNameFemale$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}

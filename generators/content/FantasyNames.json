@@ -13,6 +13,7 @@
 			"TextIndex" : [
                 {"Dark-Elf":"?gen=Names/Fantasy/DarkElf"},
                 {"Dwarven":"?gen=Names/Fantasy/Dwarf"},
+                {"Half-Elf":"?gen=Names/Fantasy/HalfElf"},
                 {"High-Elf":"?gen=Names/Fantasy/HighElf"},
                 {"Human":"?gen=Names/Fantasy/Human"},
                 {"Orcish":"?gen=Names/Fantasy/Orc"},
