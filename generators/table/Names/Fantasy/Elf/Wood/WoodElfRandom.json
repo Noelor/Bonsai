@@ -1,0 +1,15 @@
+{
+    "Name" : "GenericWoodElfFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Elf/ElfMale.json;generators/table/Names/Fantasy/Elf/ElfFemale.json;generators/table/Names/Fantasy/Elf/Wood/WoodElfFamily.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericElfFantasyNameMale$":1},
+            {"$T-GenericElfFantasyNameFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-GenericWoodElfFantasyNameFamily$":10}
+        ]
+	}
+}

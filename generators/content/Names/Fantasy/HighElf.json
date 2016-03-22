@@ -1,0 +1,31 @@
+{
+	"Name" : "GenericFantasyHighElfNames",
+	"Dependencies" : "generators/table/Names/Fantasy/Elf/ElfMale.json;generators/table/Names/Fantasy/Elf/ElfFemale.json;generators/table/Names/Fantasy/Elf/High/HighElfFamily.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Generic High-Elf Fantasy Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-GenericElfFantasyNameMale$ $T-GenericHighElfFantasyNameFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-GenericElfFantasyNameFemale$ $T-GenericHighElfFantasyNameFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}

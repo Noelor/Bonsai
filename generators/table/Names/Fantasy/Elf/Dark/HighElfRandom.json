@@ -1,0 +1,15 @@
+{
+    "Name" : "GenericDarkElfFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Elf/ElfMale.json;generators/table/Names/Fantasy/Elf/ElfFemale.json;generators/table/Names/Fantasy/Elf/Dark/DarkElfFamily.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericElfFantasyNameMale$":1},
+            {"$T-GenericElfFantasyNameFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-GenericDarkElfFantasyNameFamily$":10}
+        ]
+	}
+}

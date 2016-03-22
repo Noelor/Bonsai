@@ -1,0 +1,31 @@
+{
+	"Name" : "GenericFantasyDarlElfNames",
+	"Dependencies" : "generators/table/Names/Fantasy/Elf/ElfMale.json;generators/table/Names/Fantasy/Elf/ElfFemale.json;generators/table/Names/Fantasy/Elf/Dark/DarkElfFamily.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Generic Dark-Elf Fantasy Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-GenericElfFantasyNameMale$ $T-GenericDarkElfFantasyNameFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-GenericElfFantasyNameFemale$ $T-GenericDarkElfFantasyNameFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}
