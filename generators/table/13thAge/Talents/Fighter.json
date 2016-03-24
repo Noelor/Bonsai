@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeTalentsFighter",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Cleave":1},
+            {"Comeback Strike":1},
+            {"Counter-Attack":1},
+            {"Deadeye Archer":1},
+            {"Heavy Warrior":1},
+            {"Power Attack":1},
+            {"Skilled Intercept":1},
+            {"Tough As Iron":1}       
+		]
+	}
+}

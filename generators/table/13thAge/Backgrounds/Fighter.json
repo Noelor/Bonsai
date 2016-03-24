@@ -1,0 +1,26 @@
+{
+    "Name" : "13thAgeFighterBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Swordmaster":1},
+            {"Mercenary":1},
+            {"Captain":1},
+            {"Sea Raider":1},
+            {"Shieldwall Spearman":1},
+            {"Explorer":1},
+            {"Bouncer":1},
+            {"Thug":1},
+            {"City Guardsman":1},
+            {"Sea Wall":1},
+            {"Veteran":1},
+            {"Former Gladiator":1},
+            {"Former Orc Captive":1},
+            {"Bankrupt nobleman":1},
+            {"Duelist":1},
+            {"Goblin-hunter":1},
+            {"Former Imperial":1},
+            {"Legionnaire":1}			           
+		]
+	}
+}

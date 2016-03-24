@@ -1,0 +1,18 @@
+{
+    "Name" : "13thAgePowersFighter",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Brace for It":1},
+            {"Carve an Opening":1},
+            {"Deadly Assault":1},
+            {"Defensive Fighting":1},
+            {"Grim Intent":1},
+            {"Heavy Blows":1},
+            {"Precision Attacks":1},
+            {"Second Shot":1},
+            {"Shield Bash":1},
+            {"Two-Weapon Precision":1}	       
+		]
+	}
+}
