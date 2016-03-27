@@ -12,11 +12,12 @@
 		"2" : { 
 			"TextIndex" : [
                 {"Dark-Elf":"?gen=Names/Fantasy/DarkElf"},
-                {"Dwarven":"?gen=Names/Fantasy/Dwarf"},
+                {"Dwarf":"?gen=Names/Fantasy/Dwarf"},
+                {"Gnome":"?gen=Names/Fantasy/Gnome"},
                 {"Half-Elf":"?gen=Names/Fantasy/HalfElf"},
                 {"High-Elf":"?gen=Names/Fantasy/HighElf"},
                 {"Human":"?gen=Names/Fantasy/Human"},
-                {"Orcish":"?gen=Names/Fantasy/Orc"},
+                {"Orc":"?gen=Names/Fantasy/Orc"},
                 {"Wood-Elf":"?gen=Names/Fantasy/WoodElf"}
 			],
             "ParagraphType" : "DoubleIndex" 
