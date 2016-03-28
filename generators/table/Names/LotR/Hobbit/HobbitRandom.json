@@ -1,0 +1,15 @@
+{
+    "Name" : "FantasyNameLotRHobbitRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/LotR/Hobbit/HobbitFemale.json;generators/table/Names/LotR/Hobbit/HobbitMale.json;generators/table/Names/LotR/Hobbit/HobbitFamily.json",    
+    "Data": {
+    	"1": [
+			{"$T-FantasyNameLotRHobbitMale$":1},
+            {"$T-FantasyNameLotRHobbitFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-FantasyNameLotRHobbitFamily$":10}
+        ]
+	}
+}

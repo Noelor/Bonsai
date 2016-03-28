@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceHalfling",
+	"Dependencies" : "generators/table/Names/LotR/Hobbit/HobbitRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Halfling",
+        "RaceAbilityBonus" : "+2 Constitution or +2 Dexterity"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-FantasyNameLotRHobbitRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> Halfling <br> <b>Racial Power:</b> Small<br> <b>Racial Power:</b> Evasive"
+		}                        
+	}
+}
