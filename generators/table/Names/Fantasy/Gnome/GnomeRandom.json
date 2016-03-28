@@ -1,0 +1,15 @@
+{
+    "Name" : "GenericGnomeFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Gnome/GnomeMale.json;generators/table/Names/Fantasy/Gnome/GnomeFemale.json;generators/table/Names/Fantasy/Gnome/GnomeFamily.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericGnomeFantasyNameMale$":1},
+            {"$T-GenericGnomeFantasyNameFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-GenericGnomeFantasyNameFamily$":10}
+        ]
+	}
+}

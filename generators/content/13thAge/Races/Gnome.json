@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceGnome",
+	"Dependencies" : "generators/table/Names/Fantasy/Gnome/GnomeRandom.json;generators/table/13thAge/GeneralFeats.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Gnome",
+        "RaceAbilityBonus" : "+2 Intelligence or +2 Dexterity "        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericGnomeFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> Gnome <br> <b>Racial Power:</b> Counfounding<br> <b>Racial Power:</b> Minor Illusions"
+		}                        
+	}
+}
