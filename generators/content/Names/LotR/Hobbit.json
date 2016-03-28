@@ -1,0 +1,31 @@
+{
+	"Name" : "LotRHobbitNames",
+	"Dependencies" : "generators/table/Names/LotR/Hobbit/HobbitFemale.json;generators/table/Names/LotR/Hobbit/HobbitMale.json;generators/table/Names/LotR/Hobbit/HobbitFamily.json",
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>Lord of the Rings: Hobbit / Halfling Names</h2>",
+			"ParagraphType" : "None"
+		},
+		"2" : {
+			"Text" : "Names are Given Name followed by Family Name."
+		},
+		"3" : {
+			"Text" : "<h3>Male</h3>"
+		},
+		"4" : { 
+			"Text" : "$T-FantasyNameLotRHobbitMale$ $T-FantasyNameLotRHobbitFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		},
+		"5" : {
+			"Text" : "<h3>Female</h3>"
+		},
+		"6" : { 
+			"Text" : "$T-FantasyNameLotRHobbitFemale$ $T-FantasyNameLotRHobbitFamily$",
+			"MinAmount" : 5,
+			"ParagraphType" : "List"
+		}
+	}
+}

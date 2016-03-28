@@ -22,10 +22,19 @@
 			],
             "ParagraphType" : "DoubleIndex" 
 		},
-        "3" : {
+        "5" : {
+			"Text" : "<h3>Lord of the Rings</h3>"
+		},
+		"6" : { 
+			"TextIndex" : [
+				{"Hobbit / Halfling":"?gen=Names/LotR/Hobbit"}
+			],
+            "ParagraphType" : "DoubleIndex" 
+		},
+        "50" : {
 			"Text" : "<h3>Miscellaneous</h3>"
 		},
-		"4" : { 
+		"51" : { 
 			"TextIndex" : [
 				{"Wuxia Inspired":"?gen=Names/Fantasy/Wuxia"}
 			],
