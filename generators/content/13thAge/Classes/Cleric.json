@@ -105,7 +105,7 @@
                 {"Money: 25gp":1},
                 {"Money: $R-10_60$gp":2}
             ],
-            "ParagraphType" : "List-Continues"
+            "ParagraphType" : "List-End"
         }         
 	}
 }
