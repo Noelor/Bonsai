@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeRoguePowers",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Evasive Strike":1},
+            {"Deadly Thrust":1},
+            {"Flying Blade":1},
+            {"Roll With It":1},
+            {"Sure Cut":1},
+            {"Tumbling Strike":1}         
+		]
+	}
+}

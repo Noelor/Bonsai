@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeTalentsRogue",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Cunning":1},
+            {"Improved Sneak Attack":1},
+            {"Murderous":1},
+            {"Shadow Walk":1},
+            {"Smooth Talk":1},
+            {"Swashbuckle":5},
+            {"Thievery":1},
+            {"Tumble":1}          
+		]
+	}
+}

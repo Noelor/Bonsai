@@ -1,0 +1,25 @@
+{
+    "Name" : "13thAgeRogueBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Acrobat":1},
+            {"Bartender":1},
+            {"Cat Burglar":1},
+            {"Con Artist":1},
+            {"Courtier":1},
+            {"Dandy":1},
+            {"Diplomat":1},
+            {"Gambler":1},
+            {"Hellhole Infiltrator":1},
+            {"Imperial Customs Agent":1},
+            {"Jewel Thief":1},
+            {"Pirate":1},
+            {"Professional":1},
+            {"Rat Catcher":1},
+            {"Street Thug":1},
+            {"Temple Spy Master":1},
+            {"Thieves Guild Organizer":1}      
+		]
+	}
+}
