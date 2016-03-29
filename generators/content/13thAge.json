@@ -4,10 +4,7 @@
 	"Dependencies" : "",
 	"ButtonText" : "Hide",
 	"Type" : "Content",
-	
-    "Variables" : {        
-    },
-    
+
 	"Data" : {
 		"1" : {
 			"Text" : "<h2>13th Age Characters</h2>"
