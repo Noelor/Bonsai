@@ -4,7 +4,7 @@
     "Data": {
     	"1": [
             {"Balladeer":5},
-            {"Battle Skald":5},
+            {"Battle Skald":1},
             {"Jack of Spells - Wizard":1},
             {"Jack of Spells - Sorcerer":1},
             {"Jack of Spells - Cleric":1},
@@ -15,7 +15,7 @@
             {"Loremaster":5},
             {"Mythkenner":5},
             {"Songmaster":5},
-            {"Spellsinger":5},
+            {"Spellsinger":1},
             {"Storyteller":5}            
 		]
 	}
