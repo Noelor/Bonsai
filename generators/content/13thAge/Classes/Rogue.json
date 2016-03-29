@@ -70,12 +70,12 @@
 		},
         "22" : {
 			"TextTable" : [
-                {"Dagger: 1d4":1},
+                {"Dagger: 1d8":6},
                 {"Dagger with Shield: 1d4, +1 AC, -2 Attack AC":1},
-                {"Wicked Knife: 1d6":6},
-                {"Wicked Knife with Shield: 1d6, +1, -2 Attack AC":1},
-                {"Shortsword: 1d6":6},
-                {"Shortsword with Shield: 1d6, +1 AC, -2 Attack":1},                
+                {"Wicked Knife: 1d8":6},
+                {"Wicked Knife with Shield: 1d8, +1, -2 Attack AC":1},
+                {"Shortsword: 1d8":6},
+                {"Shortsword with Shield: 1d8, +1 AC, -2 Attack":1},                
                 {"Longsword: 1d8, -2 Attack":1},
                 {"Longsword with Shield: 1d8, +1 AC, -4 Attack":1},
                 {"Scimitar: 1d8, -2 Attack":1},
