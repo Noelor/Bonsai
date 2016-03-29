@@ -1,6 +1,6 @@
 {
 	"Name" : "13thAgeClassFighter",
-	"Title" : "13th Age Barbarian",	
+	"Title" : "13th Age Fighter",	
 	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Fighter.json;generators/content/13thAge/BackGroundArrays.json;generators/table/13thAge/Talents/Fighter.json;generators/table/13thAge/OneUniqueThing.json;generators/table/13thAge/Powers/Fighter.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",

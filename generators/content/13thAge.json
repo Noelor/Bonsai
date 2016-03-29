@@ -21,6 +21,7 @@
         "4" : { 
             "TextIndex" : [
                 {"Barbarian":"?gen=13thAge/Classes/Barbarian"},
+                {"Bard":"?gen=13thAge/Classes/Bard"},
                 {"Fighter":"?gen=13thAge/Classes/Fighter"}
             ],
             "ParagraphType" : "DoubleIndex" 

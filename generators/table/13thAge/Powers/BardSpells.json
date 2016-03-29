@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeBardSpells",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Battle Chant":1},
+            {"Befuddle":1},
+            {"Charm Person":1},
+            {"Song Of Heroes":1},
+            {"Song of Spilt Blood":1},
+            {"Soundburst":1}
+		]
+	}
+}

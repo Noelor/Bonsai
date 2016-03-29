@@ -1,0 +1,28 @@
+{
+    "Name" : "13thAgeBardBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Battle Skald":1},
+            {"Caravan Guide":1},
+            {"Cathedral Musician":1},
+            {"Commissar":1},
+            {"Court Jester":1},
+            {"Diplomat":1},
+            {"Drakkenhall Court Jester":1},
+            {"Drummer":1},
+            {"Failed Hedge":1},
+            {"Grey Harbor Smuggler":1},
+            {"Imperial":1},
+            {"Mercenary":1},
+            {"Necropolis":1},
+            {"Party Circuit Maven":1},
+            {"Royal Taster":1},
+            {"Smuggler":1},
+            {"Spy":1},
+            {"Tavern Owner":1},
+            {"Wandering Minstrel":1},
+            {"Wizard":1}       
+		]
+	}
+}

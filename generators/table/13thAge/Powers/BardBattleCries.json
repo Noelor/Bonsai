@@ -1,0 +1,12 @@
+{
+    "Name" : "13thAgeBardBattleCries",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+			{"Move It!":1},
+            {"Pull It Together!":1},
+            {"Stay Strong!":1},
+            {"We Need You!":1}            
+		]
+	}
+}
