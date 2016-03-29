@@ -23,7 +23,8 @@
                 {"Fighter":"?gen=13thAge/Classes/Fighter"},
                 {"Paladin":"?gen=13thAge/Classes/Paladin"},
                 {"Ranger":"?gen=13thAge/Classes/Ranger"},
-                {"Rogue":"?gen=13thAge/Classes/Rogue"}
+                {"Rogue":"?gen=13thAge/Classes/Rogue"},
+                {"Sorcerer":"?gen=13thAge/Classes/Sorcerer"}
             ],
             "ParagraphType" : "DoubleIndex" 
 		} 

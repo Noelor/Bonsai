@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeSorcererSpells",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Breath of the White":1},
+            {"Burning Hands":1},
+            {"Chaos Bolt":1},
+            {"Lightning Fork":1},
+            {"Resist Energy":1},
+            {"Scorching Ray":1}          
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "Name" : "13thAgeSorcererBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Failed Wizard":1},
+            {"Former Child Avatar":1},
+            {"Pirate Captain":1},
+            {"Sahuagin Hunter":1},
+            {"Shadow Port City Guard":1},
+            {"Spell-Arena Gladiator":1},
+            {"Tribal Shaman":1}          
+		]
+	}
+}

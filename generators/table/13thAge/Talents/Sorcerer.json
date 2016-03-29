@@ -1,0 +1,17 @@
+{
+    "Name" : "13thAgeTalentsSorcerer",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Arcane Heritage ( Archmage )":1},
+            {"Blood Link":3},
+            {"Chromatic Destroyer Heritage ( The Three)":1},
+            {"Fey Heritage ( Elf Queen )":1},
+            {"Infernal Heritage ( Diabolist )":1},
+            {"Metallic Protector Heritage ( Great Gold Wyrm )":1},
+            {"Sorcerer’s Familiar":3},
+            {"Spell Fist":2},
+            {"Undead Remnant Heritage ( Lich King )":1}          
+		]
+	}
+}
