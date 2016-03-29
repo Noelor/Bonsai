@@ -1,0 +1,17 @@
+{
+    "Name" : "13thAgeTalentsCleric",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Healing":1},
+            {"Justice / Vengeance":1},
+            {"Knowledge / Lore":1},
+            {"Life / Death":1},
+            {"Love / Beauty":1},
+            {"Strength":1},
+            {"Sun / Anti-Undead":1},
+            {"Trickery / Illusion":1},
+            {"War / Leadership":1}        
+		]
+	}
+}

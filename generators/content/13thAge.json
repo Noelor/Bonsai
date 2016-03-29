@@ -19,7 +19,9 @@
             "TextIndex" : [
                 {"Barbarian":"?gen=13thAge/Classes/Barbarian"},
                 {"Bard":"?gen=13thAge/Classes/Bard"},
-                {"Fighter":"?gen=13thAge/Classes/Fighter"}
+                {"Cleric":"?gen=13thAge/Classes/Cleric"},
+                {"Fighter":"?gen=13thAge/Classes/Fighter"},
+                {"Paladin":"?gen=13thAge/Classes/Paladin"}
             ],
             "ParagraphType" : "DoubleIndex" 
 		} 

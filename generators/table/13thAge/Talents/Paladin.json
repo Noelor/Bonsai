@@ -1,0 +1,32 @@
+{
+    "Name" : "13thAgeTalentsPaladin",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Bastion":8},
+            {"Cleric Training - Bless":1},
+            {"Cleric Training - Cure Wounds":1},
+            {"Cleric Training - Hammer of Faith":1},
+            {"Cleric Training - Javelin of Faith":1},
+            {"Cleric Training - Shield of Faith":1},
+            {"Cleric Training - Spirits of the Righteous":1},
+            {"Cleric Training - Turn Undead":1},
+            {"Divine Domain - Healing":1},
+            {"Divine Domain - Justice / Vengeance":1},
+            {"Divine Domain - Knowledge / Lore":1},
+            {"Divine Domain - Life / Death":1},
+            {"Divine Domain - Love / Beauty":1},
+            {"Divine Domain - Protection / Community":1},
+            {"Divine Domain - Strength":1},
+            {"Divine Domain - Sun / Anti-Undead":1},
+            {"Divine Domain - Trickery / Illusion":1},
+            {"Divine Domain - War / Leadership":1},
+            {"Fearless":8},
+            {"Implaccable":8},
+            {"Lay on Hands":8},
+            {"Paladin's Challenge":8},
+            {"Path of Universal Righteous Endeavor":8},
+            {"Way of Evil Bastards":8}        
+		]
+	}
+}

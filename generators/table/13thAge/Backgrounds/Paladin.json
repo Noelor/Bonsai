@@ -1,0 +1,20 @@
+{
+    "Name" : "13thAgePaladinBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Bodyguard":1},
+            {"Captain":1},
+            {"City Guardsman":1},
+            {"Combat Medic":1},
+            {"Commando Hellhole":1},
+            {"Elf Queen’s Courtier":1},            
+            {"Ex-Priest of The Diabolist":1},
+            {"First Triumph":1},
+            {"Golden Citadel Archeologist":1},           
+            {"Inquisitor":1},
+            {"Outlaw Hunter":1},
+            {"Veteran of the Orc Wars":1}         
+		]
+	}
+}

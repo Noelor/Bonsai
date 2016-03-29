@@ -1,0 +1,15 @@
+{
+    "Name" : "13thAgeClericSpells",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Bless":1},
+            {"Cure Wounds":1},
+            {"Hammer of Faith":1},
+            {"Javelin of Faith":1},
+            {"Shield of Faith":1},
+            {"Spirits of the Rightous":1},
+            {"Turn Undead":1}        
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "Name" : "13thAgeClericBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Abyssal Survivor":1},
+            {"Archivist":1},
+            {"Bartender":1},
+            {"Bishop Of Foothold":1},
+            {"Cathedral Guide":1},
+            {"Dwarven Hierophant":1},
+            {"Initiate of the Stellar Chorus":1},
+            {"Military Chaplain":1},
+            {"Multiversal Pantheist":1},
+            {"Reformed Thief":1},
+            {"Temple Guard":1},
+            {"Tutored by Angels":1},
+            {"Village Healer":1},
+            {"Wasteland Prophet":1}       
+		]
+	}
+}
