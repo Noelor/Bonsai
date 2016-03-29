@@ -1,0 +1,25 @@
+{
+    "Name" : "13thAgeTalentsRanger",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Archery":4},
+            {"Double Melee Attack":4},
+            {"Double Ranged Attack":4},
+            {"Favoured Enemy":4},
+            {"Fey Queens Enchantments - Breath of the White":1},
+            {"Fey Queens Enchantments - Lightning Fork":1},
+            {"Fey Queens Enchantments - Resist Energy":1},
+            {"First Strike":4},
+            {"Lethal Hunter":4},
+            {"Ranger Ex Cathedral - Bless":1},
+            {"Ranger Ex Cathedral - Cure Wounds":1},
+            {"Ranger Ex Cathedral - Hammer of Faith":1},
+            {"Ranger Ex Cathedral - Shield of Faith":1},
+            {"Ranger Ex Cathedral - Turn Undead":1},
+            {"Ranger's Pet":4},
+            {"Tracker":4},
+            {"Two-Weapon Master":4}      
+		]
+	}
+}

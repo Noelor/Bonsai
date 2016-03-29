@@ -1,0 +1,22 @@
+{
+    "Name" : "13thAgeRangerBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Agent of a Druidic Circle":1},
+            {"Beast Slayer":1},
+            {"Bounty Hunter":1},
+            {"Dweller From the Sea Wall":1},
+            {"Initiate of the Golden Bough":1},
+            {"Koru Behemoth Tribesman":1},
+            {"Member of Secret Orders of Frontier Guardians":1},
+            {"Orc Slayer":1},
+            {"Secret Monarch of a Vanished Kingdom":1},
+            {"Survivor of a Distant Massacre":1},
+            {"Tracker":1},
+            {"Tree Dweller":1},
+            {"Wanderer":1},
+            {"Woodsy Assassin":1}       
+		]
+	}
+}
