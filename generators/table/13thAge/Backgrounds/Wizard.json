@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeWizardBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Chronomancer’s Apprentice":1},
+            {"Hedge Wizard":1},
+            {"Horizon City Guard (Magic Cop!)":1},
+            {"Koru Behemoth Cleaner":1},
+            {"Magical Prodigy":1},
+            {"Ship’s Wizard":1},
+            {"Spell Thief":1},
+            {"Transformed Familiar":1}          
+		]
+	}
+}

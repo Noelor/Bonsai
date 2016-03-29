@@ -1,0 +1,15 @@
+{
+    "Name" : "13thAgeTalentsWizard",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Abjuration":1},
+            {"Cantrip Mastery":1},
+            {"Evocation":1},
+            {"High Arcana":1},
+            {"Counter-Magic":1},
+            {"Vance’s Polysyllabic Verbalizations":1},
+            {"Wizard’s Familiar":1}         
+		]
+	}
+}

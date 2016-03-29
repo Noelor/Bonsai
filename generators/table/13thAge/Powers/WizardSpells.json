@@ -1,0 +1,17 @@
+{
+    "Name" : "13thAgeWizardSpells",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Acid Arrow":1},
+            {"Blur":1},
+            {"Charm Person":1},
+            {"Color Spray":1},
+            {"Magic Missile":8},
+            {"Ray of Frost":1},
+            {"Shield":1},
+            {"Shocking Grasp":1},
+            {"Utility Spell":5}           
+		]
+	}
+}
