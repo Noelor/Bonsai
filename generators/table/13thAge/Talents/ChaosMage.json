@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeTalentsChaosMage",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Attacking Warp":1},
+            {"Defensive Warp":1},
+            {"Iconic Warp":1},
+            {"Seperate Existence":1},
+            {"Stench of Necromancy":1},
+            {"Touch of Wizardy":1},
+            {"Trace of the Divine":1},
+            {"Whiff of Sorcery":1}         
+		]
+	}
+}

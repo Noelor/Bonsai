@@ -10,10 +10,10 @@
 			"Text" : "<h2>13th Age Characters</h2>"
 		},
         "2" : {
-			"Text" : "<a href='?gen=13thAge/RandomClass'>Random Character</a>"
+			"Text" : "<a href='?gen=13thAge/RandomClass'>Random Class</a>"
 		},
         "3" : {
-			"Text" : "<h2>Specific Classes</h2>"
+			"Text" : "<h2>The 13th Age</h2>"
 		},
         "4" : { 
             "TextIndex" : [
@@ -26,6 +26,15 @@
                 {"Rogue":"?gen=13thAge/Classes/Rogue"},
                 {"Sorcerer":"?gen=13thAge/Classes/Sorcerer"},
                 {"Wizard":"?gen=13thAge/Classes/Wizard"}
+            ],
+            "ParagraphType" : "DoubleIndex" 
+		},
+        "5" : {
+			"Text" : "<h2>13th True Ways</h2>"
+		},
+        "6" : { 
+            "TextIndex" : [
+                {"ChaosMage":"?gen=13thAge/Classes/ChaosMage"}
             ],
             "ParagraphType" : "DoubleIndex" 
 		} 
