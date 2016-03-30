@@ -17,6 +17,9 @@
 			"Text" : "<h2>$V-Class$</h2>"
 		},
         "2" : {
+			"Text" : "<b><a href='?gen=13thAge/HighWeirdnessTable'>High Weirdness Table</a></b>"
+		},
+        "3" : {
 			"Text" : "$C-13thAgeRandomRace$"
 		},
         "4" : {
