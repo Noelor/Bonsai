@@ -1,0 +1,17 @@
+{
+    "Name" : "13thAgePowersCommander",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Command: Get Out of There!":1},
+            {"Command: Rally Now!":1},
+            {"Command: Save Now!":1},
+            {"Command: Try Again":1},
+            {"Command: You Set Them Up, I Finish":1},
+            {"Tactic: Basic Tactical strike":1},
+            {"Tactic: Enforce Clarity":1},
+            {"Tactic: Just Stay Calm":1},
+            {"Tactic: Outmaneuver":1}          
+		]
+	}
+}

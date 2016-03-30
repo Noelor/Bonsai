@@ -1,0 +1,22 @@
+{
+    "Name" : "13thAgeCommanderBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Axis Wargame Veteran":1},
+            {"Bouncer":1},
+            {"Cobbler":1},
+            {"Ex-Gladiator":1},
+            {"Exotic Dancer":1},
+            {"Frost Range Mercenary":1},
+            {"Historical Re-Enactor":1},
+            {"Imperial Squad Leader":1},
+            {"Officer of the Crusader’s Guard":1},
+            {"Queen’s Wood Patroller":1},
+            {"Reformed Drunk":1},
+            {"Sergeant of the City Guard":1},
+            {"Street Gang Survivor":1},
+            {"Wilderness Scout":1}        
+		]
+	}
+}

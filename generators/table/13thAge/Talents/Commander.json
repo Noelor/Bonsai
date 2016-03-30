@@ -1,0 +1,20 @@
+{
+    "Name" : "13thAgeTalentsCommander",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Armor Skills":1},
+            {"Battle Captain":1},
+            {"Combat Maneuver":1},
+            {"Destined To Lead":1},
+            {"Forceful Command":1},
+            {"Into the Fray":1},
+            {"Martial Training":1},
+            {"Moment of Glory":1},
+            {"Never Say Die":1},
+            {"Strategist":1},
+            {"Sword of Victory":1},
+            {"Tactician":1}         
+		]
+	}
+}
