@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeFormsMonk",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Claws of the Panther":1},
+            {"Dance of the Mantis":1},
+            {"Dutiful Guardian":1},
+            {"Original Venom":1},
+            {"Three Cunning Tricksters":1},
+            {"Way of the Metallic Dragon":1}          
+		]
+	}
+}

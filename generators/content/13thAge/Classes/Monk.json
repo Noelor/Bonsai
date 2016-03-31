@@ -1,0 +1,111 @@
+{
+	"Name" : "13thAgeClassMonk",
+	"Title" : "13th Age Monk",	
+	"Dependencies" : "generators/content/13thAge/RandomRace.json;generators/content/13thAge/AbilityArrays.json;generators/content/13thAge/IconRelationships.json;generators/table/13thAge/Backgrounds/Monk.json;generators/content/13thAge/BackGroundArrays.json;generators/table/13thAge/Talents/Monk.json;generators/table/13thAge/OneUniqueThing.json;generators/table/13thAge/Powers/MonkForms.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	  
+    "Variables" : {
+        "Class" : "Monk",
+        "PrimaryAbilityScore" : "Strength",
+        "SecondaryAbilityScore" : "Wisdom",
+        "ClassBackground" : "$T-13thAgeMonkBackgrounds$"
+    },      
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h2>$V-Class$</h2>"
+		},
+        "2" : {
+			"Text" : "$C-13thAgeRandomRace$"
+		},
+        "4" : {
+			"Text" : "<h3>Abilities</h3>$C-13thAgeAbilityArrays$"
+		},
+        "5" : {
+			"Text" : "<b>Class Ability bonus:</b> +2 Strength or +2 Wisdom <br> <b>Racial Ability Bonus:</b> $V-RaceAbilityBonus$"
+		},        
+        "6" : {
+			"Text" : "<b>One Unique Thing:</b> $T-13thAgeOneUniqueThing$"
+		},
+        "8" : {
+			"Text" : "<h3>Icon Relationships</h3>$C-13thAgeIconRelationships$"
+		},
+        "10" : {
+			"Text" : "<h3>Backgrounds</h3>$C-13thAgeBackgroundArrays$"
+		},       
+        "14" : {
+			"Text" : "<h3>Talents</h3>"
+		},
+        "15" : {
+			"Text" : "$T-13thAgeTalentsMonk$ - Adventurer Feat",
+            "ParagraphType" : "List-Start",            
+            "Exclusive" : "Talents"
+		},
+        "16" : {
+			"Text" : "$T-13thAgeTalentsMonk$",
+            "ParagraphType" : "List-End",
+            "MinAmount" : "2",
+            "Exclusive" : "Talents"
+		},
+        "17" : {
+			"Text" : "<h3>Forms</h3>"            
+		},
+        "18" : {
+			"Text" : "$T-13thAgeFormsMonk$",
+            "ParagraphType" : "List",
+            "MinAmount" : "2",
+            "Exclusive" : "Talents"
+		},
+       "20" : {
+			"Text" : "<h3>Gear</h3>"
+		},
+       "21" : {
+			"TextTable" : [
+                {"No Armor: 10 AC":1},
+                {"Light Armor: 13 AC":6},
+                {"Heavy Armor: 15 AC":1}
+            ],
+            "ParagraphType" : "List-Start"
+		},
+        "22" : {
+			"TextTable" : [
+                {"Dagger: 1d4":1},
+                {"Dagger with Shield: 1d4, +1 AC":1},
+                {"Hand Axe: 1d6":1},
+                {"Hand Axe with Shield: 1d6, +1 AC":1},
+                {"Shortsword: 1d6":1},
+                {"Shortsword with Shield: 1d6, +1 AC":1},                
+                {"Longsword: 1d8":1},
+                {"Longsword with Shield: 1d8, +1 AC":1},
+                {"Warhammer: 1d8":1},
+                {"Warhammer with Shield: 1d8, +1 AC":1},                
+                {"Two-Handed Club: 1d6":4},
+                {"Spear: 1d8":4},
+                {"Greatsword: 1d10":4},
+                {"Greataxe: 1d10":4}             
+            ],
+            "ParagraphType" : "List-Continues"
+		},
+        "23" : {
+			"TextTable" : [
+                {"Throwing Dagger: 1d4":1},
+                {"Javelin: 1d6":2},
+                {"Throwing Axe: 1d6":2},
+                {"Shortbow: 1d6":1},
+                {"Longbow: 1d8":1},
+                {"Hand Crossbow: 1d4":1},
+                {"Light Crossbow: 1d6":1},
+                {"Heavy Crossbow: 1d8":1}
+            ],
+            "ParagraphType" : "List-Continues"
+		},
+        "24" : {
+			"TextTable" : [
+                {"Money: 25gp":1},
+                {"Money: $R-10_60$gp":2}
+            ],
+            "ParagraphType" : "List-End"
+        }         
+	}
+}

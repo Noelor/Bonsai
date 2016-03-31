@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeTalentsMonk",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Flurry ( Seven Deadly Secrets )":2},
+            {"Greeting Fist ( Seven Deadly Secrets )":2},
+            {"Temple Weapon Master ( Seven Deadly Secrets )":2},
+            {"Diamond Focus":3},
+            {"Heaven's Arrow":3},
+            {"Leaf on Wind":3},
+            {"Overworld Lineage / Phoenix Touched":3},
+            {"Spinning Willow Style":3}         
+		]
+	}
+}

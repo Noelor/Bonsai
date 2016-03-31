@@ -1,0 +1,22 @@
+{
+    "Name" : "13thAgeMonkBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Bodyguard":1},
+            {"Cathedral Runner":1},
+            {"Drakkenhall Civil Rights Organizer":1},
+            {"Farmer":1},
+            {"Hallucinogenic Mushroom Farmer":1},
+            {"Mountain Sanctuary Guardsman":1},
+            {"River Guide":1},
+            {"Spider-Cult Assassin":1},
+            {"Star Pupil of the School of Unified Dragons":1},
+            {"Temple Acolyte":1},
+            {"Traveling Circus Acrobat":1},
+            {"Travelingtournament Organizer":1},
+            {"Tunnel Vermin Exterminator":1},
+            {"Wild Mountain Ginseng Harvester":1}          
+		]
+	}
+}
