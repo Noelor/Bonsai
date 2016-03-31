@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeTalentsDruid",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Animal Companion":1},
+            {"Elemental Caster":1},
+            {"Shifter":1},
+            {"Terrain Caster":1},
+            {"Warrior Druid":1},
+            {"Wild Healer":1}       
+		]
+	}
+}

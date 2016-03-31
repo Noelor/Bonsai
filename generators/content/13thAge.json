@@ -35,7 +35,8 @@
         "6" : { 
             "TextIndex" : [
                 {"Chaos Mage":"?gen=13thAge/Classes/ChaosMage"},
-                {"Commander":"?gen=13thAge/Classes/Commander"}
+                {"Commander":"?gen=13thAge/Classes/Commander"},
+                {"Druid":"?gen=13thAge/Classes/Druid"}
             ],
             "ParagraphType" : "DoubleIndex" 
 		} 

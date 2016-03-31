@@ -1,7 +1,7 @@
 {
 	"Name" : "13thAgeRandomClass",
 	"Title" : "13th Age Random Class",	
-	"Dependencies" : "generators/content/13thAge/Classes/Barbarian.json;generators/content/13thAge/Classes/Fighter.json;generators/content/13thAge/Classes/Bard.json;generators/content/13thAge/Classes/Cleric.json;generators/content/13thAge/Classes/Paladin.json;generators/content/13thAge/Classes/Ranger.json;generators/content/13thAge/Classes/Rogue.json;generators/content/13thAge/Classes/Sorcerer.json;generators/content/13thAge/Classes/Wizard.json;generators/content/13thAge/Classes/ChaosMage.json;generators/content/13thAge/Classes/Commander.json",
+	"Dependencies" : "generators/content/13thAge/Classes/Barbarian.json;generators/content/13thAge/Classes/Fighter.json;generators/content/13thAge/Classes/Bard.json;generators/content/13thAge/Classes/Cleric.json;generators/content/13thAge/Classes/Paladin.json;generators/content/13thAge/Classes/Ranger.json;generators/content/13thAge/Classes/Rogue.json;generators/content/13thAge/Classes/Sorcerer.json;generators/content/13thAge/Classes/Wizard.json;generators/content/13thAge/Classes/ChaosMage.json;generators/content/13thAge/Classes/Commander.json;generators/content/13thAge/Classes/Druid.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	    
@@ -18,7 +18,8 @@
                 {"$C-13thAgeClassSorcerer$":1},
                 {"$C-13thAgeClassWizard$":1},
                 {"$C-13thAgeClassChaosMage$":1},
-                {"$C-13thAgeClassCommander$":1}               					                					
+                {"$C-13thAgeClassCommander$":1},
+                {"$C-13thAgeClassDruid$":1}               					                					
 			]
 		}
 	}
