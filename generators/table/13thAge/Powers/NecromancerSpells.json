@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeNecromancerSpells",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Channel Life":1},
+            {"Chant of Endings":1},
+            {"Command Undead":1},
+            {"Death Gauntlet":1},
+            {"Summon Undead":1},
+            {"Terror":1},
+            {"Unholy Blast":1},
+            {"Zombie Form":1}          
+		]
+	}
+}

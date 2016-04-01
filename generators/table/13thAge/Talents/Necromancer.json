@@ -1,0 +1,16 @@
+{
+    "Name" : "13thAgeTalentsNecromancer",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Cackling Soliloquist":1},
+            {"Dread Wizard":1},
+            {"Death Priest":1},
+            {"Deathknell":1},
+            {"It's Complicated":1},
+            {"Redeemer":1},
+            {"Skeletal Minion":1},
+            {"Sorta Dead":1}          
+		]
+	}
+}

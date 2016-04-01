@@ -1,0 +1,21 @@
+{
+    "Name" : "13thAgeNecromancerBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+                {"And Burnt-Out Wizard":1},
+                {"Archeologist":1},
+                {"Death Giant Servitor":1},
+                {"Drakkenhall Judge and Executioner":1},
+                {"Dreamweed Addict":1},
+                {"Failed Village Priest":1},
+                {"Former Mummy":1},
+                {"Former Necropolis Acolyte":1},
+                {"Living Dungeon Escapee":1},
+                {"Proudfort Defender":1},
+                {"Reformed Outlaw":1},
+                {"Resurrected Imperial Hero":1},
+                {"Swamp Baron":1}         
+		]
+	}
+}
