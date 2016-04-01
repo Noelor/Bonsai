@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeOccultistSpells",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Better Yet, Here":1},
+            {"Bitter Lessons":1},
+            {"Brilliant Comeback":1},
+            {"Inevitable Fall":1},
+            {"Moment of Karma":1},
+            {"Timely Mistake":1}          
+		]
+	}
+}

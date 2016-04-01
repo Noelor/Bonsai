@@ -1,0 +1,17 @@
+{
+    "Name" : "13thAgeTalentsOccultist",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Brain-Melting Secrets":1},
+            {"Hewer of Truth":1},
+            {"Icon Channeler":1},
+            {"Icon Envoy":1},
+            {"Otherworld Shadow":1},
+            {"Stance of Necessity":1},
+            {"Superior Rebuke":1},
+            {"Unwinding the Soul":1},
+            {"Warp Flesh":1}         
+		]
+	}
+}

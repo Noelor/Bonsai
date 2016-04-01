@@ -1,0 +1,14 @@
+{
+    "Name" : "13thAgeOccultistBackgrounds",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Antiquities Forger":1},
+            {"Librarian of the Forbidden":1},
+            {"Privileged Third Son of Nobility":1},
+            {"Wandering Mystic":1},
+            {"Ruins Scavenger":1},
+            {"Scion of the Black Sun Temple":1}          
+		]
+	}
+}
