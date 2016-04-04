@@ -1,0 +1,15 @@
+{
+    "Name" : "GenericAasimarFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Aasimar/AasimarFamily.json;generators/table/Names/Fantasy/Aasimar/AasimarMale.json;generators/table/Names/Fantasy/Aasimar/AasimarFemale.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericAasimarFantasyNameMale$":1},
+            {"$T-GenericAasimarFantasyNameFemale$":1}          
+		],
+        "2" : [
+            {"":1},
+            {" $T-GenericAasimarFantasyNameFamily$":10}
+        ]
+	}
+}

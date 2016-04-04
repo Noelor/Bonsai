@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceAasimar",
+	"Dependencies" : "generators/table/13thAge/GeneralFeats.json;generators/table/Names/Fantasy/Aasimar/AasimarRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Aasimar",
+        "RaceAbilityBonus" : "+2 Wisdom or +2 Charisma"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericAasimarFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Halo"
+		}                        
+	}
+}
