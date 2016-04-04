@@ -1,0 +1,25 @@
+{
+    "Name" : "GenericTieflingFantasyNameModern",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Art":1},
+            {"Carrion":1},
+            {"Chant":1},
+            {"Despair":1},
+            {"Fear":1},
+            {"Gladness":1},
+            {"Hope":1},
+            {"Ideal":1},
+            {"Music":1},
+            {"Nowhere":1},
+            {"Open":1},
+            {"Poetry":1},
+            {"Quest":1},            
+            {"Reverence":1},
+            {"Sorrow":1},
+            {"Torment":1},
+            {"Weary":1}            
+		]
+	}
+}

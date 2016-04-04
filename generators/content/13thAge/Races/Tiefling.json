@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceTiefling",
+	"Dependencies" : "generators/table/13thAge/GeneralFeats.json;generators/table/Names/Fantasy/Tiefling/TieflingRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Tiefling",
+        "RaceAbilityBonus" : "+2 Strength or +2 Intelligence"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericTieflingFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Curse of Chaos"
+		}                        
+	}
+}

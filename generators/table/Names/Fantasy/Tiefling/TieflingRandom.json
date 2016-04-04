@@ -1,0 +1,16 @@
+{
+    "Name" : "GenericTieflingFantasyNameRandom",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Fantasy/Tiefling/TieflingFamily.json;generators/table/Names/Fantasy/Tiefling/TieflingMale.json;generators/table/Names/Fantasy/Tiefling/TieflingFemale.json;generators/table/Names/Fantasy/Tiefling/TieflingModern.json",    
+    "Data": {
+    	"1": [
+			{"$T-GenericTieflingFantasyNameMale$":1},
+            {"$T-GenericTieflingFantasyNameFemale$":1}          
+		],        
+        "2" : [
+            {"":1},
+            {" '$T-GenericTieflingFantasyNameModern$' $T-GenericTieflingFantasyNameFamily$":4},
+            {" $T-GenericTieflingFantasyNameFamily$":10}
+        ]
+	}
+}

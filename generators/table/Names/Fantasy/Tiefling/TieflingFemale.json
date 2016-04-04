@@ -1,0 +1,44 @@
+{
+    "Name" : "GenericTieflingFantasyNameFemale",
+    "Type" : "Table",    
+    "Data": {
+        "1": [
+            {"Ak":1},
+            {"Al":1},
+            {"Bry":1},
+            {"Da":1},
+            {"Ea":1},
+            {"Ind":1},
+            {"Ka":1},
+            {"Kal":1},
+            {"Ki":1},
+            {"Leris":1},
+            {"Maka":1},
+            {"Mel":1},
+            {"Mor":1},
+            {"Ne":1},
+            {"Ni":1},
+            {"Orian":1},
+            {"Phe":1},
+            {"Rie":1}    
+        ],
+         "2": [
+            {"dren":1},
+            {"laia":1},
+            {"larra":1},
+            {"lisan":1},
+            {"lista":1},
+            {"lizsah":1},
+            {"maia":1},
+            {"meia":1},
+            {"na":1},
+            {"ranna":1},
+            {"ria":1},
+            {"sa":1},
+            {"seis":1},
+            {"sha":1},
+            {"sidra":1},
+            {"ta":1}    
+        ]
+    }
+}

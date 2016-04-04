@@ -14,7 +14,7 @@
 			"Text" : "<h3>Name: $T-GenericWarforgedFantasyName$</h3>"
 		},
         "2" : {
-			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Never Say Die?"
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Never Say Die"
 		}                        
 	}
 }

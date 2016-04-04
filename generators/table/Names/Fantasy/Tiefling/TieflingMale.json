@@ -1,0 +1,53 @@
+{
+    "Name" : "GenericTieflingFantasyNameMale",
+    "Type" : "Table",    
+    "Data": {
+        "1": [
+            {"Akme":1},
+            {"Am":1},
+            {"Ba":1},
+            {"Bara":1},
+            {"Dama":1},
+            {"Del":1},
+            {"Eke":1},
+            {"Ia":1},
+            {"Kai":1},
+            {"Leu":1},
+            {"Mal":1},
+            {"Me":1},
+            {"Mo":1},
+            {"Mor":1},
+            {"Pe":1},
+            {"Sar":1},
+            {"Shore":1},
+            {"Ska":1},
+            {"Teme":1},
+            {"The":1},
+            {"Vo":1},
+            {"Zo":1}    
+        ],
+         "2": [
+            {"cis":1},
+            {"dos":1},
+            {"drek":1},
+            {"kas":1},
+            {"kos":1},
+            {"laios":1},
+            {"lech":1},
+            {"lisar":1},
+            {"los":1},
+            {"mon":1},
+            {"mos":1},
+            {"moth":1},
+            {"non":1},
+            {"nos":1},
+            {"rai":1},
+            {"ren":1},
+            {"rith":1},
+            {"ron":1},
+            {"ru":1},
+            {"thos":1},
+            {"vin":1}    
+        ]
+    }
+}
