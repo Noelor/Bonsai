@@ -1,6 +1,6 @@
 {
 	"Name" : "13thAgeRandomRace",		
-	"Dependencies" : "generators/content/13thAge/Races/Human.json;generators/content/13thAge/Races/Dwarf.json;generators/content/13thAge/Races/Half-Orc.json;generators/content/13thAge/Races/HighElf.json;generators/content/13thAge/Races/DarkElf.json;generators/content/13thAge/Races/WoodElf.json;enerators/content/13thAge/Races/HalfElf.json;generators/content/13thAge/Races/Gnome.json;generators/content/13thAge/Races/Halfling.json;generators/content/13thAge/Races/DragonBorn.json;generators/content/13thAge/Races/Warforged.json;generators/content/13thAge/Races/Tiefling.json;generators/content/13thAge/Races/Aasimar.json",
+	"Dependencies" : "generators/content/13thAge/Races/Human.json;generators/content/13thAge/Races/Dwarf.json;generators/content/13thAge/Races/Half-Orc.json;generators/content/13thAge/Races/HighElf.json;generators/content/13thAge/Races/DarkElf.json;generators/content/13thAge/Races/WoodElf.json;generators/content/13thAge/Races/HalfElf.json;generators/content/13thAge/Races/Gnome.json;generators/content/13thAge/Races/Halfling.json;generators/content/13thAge/Races/DragonBorn.json;generators/content/13thAge/Races/Warforged.json;generators/content/13thAge/Races/Tiefling.json;generators/content/13thAge/Races/Aasimar.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	    
@@ -15,7 +15,7 @@
                 {"$C-13thAgeRaceHalfling$":1},
                 {"$C-13thAgeRaceDarkElf$":1},
                 {"$C-13thAgeRaceWoodElf$":1},
-                {"$C-13thAgeRaceHalfElf$":1},
+                {"$C-13thAgeRaceHalfElf$":2000},
                 {"$C-13thAgeRaceDragonBorn$":3},
                 {"$C-13thAgeRaceWarforged$":1},
                 {"$C-13thAgeRaceTiefling$":1},
