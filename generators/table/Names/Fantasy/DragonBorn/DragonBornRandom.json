@@ -1,0 +1,16 @@
+{
+    "Name" : "GenericDragonBornFantasyNameRandom",
+    "Dependencies": "generators/table/Names/Fantasy/DragonBorn/DragonBornMale.json;generators/table/Names/Fantasy/DragonBorn/DragonBornFemale.json;generators/table/Names/Fantasy/DragonBorn/DragonBornFamily.json",
+    "Type" : "Table",    
+    "Data": {
+        "1": [
+            {"$T-GenericDragonBornFantasyNameMale$":1},
+            {"$T-GenericDragonBornFantasyNameFemale$":1}
+        ],
+        "2" : " ", 
+         "3": [
+            {"$T-GenericDragonBornFantasyNameFamily$":10},
+            {"":1}
+        ]
+    }
+}

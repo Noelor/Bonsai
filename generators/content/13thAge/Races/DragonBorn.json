@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceDragonBorn",
+	"Dependencies" : "generators/table/13thAge/GeneralFeats.json;generators/table/Names/Fantasy/DragonBorn/DragonBornRandom.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Dragon Born",
+        "RaceAbilityBonus" : "+2 Strength or +2 Charisma"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericDragonBornFantasyNameRandom$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Breath Weapon"
+		}                        
+	}
+}
