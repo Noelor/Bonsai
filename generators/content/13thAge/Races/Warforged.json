@@ -1,0 +1,20 @@
+{
+	"Name" : "13thAgeRaceWarforged",
+	"Dependencies" : "generators/table/13thAge/GeneralFeats.json;generators/table/Names/Fantasy/Warforged/Warforged.json",
+	"ButtonText" : "Another",
+	"Type" : "Content",
+	   
+    "Variables" : {
+        "Race" : "Warforged",
+        "RaceAbilityBonus" : "+2 Strength or +2 Constitution"        
+    },        
+        
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Name: $T-GenericWarforgedFantasyName$</h3>"
+		},
+        "2" : {
+			"Text" : "<b>Race:</b> $V-Race$ <br> <b>Racial Power:</b> Never Say Die?"
+		}                        
+	}
+}
