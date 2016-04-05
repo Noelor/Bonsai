@@ -1,7 +1,7 @@
 {
 	"Name" : "13thAgeBackgroundArrays",			
 	"ButtonText" : "Hide",
-    "Dependencies" : "generators/table/13thAge/Backgrounds/General.json;",
+    "Dependencies" : "generators/table/13thAge/Backgrounds/General.json",
 	"Type" : "Content",
 	  
     "Variables" : {
