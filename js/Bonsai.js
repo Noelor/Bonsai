@@ -38,7 +38,7 @@ function loadGenerator(filePath,loadingMessageCallback, rootNameCallBack) {
                 var dependencies = Generator.Dependencies.split(";");
                 $.each(dependencies, function(_,dependency)
                 {
-                    if($.inArray(dependency,fetchedURIs) == -1)
+                    if(dependency && $.inArray(dependency,fetchedURIs) == -1)
                     {
                         loadGenerator(dependency,loadingMessageCallback);
                         fetchedURIs.push(dependency);
