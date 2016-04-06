@@ -7,7 +7,7 @@
 	
 	"Data" : {
 		"1" : {
-			"Text" : "<h3>Kill Six Billion Demons: Angel</h3>"
+			"Text" : "<h3><a href='http://killsixbilliondemons.com/' target='_blank'>Kill Six Billion Demons</a>: Angel</h3>"
 		},
 		"2" : { 
 			"Text" : "<b>Behold:</b> $R-3_99$ $T-K6BDAngelNameRoot$"                     
