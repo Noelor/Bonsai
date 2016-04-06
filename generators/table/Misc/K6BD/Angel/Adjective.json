@@ -1,0 +1,14 @@
+{
+    "Name" : "K6BDAngelNameAdjective",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Utility/Colours16.json;generators/table/Utility/FancyMaterials.json;generators/table/Utility/MetalsCommon.json;generators/table/Utility/MetalsFantasy.json;generators/table/Utility/AdjectivesCool.json" ,   
+    "Data": {
+    	"1": [
+            {"$T-Colours16$":8},
+            {"$T-FancyMaterials$":8},
+            {"$T-CommonMetals$":16},
+            {"$T-FantasyMetals$":8},
+            {"$T-CoolAdjectives$":8}
+		]
+	}
+}

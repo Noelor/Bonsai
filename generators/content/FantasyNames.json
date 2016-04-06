@@ -36,7 +36,8 @@
 		},
 		"51" : { 
 			"TextIndex" : [
-				{"Wuxia Inspired":"?gen=Names/Fantasy/Wuxia"}
+				{"Wuxia Inspired":"?gen=Names/Fantasy/Wuxia"},
+                {"K6BD Angels":"?gen=Names/Misc/K6BDAngels"}
 			],
             "ParagraphType" : "DoubleIndex" 
 		}

@@ -1,0 +1,10 @@
+{
+    "Name" : "K6BDAngelNameRoot",
+    "Type" : "Table",
+     "Dependencies" : "generators/table/Misc/K6BD/Angel/Adjective.json;generators/table/Misc/K6BD/Angel/Groups.json;generators/table/Utility/NounsCool.json;generators/table/Utility/VerbsCoolPresent3rd.json",    
+    "Data": {
+    	"1": [
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$":1}
+		]
+	}
+}

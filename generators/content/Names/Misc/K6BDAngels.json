@@ -1,0 +1,16 @@
+{
+	"Name" : "K6BDAngelName",
+    "Title" : "Kill Six Billion Demons: Angel Names",    
+	"Dependencies" : "generators/table/Misc/K6BD/Angel/NameRoot.json",
+    "ButtonText" : "Consult the Concordance",	
+	"Type" : "Content",
+	
+	"Data" : {
+		"1" : {
+			"Text" : "<h3>Kill Six Billion Demons: Angel</h3>"
+		},
+		"2" : { 
+			"Text" : "<b>Behold:</b> $R-3_99$ $T-K6BDAngelNameRoot$"                     
+		}
+	}
+}
