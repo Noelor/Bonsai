@@ -370,7 +370,7 @@ function processNestedEntries(entry, poolName)
 		var insertValue = processEntryMarkup(match);
         
         //If a poolname is set, ensure the value is exclusive before allowing it in.
-        if( poolName != "None")
+        if( poolName && poolName != "None")
         {
             //console.log("Pool: " + poolName)
             if( poolName in exlusivePools )
