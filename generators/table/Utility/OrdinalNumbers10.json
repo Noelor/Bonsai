@@ -1,0 +1,18 @@
+{
+    "Name" : "OrdinalNumbers10",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"First":1},
+            {"Second":1},
+            {"Third":1},
+            {"Fourth":1},
+            {"Fifth":1},
+            {"Sixth":1},
+            {"Seventh":1},
+            {"Eighth":1},
+            {"Ninth":1},
+            {"Tenth":1}        
+		]
+	}
+}
