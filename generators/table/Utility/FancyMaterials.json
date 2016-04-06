@@ -1,0 +1,16 @@
+{
+    "Name" : "FancyMaterials",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Jade":1},
+            {"Silk":1},
+            {"Gossamer":1},
+            {"Verdigris":1},
+            {"Peony":1},
+            {"Feather":1},
+            {"Saffron":1},
+            {"Pearl":1}        
+		]
+	}
+}

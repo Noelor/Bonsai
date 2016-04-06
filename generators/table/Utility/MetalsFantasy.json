@@ -1,0 +1,16 @@
+{
+    "Name" : "FantasyMetals",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Mithril":1},
+            {"Orichalcum":1},
+            {"Adamantium":1},
+            {"Moonsilver":1},
+            {"Soulsteel":1},
+            {"Starmetal":1},
+            {"Cold-Iron":1},
+            {"Meteor-Iron":1}        
+		]
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "Name" : "CommonMetals",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Iron":1},
+            {"Steel":1},
+            {"Copper":1},
+            {"Bronze":1},
+            {"Brass":1},
+            {"Silver":1},
+            {"Gold":1},
+            {"Platinum":1},
+            {"Iridium":1},
+            {"Antimony":1},
+            {"Mercury":1},
+            {"Cobalt":1},
+            {"Titanium":1},
+            {"Chrome":1}        
+		]
+	}
+}
