@@ -1,0 +1,38 @@
+{
+    "Name" : "Adverbs",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Beautifully":1},
+            {"Brightly":1},
+            {"Brutally":1},
+            {"Certainly":1},
+            {"Delicately":1},
+            {"Deliciously":1},
+            {"Delightfully":1},
+            {"Dramatically":1},
+            {"Dutifully":1},
+            {"Eternally":1},
+            {"Every Day":1},
+            {"Everywhere":1},
+            {"Exactly":1},
+            {"Firmly":1},
+            {"Gladly":1},
+            {"Gloriously":1},
+            {"Justly":1},
+            {"Loudly":1},
+            {"Once":1},
+            {"Perfectly":1},
+            {"Promptyly":1},
+            {"Quickly":1},
+            {"Regretfully":1},
+            {"Silently":1},
+            {"Sometimes":1},
+            {"Sorrowfully":1},
+            {"Sternly":1},
+            {"Uneasily":1},
+            {"Wickedly":1},
+            {"Yearly":1}        
+		]
+	}
+}
