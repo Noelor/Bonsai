@@ -1,0 +1,18 @@
+{
+    "Name" : "K6BDAngelNameVerbMovement",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Arrives":1},
+            {"Dances":1},
+            {"Dies":1},
+            {"is Reborn":1},
+            {"Leaves":1},
+            {"Left":1},
+            {"Prays":1},
+            {"Returns":1},
+            {"Sings":1},
+            {"Waits":1}        
+		]
+	}
+}

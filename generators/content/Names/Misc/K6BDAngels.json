@@ -10,7 +10,10 @@
 			"Text" : "<h3><a href='http://killsixbilliondemons.com/' target='_blank'>Kill Six Billion Demons</a>: Angel</h3>"
 		},
 		"2" : { 
-			"Text" : "<b>Behold:</b> $R-3_99$ $T-K6BDAngelNameRoot$"                     
+			"TextTable" : [
+                {"<b>Behold:</b> $R-3_99$ $T-K6BDAngelNameRoot$":1},
+                {"<b>Witness:</b> $R-5_20$ $T-K6BDAngelNameRoot$":1}
+            ]                     
 		}
 	}
 }

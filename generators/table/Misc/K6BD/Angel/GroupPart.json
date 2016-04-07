@@ -1,0 +1,29 @@
+{
+    "Name" : "K6BDAngelNameGroupPart",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Blades":1},
+            {"Brain":1},
+            {"Castles":1},
+            {"Core":1},
+            {"Craft":1},
+            {"Eyes":1},
+            {"Final Song":1},
+            {"Final Words":1},
+            {"First Word":1},
+            {"Heart":1},
+            {"Hovels":1},
+            {"Last Step":1},
+            {"Law":1},
+            {"Palaces":1},
+            {"Second Breath":1},
+            {"Sins":1},
+            {"Soul":1},
+            {"Spears":1},
+            {"Thrones":1},
+            {"Flesh":1},
+            {"Tongues":1}        
+		]
+	}
+}
