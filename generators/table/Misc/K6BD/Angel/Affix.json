@@ -1,0 +1,32 @@
+{
+    "Name" : "K6BDAngelNameAffix",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Thought":1},
+            {"Intent":1},
+            {"Truth":1},
+            {"Balance":1},
+            {"Stability":1},
+            {"Equilibrium":1},
+            {"Justice":1},
+            {"Law":1},
+            {"Alacrity":1},
+            {"Fervor":1},
+            {"Action":1},
+            {"Life":1},
+            {"Life Everlasting":1},
+            {"Razors":1},
+            {"Envy":1},
+            {"Blight":1},
+            {"Ire":1},
+            {"Worth":1},
+            {"Joy":1},
+            {"Excellence":1},
+            {"Bliss":1},
+            {"Inertia":1},
+            {"Honor":1},
+            {"Zeal":1}        
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "Name" : "K6BDAngelNameLocation",
+    "Type" : "Table", 
+    "Dependencies" : "generators/table/Utility/OrdinalNumbers50.json",    
+    "Data": {
+    	"1": [
+            {"a Battlefield":1},
+            {"a Beach":1},
+            {"a Clearing":1},
+            {"a Desert":1},
+            {"a Forest":1},
+            {"a Funeral Pyre":1},
+            {"a Graveyard":1},
+            {"a Grove":1},
+            {"a Jungle":1},
+            {"a Mountain":1},
+            {"a Mourning Hall":1},
+            {"a Palace":1},
+            {"a River":1},
+            {"a Star":1},
+            {"a Stream":1},
+            {"All Creation":1},
+            {"All that Is and Was":1},
+            {"Endless Rolling Hills":1},
+            {"the $T-OrdinalNumbers50$ Hell":1},
+            {"the Abyss":1},
+            {"the Last Moment":1},
+            {"the Moon":1},
+            {"the Ocean":1},
+            {"the Stars":1},
+            {"the Void":1},
+            {"Throne":1}        
+		]
+	}
+}

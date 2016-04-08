@@ -1,18 +1,26 @@
 {
     "Name" : "K6BDAngelNameRoot",
     "Type" : "Table",
-     "Dependencies" : "generators/table/Misc/K6BD/Angel/Adjective.json;generators/table/Misc/K6BD/Angel/Groups.json;generators/table/Utility/NounsCool.json;generators/table/Utility/VerbsCoolPresent3rd.json;generators/table/Utility/Adverbs.json;generators/table/Misc/K6BD/Angel/GroupPart.json;generators/table/Misc/K6BD/Angel/VerbMovement.json;generators/table/Utility/VerbsPlain.json",    
+     "Dependencies" : "generators/table/Misc/K6BD/Angel/Adjective.json;generators/table/Misc/K6BD/Angel/Groups.json;generators/table/Utility/NounsCool.json;generators/table/Utility/VerbsCoolPresent3rd.json;generators/table/Utility/Adverbs.json;generators/table/Misc/K6BD/Angel/GroupPart.json;generators/table/Misc/K6BD/Angel/VerbMovement.json;generators/table/Utility/VerbsPlain.json;generators/table/Utility/GerundsCool.json;generators/table/Misc/K6BD/Angel/Concepts.json;generators/table/Misc/K6BD/Angel/Affix.json;generators/table/Utility/NounsSong.json;generators/table/Misc/K6BD/Angel/MovementPhrase.json;generators/table/Misc/K6BD/Angel/Location.json;generators/table/Utility/NounsNature.json;generators/table/Utility/AdjectivesAgitated-Calm.json",    
     "Data": {
     	"1": [
-            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$":5},           
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$":5},
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ of $T-K6BDAngelNameAffix$ Shall $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":3},
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ of $T-K6BDAngelNameAffix$ Will $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":3},           
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ the $T-K6BDAngelNameGroupPart$ of $T-K6BDAngelNameGroups$":5},
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$, $T-Adverbs$":1},
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ All $T-K6BDAngelNameGroups$, $T-Adverbs$":5},
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ the $T-K6BDAngelNameGroupPart$ of $T-K6BDAngelNameGroups$, $T-Adverbs$":1},
-            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ all $T-K6BDAngelNameGroups$ and $T-K6BDAngelNameGroups$":5},
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$ and $T-K6BDAngelNameGroups$":5},
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$ and $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$":5},
-            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ all $T-K6BDAngelNameGroups$ and $T-K6BDAngelNameGroups$, $T-Adverbs$":1},
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-CoolVerbsPresentThirdPerson$ $T-K6BDAngelNameGroups$ and $T-K6BDAngelNameGroups$, $T-Adverbs$":1},
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-K6BDAngelNameVerbMovement$ to $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":15},
-            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ with a $T-K6BDAngelNameAdjective$ $T-CoolNouns$ ":15}
+            {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ With a $T-K6BDAngelNameAdjective$ $T-CoolNouns$ ":15},
+            {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$":10},
+            {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$ Shall $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":3},
+            {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$ Will $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":3},
+            {"$T-SongNouns$ of $T-AgitatedAndCalmAdjectives$ $T-NatureNouns$ $T-K6BDAngelNameMovementPhrase$ $T-K6BDAngelNameLocation$":8},
+            {"$T-AgitatedAndCalmAdjectives$ $T-NatureNouns$ $T-K6BDAngelNameMovementPhrase$ $T-K6BDAngelNameLocation$":8}
 		]
 	}
 }

@@ -1,0 +1,24 @@
+{
+    "Name" : "K6BDAngelNameMovementPhrase",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Rising From ":1},
+            {"From":1},
+            {"Moving Through":1},
+            {"Through":1},
+            {"Advancing Past":1},
+            {"Past":1},
+            {"Forever Beyond":1},
+            {"Beyond":1},
+            {"Trapped Inside  ":1},
+            {"Inside of":1},
+            {"Trapped Outside":1},
+            {"Outside of":1},
+            {"Flying Above":1},
+            {"Above":1},
+            {"Meditating in":1},
+            {"in":1}        
+		]
+	}
+}
