@@ -33,7 +33,7 @@
             {"Lampoon":1},
             {"Manipulate":1},
             {"Negate":1},
-            {"Occupie":1},
+            {"Occupy":1},
             {"Perceive":1},
             {"Protect":1},
             {"Puncture":1},
@@ -51,9 +51,9 @@
             {"Shroud":1},
             {"Subdue":1},
             {"Transcend":1},            
-            {"Undoe":1},
+            {"Undo":1},
             {"Unmake":1},
-            {"Vanquishe":1},
+            {"Vanquish":1},
             {"Veil":1},
             {"Witnes":1}      
 		]
