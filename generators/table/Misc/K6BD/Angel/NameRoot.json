@@ -17,7 +17,7 @@
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ $T-K6BDAngelNameVerbMovement$ to $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":15},
             {"$T-K6BDAngelNameAdjective$ $T-CoolNouns$ With a $T-K6BDAngelNameAdjective$ $T-CoolNouns$ ":15},
             {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$":10},
-            {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$ Shall $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":30000},
+            {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$ Shall $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":3},
             {"$T-CoolGerunds$ $T-TemK6BDAngelNameConcepts$ Will $T-CoolVerbsPlain$ $T-K6BDAngelNameGroups$":3},
             {"$T-SongNouns$ of $T-AgitatedAndCalmAdjectives$ $T-NatureNouns$ $T-K6BDAngelNameMovementPhrase$ $T-K6BDAngelNameLocation$":8},
             {"$T-AgitatedAndCalmAdjectives$ $T-NatureNouns$ $T-K6BDAngelNameMovementPhrase$ $T-K6BDAngelNameLocation$":8}
