@@ -1,0 +1,43 @@
+{
+    "Name" : "AgitatedAndCalmAdjectives",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Abating":1},
+            {"Calm":1},
+            {"Calming":1},
+            {"Churning":1},
+            {"Clear":1},
+            {"Clouded":1},
+            {"Driving":1},
+            {"Dwindeling":1},
+            {"Ebbing":1},
+            {"Fair":1},
+            {"Falling":1},
+            {"Halcyon":1},
+            {"Holy":1},
+            {"Hushed":1},
+            {"Loud":1},
+            {"Quiet":1},
+            {"Raging":1},
+            {"Receding":1},
+            {"Reeling":1},
+            {"Relenting":1},
+            {"Relentless":1},
+            {"Roiling":1},
+            {"Seething":1},
+            {"Serene":1},
+            {"Silent":1},
+            {"Sinking":1},
+            {"Still":1},
+            {"Subsiding":1},
+            {"Sullen":1},
+            {"Swirling":1},
+            {"Tranquil":1},
+            {"Unholy":1},
+            {"Vile":1},
+            {"Whirling":1},
+            {"Wispering":1}        
+		]
+	}
+}
