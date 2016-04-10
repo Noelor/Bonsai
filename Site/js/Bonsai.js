@@ -124,7 +124,9 @@ function generateFromContent(contentName, clearData)
         }
         
 		$.each(contentGenerator.Data, function(key,section){
-			
+			var sectionContent = "";
+            
+            
             //Check if this is going into an exlusivity pool
             if("Exclusive" in section)
             {
@@ -164,17 +166,17 @@ function generateFromContent(contentName, clearData)
 			if(section.ParagraphType == "Paragraph" || section.ParagraphType == "Paragraph-Start" 
 			|| section.ParagraphType == "Paragraph-End")
 			{
-				content += generateContentParagraph(section,poolName);
+				sectionContent += generateContentParagraph(section,poolName);
 			}else if(section.ParagraphType == "DoubleList" || section.ParagraphType == "DoubleList-Start"){
-                content += generateContentList(section,true,poolName);
+                sectionContent += generateContentList(section,true,poolName);
             }else if (section.ParagraphType == "List" || section.ParagraphType == "List-Continues" || section.ParagraphType == "List-Start" 
 			|| section.ParagraphType == "List-End") {
-				content += generateContentList(section,false,poolName);
+				sectionContent += generateContentList(section,false,poolName);
 			}else if(section.ParagraphType == "CommaSeperatedList"){
-                content += generateContentCommaSeperated(section,poolName);              
+                sectionContent += generateContentCommaSeperated(section,poolName);              
             }else{
 				//Fallback to no decorations on unspecified type.
-				content += generateContentUndecorated(section,poolName);
+				sectionContent += generateContentUndecorated(section,poolName);
 			}
                              
             if("SentenceCase" in section == true)
@@ -183,9 +185,11 @@ function generateFromContent(contentName, clearData)
                 if(section.SentenceCase == "Title-Case")
                 {
  
-                    content = content.toTitleCase();
+                    sectionContent = sectionContent.toTitleCase();
                 }
-            }								
+            }
+            
+            content += sectionContent; 								
 		});
 				
 		return content;
