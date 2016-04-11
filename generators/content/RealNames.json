@@ -16,6 +16,7 @@
 				{"Chinese":"?gen=Names/Real/Chinese"},
 				{"Dutch":"?gen=Names/Real/Dutch"},
 				{"French":"?gen=Names/Real/French"},
+                {"Greek":"?gen=Names/Real/Greek"},
 				{"Korean":"?gen=Names/Real/Korean"}
 			],
             "ParagraphType" : "DoubleIndex" 
