@@ -1,0 +1,23 @@
+{
+    "Name" : "RandomGivenName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/American/AmericanMaleGiven.json;generators/table/Names/Real/American/AmericanFemaleGiven.json;generators/table/Names/Real/Dutch/DutchMaleGiven.json;generators/table/Names/Real/Dutch/DutchFemaleGiven.json;generators/table/Names/Real/French/FrenchMaleGiven.json;generators/table/Names/Real/French/FrenchFemaleGiven.json;generators/table/Names/Real/Chinese/ChineseMaleGiven.json;generators/table/Names/Real/Chinese/ChineseFemaleGiven.json;generators/table/Names/Real/Korean/KoreanMaleGiven.json;generators/table/Names/Real/Korean/KoreanFemaleGiven.json;generators/table/Names/Real/Nigerian/NigerianMaleGiven.json;generators/table/Names/Real/Nigerian/NigerianFemaleGiven.json;generators/table/Names/Real/Greek/GreekMaleGiven.json;generators/table/Names/Real/Greek/GreekFemaleGiven.json;",    
+    "Data": {
+    	"1": [
+            {"$T-AmericanFemaleGivenName$":1},
+            {"$T-AmericanMaleGivenName$":1},
+            {"$T-ChineseFemaleGivenName$":1},
+            {"$T-ChineseMaleGivenName$":1},
+            {"$T-DutchFemaleGivenName$":1},
+            {"$T-DutchMaleGivenName$":1},
+            {"$T-FrenchFemaleGivenName$":1},
+            {"$T-FrenchMaleGivenName$":1},
+            {"$T-KoreanFemaleGivenName$":1},
+            {"$T-KoreanMaleGivenName$":1},
+            {"$T-NigerianFemaleGivenName$":1},
+            {"$T-NigerianMaleGivenName$":1},
+            {"$T-GreekFemaleGivenName$":1},
+            {"$T-GreekMaleFamilyName$":1}
+		]
+	}
+}

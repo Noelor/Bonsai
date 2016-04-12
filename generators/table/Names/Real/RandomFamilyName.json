@@ -1,0 +1,17 @@
+{
+    "Name" : "RandomFamilyName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/Greek/GreekMaleFamily.json;generators/table/Names/Real/Greek/GreekFemaleFamily.json;generators/table/Names/Real/American/AmericanFamily.json;generators/table/Names/Real/Chinese/ChineseFamily.json;generators/table/Names/Real/Dutch/DutchFamily.json;generators/table/Names/Real/French/FrenchFamily.json;generators/table/Names/Real/Korean/KoreanFamily.json;generators/table/Names/Real/Nigerian/NigerianFamily.json;",    
+    "Data": {
+    	"1": [
+            {"$T-GreekFemaleFamilyName$":1},
+            {"$T-GreekMaleFamilyName$":1},
+            {"$T-AmericanFamilyName$":1},
+            {"$T-ChineseFamilyName$":1},
+            {"$T-DutchFamilyName$":1},
+            {"$T-FrenchFamilyName$":1},
+            {"$T-KoreanFamilyName$":1},
+            {"$T-NigerianFamilyName$":1}
+        ]
+	}
+}
