@@ -1,0 +1,37 @@
+{
+    "Name" : "CultNotableTitle",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Second in Command":1},
+            {"Luitenant":1},
+            {"Finances":1},
+            {"Youth Leaderership":1},
+            {"Recruitment":1},
+            {"Security":1},
+            {"VIP":1},
+            {"Notable Figure":1},
+            {"Fist Convert":1},
+            {"Celebrity Member":1},
+            {"Inner Circle":1},
+            {"Heir Apparant":1},
+            {"Officer":1},
+            {"Director":1},
+            {"Field Minister":1},
+            {"Attorney":1},
+            {"Spokesperson":1},
+            {"Special Affairs":1},
+            {"Senior Official":1},
+            {"Financier":1},
+            {"Workshop Leader":1},
+            {"Choir Leader":1},
+            {"Surrogate Parent":1},
+            {"$V-LeaderName$'s Lover":1},
+            {"$V-CultName$ Militia Leader":1},
+            {"Public Face":1},
+            {"National Politician":1},
+            {"Double Agent":1},
+            {"Triple Agent":1}
+        ]
+	}
+}

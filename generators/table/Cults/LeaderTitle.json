@@ -1,0 +1,19 @@
+{
+    "Name" : "CultLeaderTitle",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Prophet":1},
+            {"Leader":1},
+            {"Preacher":1},
+            {"Reverend":1},
+            {"Chosen One":1},
+            {"General":1},
+            {"Minister":1},
+            {"Founder":1},
+            {"Marshal":1},
+            {"CEO":1},
+            {"Chairman":1}
+        ]
+	}
+}

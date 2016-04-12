@@ -1,6 +1,6 @@
 {
 	"Name" : "CultGenerator",
-	"Dependencies" : "generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Names/Real/RandomRealName.json",
+	"Dependencies" : "generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Names/Real/RandomRealName.json;generators/table/Cults/LeaderTitle.json;generators/table/Cults/NotableTitle.json",
 	"ButtonText" : "More Wackjobs",
 	"Type" : "Content",
 	
@@ -17,12 +17,12 @@
 			"Text" : "<h2>Leadership</h2>"
 		},
         "6" : { 
-			"Text" : "<b>Leader</b>: $V-LeaderName$"
+			"Text" : "<b>$T-CultLeaderTitle$</b>: $V-LeaderName$"
 		},
         "9" : { 
-			"Text" : "<b>Notable Figure</b>: $T-RandomRealName$<br>",
-            "MinAmount" : 1,
-			"MaxAmount" : 3,
+			"Text" : "<b>$T-CultNotableTitle$</b>: $T-RandomRealName$<br>",
+            "MinAmount" : 0,
+			"MaxAmount" : 6,
             "Chance" : 75
 		},
 		"10" : { 
