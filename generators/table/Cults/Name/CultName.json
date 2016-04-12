@@ -1,0 +1,23 @@
+{
+    "Name" : "CultName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/RandomFamilyName.json;generators/table/Cults/Name/Commune.json;generators/table/Utility/Numbers20.json;generators/table/Cults/Name/Group.json;generators/table/Cults/Name/Objects.json;generators/table/Cults/Name/Descriptors.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json",    
+    "Data": {
+    	"1": [            
+            {"The $T-RandomFamilyName$ $T-CultNameCommune$":10},
+            
+            {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$":3},
+            {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$ and $T-CultNameObject$":3},
+            {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$ and $R-2_20$ $T-CultNameObject$":3},
+            
+            {"The $T-CultGroup$ $T-CultDescriptor$":5},
+            {"$T-CultGroup$ of $T-CultNameVague1$ $T-CultNameVague2$":5},
+            
+            {"Movement for $T-CultNameVague1$ $T-CultNameVague2$":2},
+            {"Teachers of $T-CultNameVague1$ $T-CultNameVague2$":2},
+            {"Better Living Through $T-CultNameVague1$ $T-CultNameVague2$":2},
+            {"Adherents of $T-CultNameVague1$ $T-CultNameVague2$":2},
+            {"$T-CultNameVague1$ $T-CultNameVague2$ Through Multi Level Marketing":2}            
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+    "Name" : "CultNameObject",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Seals":1},
+            {"Angels":1},
+            {"Beginnings":1},            
+            {"Bodhisattvas":1},
+            {"Comets":1},
+            {"Endings":1},
+            {"Gods":1},
+            {"Grails":1},
+            {"Jewels":1},
+            {"Moons":1},
+            {"Prophecies":1},
+            {"Prophets":1},
+            {"Pyramids":1},
+            {"Rightfull Actions":1},
+            {"Saints":1},
+            {"Scrolls":1},
+            {"Signs":1},
+            {"Sins":1},
+            {"Souls":1},
+            {"Stars":1},
+            {"Suns":1},
+            {"Tablets":1},
+            {"Texts":1},
+            {"Tomes":1},
+            {"Truths":1},
+            {"Virtues":1},
+            {"Worlds":1}
+		]
+	}
+}

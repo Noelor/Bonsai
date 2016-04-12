@@ -1,0 +1,30 @@
+{
+    "Name" : "CultGroup",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Band":1},
+            {"Brethren":1},
+            {"Children":1},
+            {"Chosen Ones":1},
+            {"Church":1},
+            {"Communion":1},
+            {"Congregation":1},
+            {"Creed":1},
+            {"Cult":1},
+            {"Faith":1},
+            {"Fellowship":1},
+            {"Followers":1},
+            {"Free Thinkers":1},
+            {"Gathering":1},
+            {"Healers":1},
+            {"Movement":1},
+            {"Oracles":1},
+            {"Order":1},
+            {"Paragons":1},
+            {"Sect":1},
+            {"Students":1},
+            {"Wanders":1}
+		]
+	}
+}

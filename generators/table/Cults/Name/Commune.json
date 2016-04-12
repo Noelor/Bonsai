@@ -1,0 +1,17 @@
+{
+    "Name" : "CultNameCommune",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Family":1},
+            {"Commune":1},            
+            {"Community":1},
+            {"Cooperative":1},
+            {"Group":1},
+            {"Tribe":1},
+            {"Dynasty":1},
+            {"Congregation":1},
+            {"Descendants":1} 
+		]
+	}
+}
