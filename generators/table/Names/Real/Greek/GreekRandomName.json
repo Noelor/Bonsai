@@ -1,0 +1,13 @@
+{
+    "Name" : "GreekRandomName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/Greek/GreekMaleGiven.json;generators/table/Names/Real/Greek/GreekFemaleGiven.json;generators/table/Names/Real/Greek/GreekMaleFamily.json;generators/table/Names/Real/Greek/GreekFemaleFamily.json",    
+    "Data": {
+    	"1": [
+            {"$T-GreekMaleGivenName$":1},
+            {"$T-GreekFemaleGivenName$":1},
+            {"$T-GreekMaleGivenName$ $T-GreekMaleFamilyName$":10},
+            {"$T-GreekFemaleGivenName$ $T-GreekFemaleFamilyName$":10}
+        ]
+	}
+}

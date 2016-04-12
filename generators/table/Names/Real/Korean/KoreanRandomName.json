@@ -1,0 +1,15 @@
+{
+    "Name" : "KoreanRandomName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/Korean/KoreanMaleGiven.json;generators/table/Names/Real/Korean/KoreanFemaleGiven.json;generators/table/Names/Real/Korean/KoreanFamily.json",    
+    "Data": {
+    	"1": [
+            {"$T-KoreanMaleGivenName$":1},
+            {"$T-KoreanFemaleGivenName$":1}
+        ],        
+        "2": [
+            {"":1},
+            {" $T-KoreanFamilyName$":3}
+        ]
+	}
+}

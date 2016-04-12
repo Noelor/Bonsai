@@ -1,0 +1,16 @@
+{
+    "Name" : "RandomRealName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/American/AmericanRandomName.json;generators/table/Names/Real/Chinese/ChineseRandomName.json;generators/table/Names/Real/Dutch/DutchRandomName.json;generators/table/Names/Real/French/FrenchRandomName.json;generators/table/Names/Real/Greek/GreekRandomName.json;generators/table/Names/Real/Korean/KoreanRandomName.json;generators/table/Names/Real/Nigerian/NigerianRandomName.json",    
+    "Data": {
+    	"1": [
+            {"$T-AmericanRandomName$":1},
+            {"$T-ChineseRandomName$":1},
+            {"$T-DutchRandomName$":1},
+            {"$T-FrenchRandomName$":1},
+            {"$T-GreekRandomName$":1},
+            {"$T-KoreanRandomName$":1},
+            {"$T-NigerianRandomName$":1}       
+		]
+	}
+}

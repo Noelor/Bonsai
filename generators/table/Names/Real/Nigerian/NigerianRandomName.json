@@ -1,0 +1,15 @@
+{
+    "Name" : "NigerianRandomName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/Nigerian/NigerianMaleGiven.json;generators/table/Names/Real/Nigerian/NigerianFemaleGiven.json;generators/table/Names/Real/Nigerian/NigerianFamily.json",    
+    "Data": {
+    	"1": [
+            {"$T-NigerianMaleGivenName$":1},
+            {"$T-NigerianFemaleGivenName$":1}
+        ],        
+        "2": [
+            {"":1},
+            {" $T-NigerianFamilyName$":3}
+        ]
+	}
+}

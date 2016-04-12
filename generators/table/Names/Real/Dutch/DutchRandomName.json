@@ -1,0 +1,15 @@
+{
+    "Name" : "DutchRandomName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/Dutch/DutchMaleGiven.json;generators/table/Names/Real/Dutch/DutchFemaleGiven.json;generators/table/Names/Real/Dutch/DutchFamily.json",    
+    "Data": {
+    	"1": [
+            {"$T-DutchMaleGivenName$":1},
+            {"$T-DutchFemaleGivenName$":1}
+        ],        
+        "2": [
+            {"":1},
+            {" $T-DutchFamilyName$":3}
+        ]
+	}
+}

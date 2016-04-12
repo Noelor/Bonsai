@@ -1,0 +1,15 @@
+{
+    "Name" : "AmericanRandomName",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Names/Real/American/AmericanMaleGiven.json;generators/table/Names/Real/American/AmericanFemaleGiven.json;generators/table/Names/Real/American/AmericanFamily.json",    
+    "Data": {
+    	"1": [
+            {"$T-AmericanMaleGivenName$":1},
+            {"$T-AmericanFemaleGivenName$":1}
+        ],        
+        "2": [
+            {"":1},
+            {" $T-AmericanFamilyName$":3}
+        ]
+	}
+}
