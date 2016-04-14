@@ -3,7 +3,6 @@
     "Type" : "Table",    
     "Data": {
     	"1": [
-            {"Band":1},
             {"Brethren":1},
             {"Children":1},
             {"Chosen Ones":1},
@@ -24,7 +23,7 @@
             {"Paragons":1},
             {"Sect":1},
             {"Students":1},
-            {"Wanders":1}
+            {"Wanderers":1}
 		]
 	}
 }

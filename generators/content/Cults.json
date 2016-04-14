@@ -31,28 +31,28 @@
 		"10" : { 
 			"Text" : "<h2>Beliefs</h2>"
 		},
-        "15" : { 
+        "30" : { 
 			"Text" : "<h2>Rites and Obervances</h2>"
 		},
-        "20" : { 
+        "50" : { 
 			"Text" : "<h2>Recruitment</h2>"
 		},
-        "25" : { 
+        "70" : { 
 			"Text" : "<h2>Dress and Uniform</h2>"
 		},
-        "30" : { 
+        "90" : { 
 			"Text" : "<h2>Presence</h2>"
 		},
-        "35" : { 
+        "110" : { 
 			"Text" : "<h2>Artifacts and Relics</h2>"
 		},
-        "40" : { 
+        "130" : { 
 			"Text" : "<h2> </h2>"
 		},
-        "45" : { 
+        "150" : { 
 			"Text" : "<h2> </h2>"
 		},
-        "50" : { 
+        "170" : { 
 			"Text" : "<h2> </h2>"
 		}
 	}
