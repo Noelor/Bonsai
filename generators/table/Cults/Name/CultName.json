@@ -4,25 +4,33 @@
     "Dependencies" : "generators/table/Names/Real/RandomFamilyName.json;generators/table/Cults/Name/Commune.json;generators/table/Utility/Numbers20.json;generators/table/Cults/Name/Group.json;generators/table/Cults/Name/Objects.json;generators/table/Cults/Name/Descriptors.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json",    
     "Data": {
     	"1": [            
-            {"The $T-RandomFamilyName$ $T-CultNameCommune$":10},
+            {"The $T-RandomFamilyName$ $T-CultNameCommune$":5},
+            {"The $V-LeaderFirstName$  $T-CultNameCommune$":5},
+            {"The $V-LeaderLastName$ $T-CultNameCommune$":15},
             
-            {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$":3},
+            {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$":6},
             {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$ and $T-CultNameObject$":3},
             {"$T-CultGroup$ of $R-2_20$ $T-CultNameObject$ and $R-2_20$ $T-CultNameObject$":3},
             
-            {"The $T-CultGroup$ $T-CultDescriptor$":5},
-            {"$T-CultGroup$ of $T-CultNameVague1$ $T-CultNameVague2$":5},
+            {"The $T-CultGroup$ $T-CultDescriptor$":8},
+            {"$T-CultGroup$ of $V-PrimaryVagueness$":5},
+            {"$T-CultGroup$ of $V-PrimaryVagueness$  $T-CultNameVague2$":3},
             
-            {"Movement for $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"$T-CultNameVague1$ $T-CultNameVague2$ as a Service":1},
-            {"Teachers of $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"Agile Development with $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"Better Living Through $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"Test Driven $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"Adherents of $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"Multiphasic Personality Improvements with $T-CultNameVague1$ $T-CultNameVague2$":1},
-            {"$T-CultNameVague1$ $T-CultNameVague2$ Through Multi Level Marketing":1},
-            {"$T-CultNameVague1$ $T-CultNameVague2$ Anonymous":1}            
+            {"Movement for $V-PrimaryVagueness$ and $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"Movement for $V-PrimaryVagueness$":1},
+            {"$V-PrimaryVagueness$ as a Service":1},
+            {"Practical $V-PrimaryVagueness$, Today!":1},
+            {"Practical $V-PrimaryVagueness$ $T-CultNameVague2$, Today!":1},
+            {"Teachers of $V-PrimaryVagueness$":2},
+            {"Agile Development with $V-PrimaryVagueness$":1},
+            {"Better Living Through $V-PrimaryVagueness$":1},
+            {"$T-CultNameVague1$ $T-CultNameVague2$ Through $V-PrimaryVagueness$":1},
+            {"Test Driven $V-PrimaryVagueness$":1},
+            {"Adherents of $V-PrimaryVagueness$":1},
+            {"Adherents of $V-PrimaryVagueness$ $T-CultNameVague2$":1},
+            {"Multiphasic Personality Improvements with $V-PrimaryVagueness$":1},
+            {"$V-PrimaryVagueness$ Through Multi Level Marketing":1},
+            {"$V-PrimaryVagueness$ Anonymous":1}            
 		]
 	}
 }
