@@ -1,0 +1,15 @@
+{
+    "Name" : "CultLeaderAdress",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"$V-LeaderTitle$ $V-LeaderLastName$":1},
+            {"$V-LeaderTitle$ $V-LeaderFirstName$":1},
+            {"$V-LeaderFirstName$  $V-LeaderLastName$":1},
+            {"$V-LeaderTitle$ $V-LeaderFirstName$  $V-LeaderLastName$":1},
+            {"The $V-LeaderTitle$":1},
+            {"$V-LeaderFirstName$":1},
+            {"$V-LeaderLastName$":1}
+		]
+	}
+}
