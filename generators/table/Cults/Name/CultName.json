@@ -13,11 +13,16 @@
             {"The $T-CultGroup$ $T-CultDescriptor$":5},
             {"$T-CultGroup$ of $T-CultNameVague1$ $T-CultNameVague2$":5},
             
-            {"Movement for $T-CultNameVague1$ $T-CultNameVague2$":2},
-            {"Teachers of $T-CultNameVague1$ $T-CultNameVague2$":2},
-            {"Better Living Through $T-CultNameVague1$ $T-CultNameVague2$":2},
-            {"Adherents of $T-CultNameVague1$ $T-CultNameVague2$":2},
-            {"$T-CultNameVague1$ $T-CultNameVague2$ Through Multi Level Marketing":2}            
+            {"Movement for $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"$T-CultNameVague1$ $T-CultNameVague2$ as a Service":1},
+            {"Teachers of $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"Agile Development with $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"Better Living Through $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"Test Driven $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"Adherents of $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"Multiphasic Personality Improvements with $T-CultNameVague1$ $T-CultNameVague2$":1},
+            {"$T-CultNameVague1$ $T-CultNameVague2$ Through Multi Level Marketing":1},
+            {"$T-CultNameVague1$ $T-CultNameVague2$ Anonymous":1}            
 		]
 	}
 }
