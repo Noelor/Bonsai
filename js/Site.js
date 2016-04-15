@@ -41,7 +41,8 @@ $( document ).ready(function( $ ) {
     
     if(info.ButtonText != "Hide")
     {
-      $("#GeneratorButton").val(info.ButtonText); 
+      $("#GeneratorButton").val(info.ButtonText);
+      $("#SecondGeneratorButton").val(info.ButtonText); 
       $("#GeneratorButton").show();
       $("#SaveButton").show();         
     }
@@ -53,7 +54,17 @@ $( document ).ready(function( $ ) {
 function generateContent()
 {
     var generatedContent = generateFromContent(rootGeneratorName, true);
-    $("#BonsaiContent").html(generatedContent);    
+    $("#BonsaiContent").html(generatedContent);
+    
+    var GeneratorButton = $("#SecondGeneratorButton");
+    GeneratorButton.ca
+    
+    if(hasScrollbar() )
+    {
+      $("#SecondGeneratorButton").show();
+    }else{
+      $("#SecondGeneratorButton").hide();
+    }    
 }
 
 //Source: http://www.jquerybyexample.net/2012/06/get-url-parameters-using-jquery.html through http://stackoverflow.com/questions/19491336/get-url-parameter-jquery
@@ -78,4 +89,17 @@ function saveContent()
     var blob = new Blob([t], {type: "text/html;charset=utf-8"});
     
     saveAs(blob, "Bonsai.html");
+}
+
+function hasScrollbar()
+{
+  var hasScrollbar
+
+  if (typeof window.innerWidth === 'number')
+    hasScrollbar = window.innerWidth > document.documentElement.clientWidth
+
+  hasScrollbar = hasScrollbar ||
+    document.documentElement.scrollHeight > document.documentElement.clientHeight
+    
+  return hasScrollbar
 }

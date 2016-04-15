@@ -165,6 +165,9 @@ ul.Double-List{
 	display:none;
 }
 
+#SecondGeneratorButton{
+	display:none;
+}
 
 /* Additional Elements */
 #SaveButton{
