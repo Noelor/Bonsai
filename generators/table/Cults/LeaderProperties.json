@@ -3,10 +3,10 @@
     "Type" : "Table",    
     "Data": {
     	"1": [
-            {"is the Messiah":1},
-            {"is the Second Coming of Christ":1},
-            {"is Satan":1},
-            {"is the child of Satan":1},
+            {"is the Messiah":1},            
+            {"is a Demon":1},
+            {"is an Angel":1},
+            {"is the child of a Demon":1},
             {"is the Antichrist":1},
             {"has spoken to God":1},
             {"does not need to eat":1},
@@ -22,7 +22,7 @@
             {"can tell the future":1},
             {"does not sleep":1},
             {"can read minds":1},
-            {"was sent by God":1},
+            {"was sent by a God":1},
             {"was sent by Aliens":1},
             {"has no soul":1},
             {"has the oldest soul":1},
