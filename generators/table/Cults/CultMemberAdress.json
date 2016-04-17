@@ -1,0 +1,13 @@
+{
+    "Name" : "CultMemberAdress",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Cults/LeaderAdress.json",    
+    "Data": {
+    	"1": [
+            {"$V-CultMemberTitle$":3},
+            {"Members of $V-CultName$":1},
+            {"$V-CultMemberTitle$ of $V-CultName$":1},
+            {"$V-CultMemberTitle$ of $T-CultLeaderAdress$":3}
+		]
+	}
+}

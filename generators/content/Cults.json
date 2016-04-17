@@ -1,6 +1,6 @@
 {
 	"Name" : "CultGenerator",
-	"Dependencies" : "generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Names/Real/RandomRealName.json;generators/table/Cults/LeaderTitle.json;generators/table/Cults/NotableTitle.json;generators/table/Cults/Name/CultName.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json;generators/table/Cults/LeaderProperties.json;generators/table/Cults/LeadershipActions.json;generators/table/Cults/LeaderAdress.json",
+	"Dependencies" : "generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Names/Real/RandomRealName.json;generators/table/Cults/LeaderTitle.json;generators/table/Cults/NotableTitle.json;generators/table/Cults/Name/CultName.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json;generators/table/Cults/LeaderProperties.json;generators/table/Cults/LeadershipActions.json;generators/table/Cults/LeaderAdress.json;generators/table/Cults/CultMemberTitles.json;generators/table/Cults/CultMemberAdress.json;generators/table/Cults/CultBeliefBlurb.json",
 	"ButtonText" : "More Wackjobs",
 	"Type" : "Content",
 	
@@ -9,7 +9,8 @@
         "LeaderLastName" : "$T-RandomFamilyName$",
         "LeaderTitle" : "$T-CultLeaderTitle$",
         "PrimaryVagueness" : "$T-CultNameVague1$ $T-CultNameVague2$",
-        "CultName" : "$T-CultName$"
+        "CultName" : "$T-CultName$",
+		"CultMemberTitle" : "$T-CultMemberTitle$"
     },
     
 	"Data" : {
@@ -18,15 +19,18 @@
 		},
 		"5" : { 
 			"Text" : "<h2>Leadership</h2>"
-		},
-        "6" : { 
+		},		
+        "7" : { 
 			"Text" : "<b>$V-LeaderTitle$</b>: $V-LeaderFirstName$  $V-LeaderLastName$"
 		},
-        "9" : { 
+        "8" : { 
 			"Text" : "<b>$T-CultNotableTitle$</b>: $T-RandomRealName$<br>",
             "MinAmount" : 1,
 			"MaxAmount" : 5,
             "Chance" : 75
+		},
+		"9" : { 
+			"Text" : "Regular members of $V-CultName$ are refered to as $V-CultMemberTitle$."
 		},
 		"10" : { 
 			"Text" : "<h2>Beliefs and Teachings</h2>"
@@ -44,26 +48,34 @@
 				{"$V-CultName$ believe in $V-PrimaryVagueness$":1},
 				{"$V-CultName$ wish to achieve $V-PrimaryVagueness$ and despise $T-CultNameVague1$ $T-CultNameVague2$":1},
 				{"$V-CultName$ practice $V-PrimaryVagueness$, $T-CultNameVague1$ $T-CultNameVague2$ and $T-CultNameVague1$ $T-CultNameVague2$":1},
-				{"$V-CultName$ publicly deny lobbying for $T-CultNameVague1$ $T-CultNameVague2$ but continue to do so in secret":1},
+				{"$V-CultName$ publicly deny practicing $T-CultNameVague1$ $T-CultNameVague2$ but continue to do so in secret":1},
 				{"$V-CultName$ Believe in $V-PrimaryVagueness$ and often involve $T-CultNameVague1$ $T-CultNameVague2$":1},
 				{"Some members of $V-CultName$ are secretly in it for $T-CultNameVague1$ $T-CultNameVague2$":1}
             ],
 			"Chance" : 75            
 		},
 		"14" : { 
-			"TextTable" : [
-				{"$T-CultLeaderAdress$ $T-CultLeaderActions$. ":1}
-            ],
+			"Text" : "$T-CultBeliefBlurb$",
             "Exclusive" : "",
-			"MinAmount" : 5,
-			"MaxAmount" : 10,
-			"ParagraphType" : "None"
+			"MinAmount" : 3,
+			"Chance" : 75			
+		},
+		"15" : { 
+			"Text" : "$T-CultBeliefBlurb$",
+            "Exclusive" : "",
+			"MinAmount" : 1,
+			"MaxAmount" : 4,
+			"Chance" : 50			
+		},
+		"16" : { 
+			"Text" : "$T-CultBeliefBlurb$",
+            "Exclusive" : "",
+			"MinAmount" : 1,
+			"MaxAmount" : 3,
+			"Chance" : 25			
 		},
         "30" : { 
 			"Text" : "<h2>Rites and Obervances</h2>"
-		},
-        "50" : { 
-			"Text" : "<h2>Recruitment</h2>"
 		},
         "70" : { 
 			"Text" : "<h2>Dress and Uniform</h2>"

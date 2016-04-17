@@ -1,0 +1,23 @@
+{
+    "Name" : "CultBeliefBlurb",
+    "Dependencies" : "generators/table/Cults/LeadershipActions.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json;generators/table/Cults/LeaderAdress.json;generators/table/Cults/CultMemberTitles.json;generators/table/Cults/CultMemberAdress.json;generators/table/Cults/CultMemberActions.json",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"$T-CultLeaderAdress$ $T-CultLeaderActions$.":2},
+            {"$V-CultName$ claim $T-CultLeaderAdress$ $T-CultLeaderActions$.":2},
+            {"$T-CultLeaderAdress$ $T-CultLeaderActions$ which is why $T-CultMemberAdress$ believe $T-CultLeaderAdress$ $T-CultLeaderActions$.":2},
+            {"$T-CultMemberAdress$ believe that $T-CultLeaderAdress$ $T-CultLeaderActions$ and $T-CultLeaderActions$.":1},
+            {"$T-CultMemberAdress$ believe that $T-CultLeaderAdress$ $T-CultLeaderActions$.":3},
+            {"When fully initiated into $V-CultName$ it is finally revealed to $T-CultMemberAdress$ that $V-PrimaryVagueness$ is only the first step on the path to $T-CultNameVague1$ $T-CultNameVague2$.":1},
+            {"Recruits that thought $T-CultLeaderAdress$ $T-CultLeaderProperties$ are sorely disapointed by the reality.":1},
+            {"$T-CultMemberAdress$ convince eachother that $T-CultLeaderAdress$ $T-CultLeaderProperties$.":2},
+            {"$T-CultMemberAdress$ $T-CultMemberActions$.":3},
+            {"$T-CultMemberAdress$ $T-CultMemberActions$ and $T-CultMemberActions$.":2},
+            {"Once fully initiated $T-CultMemberAdress$ start to $T-CultMemberActions$.":1},
+            {"While recruits are told as $T-CultMemberAdress$ they will $T-CultMemberActions$ this never happens.":1},
+            {"$T-CultLeaderAdress$ has recently forbidden $T-CultMemberAdress$ to $T-CultMemberActions$.":2}
+		],
+        "2" : " "
+	}
+}

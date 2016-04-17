@@ -1,0 +1,23 @@
+{
+    "Name" : "CultMemberTitle",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Initiates":1},
+            {"Drones":1},
+            {"Members":1},
+            {"Annointed":1},
+            {"Disciples":1},
+            {"Interns":1},
+            {"Acolytes":1},
+            {"Voices":1},
+            {"Enlightened":1},
+            {"Operators":1},
+            {"Sacrifices":1},
+            {"Thetans":1},
+            {"True Believers":1},
+            {"Lambs":1},
+            {"Awakened":1}        
+		]
+	}
+}
