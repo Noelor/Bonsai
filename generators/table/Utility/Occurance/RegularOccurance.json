@@ -1,0 +1,27 @@
+{
+    "Name" : "RegularOccurance",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Utility/Occurance/RegularOccurance-X-Per.json",    
+    "Data": {          
+        "1": [
+            {"$T-RegularOccurance_X_Per$":17},            
+            {"annually":1},
+            {"biannually":1},
+            {"bidaily":1},
+            {"biennially":1},
+            {"biweekly":1},
+            {"every so often":1},
+            {"perennially":1},
+            {"periodically":1},
+            {"quarterly":1},
+            {"seasonally":1},
+            {"semi-annually":1},
+            {"semi-weekly":1},
+            {"semiannually":1},
+            {"semiweekly":1},
+            {"twice-weekly":1},
+            {"weekly":1},
+            {"yearly":1}                     
+        ]
+    }
+}
