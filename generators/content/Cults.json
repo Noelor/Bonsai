@@ -81,7 +81,8 @@
 			"Text" : "$T-CultObservances$",
 			"MinAmount" : 2,
 			"MaxAmount" : 6,
-			"ParagraphType" : "List"
+			"ParagraphType" : "List",
+			"SentenceCase" : "Sentence"
 		},
         "70" : { 
 			"Text" : "<h2>Dress and Uniform</h2>"
