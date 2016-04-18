@@ -3,25 +3,8 @@
     "Type" : "Table",
     "Dependencies" : "generators/table/Utility/Occurance/RegularOccurance.json;generators/table/Cults/CultObservencesAction.json",    
     "Data": {
-        "1" : [
-            {"":25},
-            {"All the time":1},
-            {"Always":1},
-            {"As a rule":1},
-            {"Consistently":1},
-            {"Customarily":1},
-            {"From time to time":1},
-            {"Intermittently":1},
-            {"Invariably":1},
-            {"Normally":1},
-            {"Off and on":1},
-            {"Rarely":1},
-            {"More often than not":1},
-            {"Casually":1}            
-        ],
-        "2" : " ",
-        "3" : "$T-CultObservancesAction$ ",      
-        "5": "$T-RegularOccurance$."   
+        "3" : "$T-RegularOccurance$ ",      
+        "5": "$T-CultObservancesAction$."   
 		
 	}
 }
