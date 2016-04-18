@@ -183,10 +183,12 @@ function generateFromContent(contentName, clearData)
             {               
  
                 if(section.SentenceCase == "Title-Case")
-                {
- 
+                { 
                     sectionContent = sectionContent.toTitleCase();
-                }
+                }else if(section.SentenceCase == "Sentence")
+				{
+					sectionContent = sectionContent.toSentenceCase();
+				}
             }
             
             content += sectionContent; 								
@@ -490,6 +492,13 @@ function getRandomTableSectionEntryByWeight(section, totalweight)
 	return returnText;
 }
 
+function doesStringProbablyIncludeHTML(str)
+{
+	if (str.match("[<>=']")) {				
+		return true;
+	}
+	return false;
+}
 
 function getRandomNumberInclusive(min, max) {    
     min = Number(min);
@@ -535,3 +544,47 @@ String.prototype.toTitleCase = function() {
 
   return str;
 }
+
+String.prototype.toSentenceCase = function() {
+	var correctedStr = this.trim();
+	correctedStr = correctedStr.replace(/</g, " <" );
+	correctedStr = correctedStr.replace(/>/g, "> " );
+	
+	var sentences=correctedStr.split(".");
+	var str = "";
+	
+	for(i=0;i<sentences.length;i++)
+	{
+		var setFirstwordCapital = false;
+		var words = sentences[i].split(" ");
+		var lastWord;
+		for(j=0;j<words.length;j++)
+		{												
+			if(!setFirstwordCapital && !doesStringProbablyIncludeHTML(words[j]))
+			{				
+				if(words[j][0])
+				{										
+					words[j] = words[j][0].toUpperCase() + words[j].substr(1);
+					setFirstwordCapital = true						
+				}				
+			}
+			
+			if(words[j] && !doesStringProbablyIncludeHTML(words[j]))
+			{
+				lastWord = words[j]
+			}
+			
+			console.log(words[j])
+			str = str + words[j] + " "			 
+		}			
+		
+		if(lastWord)
+		{
+			lastWordIndex = str.lastIndexOf(lastWord);
+			str = str.substring(0,lastWordIndex) + lastWord + "." + str.substring(lastWordIndex + lastWord.length);
+			lastWord = "";	
+		}				
+	}		 	
+	return str
+}
+
