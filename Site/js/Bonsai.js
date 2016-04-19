@@ -184,7 +184,7 @@ function generateFromContent(contentName, clearData)
  
                 if(section.SentenceCase == "Title-Case")
                 { 
-                    sectionContent = sectionContent.toTitleCase();
+                    sectionContent = sectionContent.toLowerCase().toTitleCase();
                 }else if(section.SentenceCase == "Sentence")
 				{
 					sectionContent = sectionContent.toSentenceCase();
@@ -494,7 +494,7 @@ function getRandomTableSectionEntryByWeight(section, totalweight)
 
 function doesStringProbablyIncludeHTML(str)
 {
-	if (str.match("[<>=']")) {				
+	if (str.match("[<>=]")) {				
 		return true;
 	}
 	return false;
@@ -521,28 +521,34 @@ String.prototype.format = function() {
 
 //Source: http://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
 String.prototype.toTitleCase = function() {
-  var i, j, str, lowers, uppers;
-  str = this.replace(/([^\W_]+[^\s-]*) */g, function(txt) {
-    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-  });
-
-  // Certain minor words should be left lowercase unless 
-  // they are the first or last words in the string
-  lowers = ['A', 'An', 'The', 'And', 'But', 'Or', 'For', 'Nor', 'As', 'At', 
-  'By', 'For', 'From', 'In', 'Into', 'Near', 'Of', 'On', 'Onto', 'To', 'With'];
-  for (i = 0, j = lowers.length; i < j; i++)
-    str = str.replace(new RegExp('\\s' + lowers[i] + '\\s', 'g'), 
-      function(txt) {
-        return txt.toLowerCase();
-      });
-
-  // Certain words such as initialisms or acronyms should be left uppercase
-  uppers = ['Id', 'Tv'];
-  for (i = 0, j = uppers.length; i < j; i++)
-    str = str.replace(new RegExp('\\b' + uppers[i] + '\\b', 'g'), 
-      uppers[i].toUpperCase());
-
-  return str;
+	// Certain minor words should be left lowercase unless 
+  	// they are the first or last words in the string
+  	lowers = ['a', 'an', 'the', 'and', 'but', 'or', 'for', 'nor', 'as', 'at', 
+  	'by', 'for', 'from', 'in', 'into', 'near', 'of', 'on', 'onto', 'to', 'with'];
+  
+	var correctedStr = this.trim();
+	correctedStr = correctedStr.replace(/</g, " <" );
+	correctedStr = correctedStr.replace(/>/g, "> " );
+	
+	var words=correctedStr.split(" ");
+	var str = "";
+	
+	for(i=0;i<words.length;i++)
+	{		
+		if(words[i] &&  !doesStringProbablyIncludeHTML(words[i]) )
+		{
+			if($.inArray(words[i].toLowerCase(), lowers ) == -1) 
+			{				
+				console.log(words[i])
+				words[i] = words[i][0].toUpperCase() + words[i].substring(1)		
+			}
+		
+		}
+		
+		str = str + words[i] + " "
+	}
+	
+	return str;
 }
 
 String.prototype.toSentenceCase = function() {
@@ -573,8 +579,7 @@ String.prototype.toSentenceCase = function() {
 			{
 				lastWord = words[j]
 			}
-			
-			console.log(words[j])
+						
 			str = str + words[j] + " "			 
 		}			
 		
