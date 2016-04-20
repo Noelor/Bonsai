@@ -14,11 +14,11 @@
             {"$T-CultMemberAdress$ convince eachother that $T-CultLeaderAdress$ $T-CultLeaderProperties$.":2},
             {"$T-CultMemberAdress$ $T-CultMemberActions$.":3},
             {"$T-CultMemberAdress$ $T-CultMemberActions$ and $T-CultMemberActions$.":2},
-            {"Once fully initiated $T-CultMemberAdress$ start to $T-CultMemberActions$.":1},
+            {"Once fully initiated $T-CultMemberAdress$  $T-CultMemberActions$.":1},
             {"While recruits are told as $T-CultMemberAdress$ they  $T-CultMemberActions$, this never happens.":1},
             {"$T-CultLeaderAdress$ has recently forbidden $T-CultMemberAdress$ to $T-CultMemberActions$.":2},
             {"$T-CultLeaderAdress$ punishes $T-CultMemberAdress$ who $T-CultMemberActions$ or $T-CultMemberActions$.":1},
-            {"$T-CultLeaderAdress$ mandated $T-CultMemberAdress$ to $T-CultMemberActions$.":1}
+            {"$T-CultLeaderAdress$ mandated $T-CultMemberAdress$ to $T-CultMemberActions$.":2}
             
 		],
         "2" : " "
