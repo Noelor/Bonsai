@@ -3,20 +3,20 @@
     "Type" : "Table",    
     "Data": {
     	"1": [
-            {"Iron":1},
-            {"Steel":1},
-            {"Copper":1},
-            {"Bronze":1},
-            {"Brass":1},
-            {"Silver":1},
-            {"Gold":1},
-            {"Platinum":1},
-            {"Iridium":1},
-            {"Antimony":1},
-            {"Mercury":1},
-            {"Cobalt":1},
-            {"Titanium":1},
-            {"Chrome":1}        
+            {"iron":1},
+            {"steel":1},
+            {"copper":1},
+            {"bronze":1},
+            {"brass":1},
+            {"silver":1},
+            {"gold":1},
+            {"platinum":1},
+            {"iridium":1},
+            {"antimony":1},
+            {"mercury":1},
+            {"cobalt":1},
+            {"titanium":1},
+            {"chrome":1}        
 		]
 	}
 }

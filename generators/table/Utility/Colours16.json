@@ -3,22 +3,22 @@
     "Type" : "Table",    
     "Data": {
     	"1": [
-            {"White":1},
-            {"Black":1},
-            {"Gray":1},
-            {"Maroon":1},
-            {"Red":1},
-            {"Crimson":1},
-            {"Orange":1},
-            {"Yellow":1},
-            {"Green":1},
-            {"Lime":1},
-            {"Blue":1},
-            {"Teal":1},
-            {"Purple":1},
-            {"Brown":1},
-            {"Olive":1},
-            {"Pink":1}    
+            {"white":1},
+            {"black":1},
+            {"gray":1},
+            {"maroon":1},
+            {"red":1},
+            {"crimson":1},
+            {"orange":1},
+            {"yellow":1},
+            {"green":1},
+            {"lime":1},
+            {"blue":1},
+            {"teal":1},
+            {"purple":1},
+            {"brown":1},
+            {"olive":1},
+            {"pink":1}    
 		]
 	}
 }
