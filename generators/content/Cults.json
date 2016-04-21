@@ -1,6 +1,6 @@
 {
 	"Name" : "CultGenerator",
-	"Dependencies" : "generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Names/Real/RandomRealName.json;generators/table/Cults/LeaderTitle.json;generators/table/Cults/NotableTitle.json;generators/table/Cults/Name/CultName.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json;generators/table/Cults/LeaderProperties.json;generators/table/Cults/LeadershipActions.json;generators/table/Cults/LeaderAdress.json;generators/table/Cults/CultMemberTitles.json;generators/table/Cults/CultMemberAdress.json;generators/table/Cults/CultBeliefBlurb.json;generators/table/Cults/CultObservances.json",
+	"Dependencies" : "generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Names/Real/RandomRealName.json;generators/table/Cults/LeaderTitle.json;generators/table/Cults/NotableTitle.json;generators/table/Cults/Name/CultName.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json;generators/table/Cults/LeaderProperties.json;generators/table/Cults/LeadershipActions.json;generators/table/Cults/LeaderAdress.json;generators/table/Cults/CultMemberTitles.json;generators/table/Cults/CultMemberAdress.json;generators/table/Cults/CultBeliefBlurb.json;generators/table/Cults/CultObservances.json;generators/table/Cults/CultAccessory.json;generators/table/cults/CultOutfit.json",
 	"ButtonText" : "More Wackjobs",
 	"Type" : "Content",
 	
@@ -87,17 +87,40 @@
         "70" : { 
 			"Text" : "<h2>Dress and Uniform</h2>"
 		},
+		"75" : { 
+			"TextTable" : [
+                {"In public $T-CultMemberAdress$ wear regular clothing and $T-CultAccessory$.":3},
+				{"In public $T-CultMemberAdress$ wear $T-CultOutfit$.":2}								
+            ]
+		},
+		"74" : { 
+			"TextTable" : [
+                {"Traditionally $T-CultLeaderAdress$ wears regular clothing and $T-CultAccessory$.":3},
+				{"Normally $T-CultLeaderAdress$ wears $T-CultOutfit$.":2}
+			]
+		},
+		"80" : { 
+			"Text" : "It is required for $T-CultMemberAdress$ to wear $T-CultAccessory$ at all times",
+			"Chance" : 20
+		},
+		"85" : { 
+			"TextTable" : [
+                {"Instead distinguished $T-CultMemberAdress$ are allowed to wear regular clothing and $T-CultAccessory$":3},
+				{"Instead distinguished $T-CultMemberAdress$ are allowed to wear $T-CultOutfit$":2}								
+            ],
+			"Chance" : 20
+		},
+		"90" : { 
+			"Text" : "In private $T-CultMemberAdress$ wear $T-CultOutfit$",
+			"Chance" : 20
+		},
+		"95" : { 
+			"Text" : "During Observances members wear $T-CultOutfit$",
+			"Chance" : 20
+		},
         "110" : { 
 			"Text" : "<h2>Artifacts and Relics</h2>"
-		},
-        "130" : { 
-			"Text" : "<h2> </h2>"
-		},
-        "150" : { 
-			"Text" : "<h2> </h2>"
-		},
-        "170" : { 
-			"Text" : "<h2> </h2>"
 		}
+        
 	}
 }

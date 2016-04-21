@@ -1,0 +1,39 @@
+{
+    "Name" : "CultOutfit",
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Utility/ColoursMany.json;generators/table/Utility/MetalsCommon.json;generators/table/Utility/GemsCommon.json;generators/table/Cults/CultAccessory.json",    
+    "Data": {
+    	"1": [
+            {"an army uniform":2},
+            {"a navy outfit":1},
+            {"$T-ColoursMany$ and $T-ColoursMany$ robes":1},
+            {"$T-ColoursMany$ robes":1},
+            {"hooded $T-ColoursMany$ robes":1},
+            {"$T-ColoursMany$ robes with a $T-ColoursMany$ hood":1},
+            {"black clothing with a black trenchcoat and sunglasses":1},
+            {"a black suit with a red lined short cape":1},
+            {"a cassock":3},
+            {"a $T-ColoursMany$ greca over a $T-ColoursMany$ cassock":1},
+            {"nothing at all":1},
+            {"nothing but a loincloth":2},
+            {"a soutane":1},
+            {"a $T-ColoursMany$ rochet":1},
+            {"a fancy $T-ColoursMany$ mantelletta":1},
+            {"a $T-ColoursMany$ and $T-ColoursMany$ kimono":1},
+            {"only a $T-ColoursMany$ Fundoshi":1},
+            {"a white and red Hakama":2},
+            {"jeans and a simple plaid shirt":2},
+            {"a sharp suit and tie":2},
+            {"ancient traditional dress":1},
+            {"khaki pants and $T-ColoursMany$ polo shirt":1},
+            {"a tight rubber bodysuit":1},
+            {"a onesie":1},
+            {"a snuggie":1},
+            {"an outfit trying so hard to be casual its wrapped right back around to uniform":2}           
+		],
+        "2" : [
+            {" and $T-CultAccessory$":1},
+            {"":5}
+        ]
+	}
+}
