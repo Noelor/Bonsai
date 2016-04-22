@@ -1,9 +1,10 @@
 {
     "Name" : "Exalted3Familiar2Dot",
-    "Type" : "Table",    
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Exalted3/Familiar1Dot.json",
     "Data": {
     	"1": [
-			{"Horse":1},
+	    {"Horse":1},
             {"Pony":1},
             {"Mule":1},
             {"Elephant":1},
@@ -30,7 +31,10 @@
             {"Emu":1},
             {"Condor":1},
             {"Bustard":1},
-            {"Pelican":1}                      
+            {"Pelican":1},
+            {"Elemental $T-Exalted3Familiar1Dot$":6},
+            {"Flying $T-Exalted3Familiar1Dot$":6},
+            {"Talking $T-Exalted3Familiar1Dot$":6}
 		]
 	}
 }
