@@ -4,12 +4,12 @@
     "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts5Dot.json;generators/table/Misc/MilitaryCompany.json",    
     "Data": {
     	"1": [
-			{"Ally ( $C-Exalted3EName$ )":1},
+	    {"Ally ( $C-Exalted3EName$ )":1},
             {"Artifact ( $T-Exalted3EArtifacts5Dot$ )":5},
             {"Command ( $T-MilitaryCompany$ )":1},
             {"Contact ( $T-Exalted3EPlaces$ )":1},
             {"Contact ( $T-Exalted3EFactions$ )":1},
-            {"Cult":1},
+            {"Cult ( $T-CultName$ )":1},
             {"Influence ( $T-Exalted3EPlaces$ )":1},
             {"Manse ( The $T-Exalted3EManseName$ )":1},
             {"Resources":1}         
