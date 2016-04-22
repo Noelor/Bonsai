@@ -3,12 +3,14 @@
     "Type" : "Table",        
     "Data": {
     	"1": [
-			{"Thick Jungle":1},
+	    {"Thick Jungle":1},
             {"Deep Snow":1},
+            {"Barren Tundra":1},
             {"Broken Ruins":1},
             {"Blazing Desert":1},
             {"Swamp":1},
-            {"Volcanic Wasteland":1}                      
+            {"Rocky Mountain":1},
+            {"Volcanic Wasteland":1}
 		]
 	}
 }
