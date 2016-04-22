@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3Familiar3Dot",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Familiar1Dot.json",
+    "Dependencies" : "generators/table/Exalted3/Familiar2Dot.json",
     "Data": {
     	"1": [
 	    {"Talking Halta Monkey":1},
