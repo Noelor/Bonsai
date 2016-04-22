@@ -1,7 +1,7 @@
 {
 	"Name" : "Exalted3ESolar",
 	"Title" : "Exalted 3E Solar Generator",	
-	"Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Character.json;generators/table/Exalted3/AttributeGroups.json;generators/table/Exalted3/SolarCaste.json;generators/table/Exalted3/SolarAbilities.json;generators/table/Exalted3/Merits/1DotMerits.json;generators/table/Exalted3/Merits/3DotMerits.json;generators/table/Exalted3/Merits/5DotMerits.json;generators/table/Exalted3/Merits/2DotMerits.json;generators/table/Exalted3/Merits/4DotMerits.json;generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json,generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json",
+	"Dependencies" : "generators/content/Exalted3/Names.json;generators/content/Exalted3/Character.json;generators/table/Exalted3/AttributeGroups.json;generators/table/Exalted3/SolarCaste.json;generators/table/Exalted3/SolarAbilities.json;generators/table/Exalted3/Merits/1DotMerits.json;generators/table/Exalted3/Merits/3DotMerits.json;generators/table/Exalted3/Merits/5DotMerits.json;generators/table/Exalted3/Merits/2DotMerits.json;generators/table/Exalted3/Merits/4DotMerits.json;generators/table/Names/Real/RandomGivenName.json;generators/table/Names/Real/RandomFamilyName.json;generators/table/Cults/Name/Vague1.json;generators/table/Cults/Name/Vague2.json",
 	"ButtonText" : "Another",
 	"Type" : "Content",
 	
