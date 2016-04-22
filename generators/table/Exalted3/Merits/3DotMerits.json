@@ -10,7 +10,7 @@
             {"Command ( $T-MilitaryCompany$ )":1},
             {"Contact ( $T-Exalted3EPlaces$ )":1},
             {"Contact ( $T-Exalted3EFactions$ )":1},
-            {"Cult":1},
+            {"Cult ( $T-CultName$ )":1},
             {"Danger Sense":1},            
             {"Familiar ( $T-Exalted3Familiar3Dot$ )":1},
             {"Fast Reflexes":1},
