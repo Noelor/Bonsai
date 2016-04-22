@@ -8,7 +8,7 @@
             {"Ally ( $C-Exalted3EName$ )":2},
             {"Contact ( $T-Exalted3EPlaces$ )":2},
             {"Contact ( $T-Exalted3EFactions$ )":2},
-            {"Cult":2},
+            {"Cult ( $T-CultName$ )":2},
             {"Direction Sense":2},
             {"Familiar ( $T-Exalted3Familiar1Dot$ )":4},
             {"Followers":2},
