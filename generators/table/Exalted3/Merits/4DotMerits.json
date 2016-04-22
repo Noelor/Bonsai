@@ -7,7 +7,7 @@
 	    {"Artifact ( $T-Exalted3EArtifacts4Dot$ )":5},
             {"Backing ( $T-Exalted3EFactions$ )":1},
             {"Command ( $T-MilitaryCompany$ )":1},
-            {"Cult":1},
+            {"Cult ( $T-CultName$ )":1},
             {"Demesne":1},
             {"Fleet of Foot":1},
             {"Giant":1},
