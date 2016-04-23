@@ -9,15 +9,14 @@
             {"bi-annually":1},
             {"bi-daily":1},
             {"biennially":1},
-            {"bi-weekly":4},
+            {"fortnightly":4},
             {"every so often":4},
             {"perennially":1},
             {"periodically":2},
             {"quarterly":3},
             {"seasonally":4},
             {"semi-annually":2},
-            {"semi-weekly":3},                        
-            {"twice-weekly":2},
+            {"twice-weekly":3},
             {"weekly":3},
             {"yearly":1}                     
         ]
