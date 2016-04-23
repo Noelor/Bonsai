@@ -117,29 +117,6 @@
 		"95" : { 
 			"Text" : "During Observances members wear $T-CultOutfit$",
 			"Chance" : 20
-		},
-        "110" : { 
-			"Text" : "<h2>Artifacts and Relics</h2>"
-		},
-		"121" : { 
-			"Text" : "$V-CultName$ have a library thats includes the following works:"
-		}, 
-		"122" : { 
-			"Text" : "$T-BooksofMagicAndAlchemy$",
-			"MinAmount" : 1,
-			"MaxAmount" : 4,
-			"ParagraphType" : "List"
-		},
-		"125" : { 
-			"Text" : "$V-CultName$ claim to have in their possession the following mythical items:"
-		}, 
-		"126" : { 
-			"Text" : "$T-RandomMythicalObject$",
-			"MinAmount" : 1,
-			"MaxAmount" : 3,
-			"ParagraphType" : "List"
-		}
-		
-        
+		}       
 	}
 }
