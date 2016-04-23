@@ -1,6 +1,7 @@
 {
     "Name" : "CultLeaderProperties",
     "Type" : "Table",    
+    "Dependencies" : "generators/table/Utility/BooksofMagicandAlchemy.json",
     "Data": {
     	"1": [
             {"is the Messiah":1},            
@@ -97,7 +98,8 @@
             {"cannot abide the touch of cold-iron":1},
             {"hates crucifixes":1},
             {"is allergic to garlic":1},
-            {"never touches silver":1}                  
+            {"never touches silver":1},
+            {"Wrote $T-BooksofMagicAndAlchemy$":1}
 		]
 	}
 }
