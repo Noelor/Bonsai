@@ -1,12 +1,17 @@
 {
     "Name" : "Exalted3Familiar3Dot",
-    "Type" : "Table",    
+    "Type" : "Table",
+    "Dependencies" : "generators/table/Exalted3/Familiar2Dot.json",
     "Data": {
     	"1": [
-			{"Talking Halta Monkey":1},
+	    {"Talking Halta Monkey":1},
             {"Tyrant Lizard":1},
             {"Armored and Fire Breathing Ox":1},
-            {"God Blooded Horse":1}                        
+            {"God Blooded Horse":1},
+            {"Elemental $T-Exalted3Familiar2Dot$":1},
+            {"Flying $T-Exalted3Familiar2Dot$":1},
+            {"Talking $T-Exalted3Familiar2Dot$":1}
+
 		]
 	}
 }

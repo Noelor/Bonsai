@@ -5,14 +5,14 @@
     "Data": {
     	"1": [
 			{"lover":3},
-            {"partner":3},            
+        		{"partner":3},            
 			{"parent":4},
 			{"grandparent":4},
 			{"grandchild":4},
-			{"in law":4},
+			{"in-law":4},
 			{"cousin":4},
 			{"secret lover":2},
-			{"fiance":4},
+			{"betrothed":4},
 			{"childhood friend":2},
 			{"best friend":4},
 			{"only friend":2},

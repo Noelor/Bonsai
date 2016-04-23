@@ -1,7 +1,7 @@
 {
     "Name" : "Exalted3E3DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts3Dot.json;generators/table/Exalted3/Familiar3Dot.json;generators/table/Misc/MilitaryCompany.json;generators/table/Exalted3/ManseName.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Artifacts3Dot.json;generators/table/Exalted3/Familiar3Dot.json;generators/table/Misc/MilitaryCompany.json;generators/table/Exalted3/ManseName.json;generators/table/Cults/Name/CultName.json",    
     "Data": {
     	"1": [            
             {"Ally ( $C-Exalted3EName$ )":1},
@@ -10,7 +10,7 @@
             {"Command ( $T-MilitaryCompany$ )":1},
             {"Contact ( $T-Exalted3EPlaces$ )":1},
             {"Contact ( $T-Exalted3EFactions$ )":1},
-            {"Cult":1},
+            {"Cult ( $T-CultName$ )":1},
             {"Danger Sense":1},            
             {"Familiar ( $T-Exalted3Familiar3Dot$ )":1},
             {"Fast Reflexes":1},

@@ -1,26 +1,26 @@
 {
     "Name" : "Exalted3E1DotMerits",
     "Type" : "Table",
-    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Familiar1Dot.json",    
+    "Dependencies" : "generators/table/Exalted3/Languages.json;generators/content/Exalted3/Names.json;generators/table/Exalted3/Places.json;generators/table/Exalted3/Factions.json;generators/table/Exalted3/Familiar1Dot.json;generators/table/Cults/Name/CultName.json",    
     "Data": {
     	"1": [            
-            {"Ambidextrous":1},
-            {"Ally ( $C-Exalted3EName$ )":1},
-            {"Contact ( $T-Exalted3EPlaces$ )":1},
-            {"Contact ( $T-Exalted3EFactions$ )":1},
-            {"Cult":1},
-            {"Direction Sense":1},
-            {"Familiar ( $T-Exalted3Familiar1Dot$ )":2},
-            {"Followers":1},
-            {"Influence ( $T-Exalted3EPlaces$ )":1},
-            {"Iron Stomache":1},
-            {"Language ( $T-Exalted3ELanguages$ )":1},
-            {"Mentor ( $C-Exalted3EName$ )":1},
-            {"Mighty Thew":1},
-            {"Quick Draw":1},
-            {"Resources":1},
+            {"Ambidextrous":2},
+            {"Ally ( $C-Exalted3EName$ )":2},
+            {"Contact ( $T-Exalted3EPlaces$ )":2},
+            {"Contact ( $T-Exalted3EFactions$ )":2},
+            {"Cult ( $T-CultName$ )":2},
+            {"Direction Sense":2},
+            {"Familiar ( $T-Exalted3Familiar1Dot$ )":4},
+            {"Followers":2},
+            {"Influence ( $T-Exalted3EPlaces$ )":2},
+            {"Iron Stomach":2},
+            {"Language ( $T-Exalted3ELanguages$ )":3},
+            {"Mentor ( $C-Exalted3EName$ )":2},
+            {"Mighty Thew":2},
+            {"Quick Draw":2},
+            {"Resources":2},
             {"Selective Conception":1},
-            {"Strong Lungs":1}
+            {"Strong Lungs":2}
         ]        
 	}
 }
