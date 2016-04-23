@@ -1,6 +1,7 @@
 {
     "Name" : "CultMemberActions",
     "Type" : "Table",    
+    "Dependencies" : "generators/table/Utility/MythicalObjects/RandomMythicalObject.json;generators/table/Utility/BooksofMagicandAlchemy.json",
     "Data": {
     	"1": [
             {"apply Feng-Shui to everything":1},
@@ -102,7 +103,9 @@
             {"wear a wide array of increasingly absurd hats":1},
             {"wear only black":1},
             {"wear only simple robes":1},
-            {"wish to replace their flesh with machine":1}
+            {"wish to replace their flesh with machine":1},
+            {"Seek the location of $T-RandomMythicalObject$":1},
+            {"Seek the location of $T-BooksofMagicAndAlchemy$":1}
 		]
 	}
 }
