@@ -1,0 +1,18 @@
+{
+    "Name" : "MythicalBooks",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Book of Power":1},
+            {"Book of the Dead":1},
+            {"Book of Thoth":1},
+            {"Galdrabók, The Book of Magic":1},
+            {"Jade Books in Heaven":1},
+            {"Rauðskinna":1},
+            {"Senji Ryakketsu":1},
+            {"Sibylline Books":1},
+            {"Tablet of Destinies":1},
+            {"The Summary to Judgements of Divinations":1}        
+		]
+	}
+}

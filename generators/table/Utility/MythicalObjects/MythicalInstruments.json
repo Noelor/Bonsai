@@ -1,0 +1,20 @@
+{
+    "Name" : "MythicalInstruments",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Apollo's lyre":1},
+            {"Bragi's harp":1},
+            {"Drake's Drum":1},
+            {"Gjallarhorn":1},
+            {"Horn of Gabriel":1},
+            {"Kantele":1},
+            {"Olivant":1},
+            {"Orpheus' lyre":1},
+            {"Pan's flute":1},
+            {"Shankha":1},
+            {"Sistrum":1},
+            {"Triton's conch shell":1}        
+		]
+	}
+}

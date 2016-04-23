@@ -1,0 +1,20 @@
+{
+    "Name" : "MythicJewelry",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Andvaranaut":1},
+            {"Brísingamen":1},
+            {"Draupnir":1},
+            {"Five-colored Jewel from a Dragon's Neck":1},
+            {"Necklace of Harmonia":1},
+            {"Necklace of the Lady of the Lake":1},
+            {"Ring of Dispel":1},
+            {"Ring of Gyges":1},
+            {"Ring of Mudarra":1},
+            {"Seal of Solomon":1},
+            {"Svíagris":1},
+            {"Yasakani no Magatama":1}        
+		]
+	}
+}

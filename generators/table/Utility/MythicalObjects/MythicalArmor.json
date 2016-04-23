@@ -1,0 +1,30 @@
+{
+    "Name" : "MythicalArmor",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Aegis":1},
+            {"Ancile":1},
+            {"Armour of Achilles":1},
+            {"Armour of Beowulf":1},
+            {"Crown of Immortality":1},
+            {"Goswhit":1},
+            {"Green Armour":1},
+            {"Helm of Darkness":1},
+            {"Helm of Rostam":1},
+            {"Ikenga":1},
+            {"Kavacha":1},
+            {"Priwen":1},
+            {"Shield of Achilles":1},
+            {"Shield of Ajax":1},
+            {"Shield of El Cid":1},
+            {"Shield of Evalach":1},
+            {"Shield of Joseph of Arimathea":1},
+            {"Shield of Judas Maccabee":1},
+            {"Srivatsa":1},
+            {"Svalinn":1},
+            {"Tarnhelm":1}        
+		]
+	}
+
+}

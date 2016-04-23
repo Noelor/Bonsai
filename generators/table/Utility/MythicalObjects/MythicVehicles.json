@@ -1,0 +1,38 @@
+{
+    "Name" : "MythicVehicles",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Argo":1},
+            {"Caleuche":1},
+            {"Canoe of Gluskab":1},
+            {"Canoe of Māui":1},
+            {"Ellida":1},
+            {"Flying Dutchman":1},
+            {"Freyja's chariot":1},
+            {"Guingelot":1},
+            {"Hades' chariot":1},
+            {"Helios' chariot":1},
+            {"Hringhorni":1},
+            {"Mandjet":1},
+            {"Mannigfual":1},
+            {"Mesektet":1},
+            {"Naglfar":1},
+            {"Noah's Ark":1},
+            {"Poseidon's chariot":1},
+            {"Pridwen":1},
+            {"Prydwen":1},
+            {"Selene's chariot":1},
+            {"Sessrúmnir":1},
+            {"Skíðblaðnir":1},
+            {"Sol Invictus' chariot":1},
+            {"Surya's chariot":1},
+            {"Sól's chariot":1},
+            {"The Preserver of Life":1},
+            {"Thor's chariot":1},
+            {"Ullr's bone":1},
+            {"Vitthakalai":1},
+            {"Wave Sweeper":1}        
+		]
+	}
+}

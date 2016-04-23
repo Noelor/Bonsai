@@ -1,0 +1,24 @@
+{
+    "Name" : "MythicalSubstances",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Adamant":1},
+            {"Alkahest":1},
+            {"Azoth":1},
+            {"Camahueto's horn":1},
+            {"Eitr":1},
+            {"Elixir of life":1},
+            {"Hihīrokane":1},
+            {"Holy water":1},
+            {"Hydra's poisonous blood":1},
+            {"Ichor":1},
+            {"Manna":1},
+            {"Orichalcum":1},
+            {"Prima materia":1},
+            {"Unicorn horn":1},
+            {"Water of Life":1},
+            {"Yliaster":1}        
+		]
+	}
+}

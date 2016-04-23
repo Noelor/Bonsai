@@ -1,0 +1,20 @@
+{
+    "Name" : "RandomMythicalObject",
+    "Type" : "Table", 
+    "Dependencies" : "generators/table/Utility/MythicalObjects/MythicalArmor.json;generators/table/Utility/MythicalObjects/MythicalBooks.json;generators/table/Utility/MythicalObjects/MythicalClothing.json;generators/table/Utility/MythicalObjects/MythicalFlora.json;generators/table/Utility/MythicalObjects/MythicalFood.json;generators/table/Utility/MythicalObjects/MythicalInstruments.json;generators/table/Utility/MythicalObjects/MythicalSubstances.json;generators/table/Utility/MythicalObjects/MythicalWeapons.json;generators/table/Utility/MythicalObjects/MythicalTreasure.json;generators/table/Utility/MythicalObjects/MythicJewelry.json;generators/table/Utility/MythicalObjects/MythicVehicles.json",    
+    "Data": {
+    	"1": [
+            {"$T-MythicalArmor$":1},
+            {"$T-MythicalBooks$":1},
+            {"$T-MythicalClothing$":1},
+            {"$T-MythicalFlora$":1},
+            {"$T-MythicalFood$":1},
+            {"$T-MythicalInstruments$":1},
+            {"$T-MythicalSubstances$":1},
+            {"$T-MythicalTreasure$":1},
+            {"$T-MythicalWeapons$":1},
+            {"$T-MythicJewelry$":1},
+            {"$T-MythicVehicles$":1}        
+		]
+	}
+}

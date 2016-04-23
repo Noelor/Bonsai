@@ -1,0 +1,39 @@
+{
+    "Name" : "MythicalClothing",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Aphrodite's Magic Girdle":1},
+            {"Babr-e Bayan":1},
+            {"Cloud-stepping Boots":1},
+            {"Cohuleen druith":1},
+            {"Death Underpants":1},
+            {"Falcon Cloak":1},
+            {"Fast-walker Boots":1},
+            {"Girdle of Hippolyta":1},
+            {"Hel-shoes":1},
+            {"Helskór":1},
+            {"Hide of Leviathan":1},
+            {"Hide of the Nemean lion":1},
+            {"Iron Grippers":1},
+            {"Járngreipr":1},
+            {"Llen Arthyr yng Nghernyw":1},
+            {"Mantle of Arthur":1},
+            {"Megingjörð":1},
+            {"Nábrók":1},
+            {"Pais Badarn Beisrydd, The Coat of Padarn Red-Coat":1},
+            {"Power-belt":1},
+            {"Robe of the Fire-rat":1},
+            {"Seven-league boots":1},
+            {"Shirt of Nessus":1},
+            {"Shoes of Víðarr":1},
+            {"Swan Cloak":1},
+            {"Talaria":1},
+            {"Tarnkappe":1},
+            {"Tyet":1},
+            {"Ǒusībùyúnlǚ":1},
+            {"сапоги-скороходы":1}        
+		]
+	}
+
+}

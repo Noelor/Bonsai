@@ -1,0 +1,16 @@
+{
+    "Name" : "MythicalFood",
+    "Type" : "Table",    
+    "Data": {
+    	"1": [
+            {"Ambrosia":1},
+            {"Amrita":1},
+            {"Apple of Discord":1},
+            {"Golden apple":1},
+            {"Mead of poetry":1},
+            {"Peaches of Immortality":1},
+            {"Silver apple":1},
+            {"Soma":1}        
+		]
+	}
+}
